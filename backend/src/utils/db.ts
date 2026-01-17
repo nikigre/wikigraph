@@ -1,7 +1,4 @@
-import Database from 'better-sqlite3'
+// This file is no longer needed - using PISRS API instead of local database
+// Keeping for reference only
 
-export const db = new Database(process.env.DB_FILE, { fileMustExist: true })
-
-// for better performance: 
-// https://github.com/WiseLibs/better-sqlite3/blob/master/docs/performance.md#performance
-db.pragma('journal_mode = WAL')
+export const db = null;

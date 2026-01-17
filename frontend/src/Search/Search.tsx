@@ -1,10 +1,8 @@
 import { FC, useEffect, useState } from "react";
 import { StyledSearch } from "./Search.styled";
 import { api } from "../utils/api";
-import { WikiSearch } from "backend/src/wikipedia/wikipedia.type";
-import { WikiSearchDisplay } from "../types/WikipediaSearchTypes";
+import { PredpisSearchDisplay } from "../types/PredpisSearchTypes";
 import SearchResult from "./SearchResult";
-import { suggestedSearches } from "../utils/constants";
 import { randomSearchRecommendation } from "../utils/randomeSearchRecommendation";
 import { useDebounce } from "usehooks-ts";
 import { setCurrentSearch, useAppDispatch, useAppSelector } from "../redux";
@@ -15,53 +13,43 @@ const Search: FC = () => {
   const currentSearch = useAppSelector((state) => state.graph.currentSearch);
 
   const [searchInputValue, setSearchInputValue] = useState("");
-  const [results, setResults] = useState<WikiSearchDisplay[]>([]);
+  const [results, setResults] = useState<PredpisSearchDisplay[]>([]);
   const [placeholderText, setPlaceholderText] = useState(currentSearch);
-  const [hasSearchedAtLeastOnce, setHasSearchAtLeastOnce] = useState(false);
+
 
   const debouncedQuery = useDebounce(searchInputValue, 300);
 
-  const getWikiSearch = async () => {
+  const getPredpisSearch = async () => {
     try {
       if (!debouncedQuery) {
         setResults([]);
         return;
       }
 
-      const { data } = await api<WikiSearch>({
-        url: "/wikipedia",
-        params: { search: debouncedQuery },
+      // Search by mopedID
+      const { data } = await api.get('/predpisi/search', {
+        params: { mopedID: debouncedQuery },
       });
 
-      const searchResults = data.query.search.map((search) => ({
-        title: search.title,
-        snippet: search.snippet,
-      }));
+      if (data.primary) {
+        const searchResults: PredpisSearchDisplay[] = [{
+          mopedID: data.primary.mopedID,
+          naziv: data.primary.naziv,
+        }];
 
-      setResults(searchResults);
+        setResults(searchResults);
+      } else {
+        setResults([]);
+      }
     } catch (err) {
       console.log(err);
+      setResults([]);
     }
   };
 
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      if (!hasSearchedAtLeastOnce) {
-        const suggestion = randomSearchRecommendation(suggestedSearches);
-
-        setPlaceholderText(suggestion);
-      } else {
-        clearInterval(intervalId);
-      }
-    }, 200);
-
-    return () => {
-      clearInterval(intervalId);
-    };
-  }, [hasSearchedAtLeastOnce]);
 
   useEffect(() => {
-    getWikiSearch();
+    getPredpisSearch();
   }, [debouncedQuery]);
 
   return (
@@ -76,19 +64,18 @@ const Search: FC = () => {
       </div>
 
       <div className="results">
-        {results.map((result) => (
+        {results.map((result, index) => (
           <SearchResult
-            key={result.title}
-            result={result}
+            key={`${result.mopedID}-${index}`}
+            result={{ title: result.naziv, snippet: result.mopedID }}
             onClick={() => {
               window.gtag("event", "search", {
-                title: result.title,
+                mopedID: result.mopedID,
               });
 
-              setHasSearchAtLeastOnce(true);
-              dispatch(setCurrentSearch(result.title.toLowerCase()));
+              dispatch(setCurrentSearch(result.mopedID));
               setSearchInputValue("");
-              setPlaceholderText(result.title);
+              setPlaceholderText(result.mopedID);
             }}
           />
         ))}

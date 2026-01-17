@@ -1,9 +1,7 @@
 import { Router } from 'express'
-import links from './links/link.route'
-import wikipedia from './wikipedia/wikipedia.route'
+import predpisi from './predpisi/predpisi.route'
 
 const rootRouter = Router()
-rootRouter.use('/links', links)
-rootRouter.use('/wikipedia', wikipedia)
+rootRouter.use('/predpisi', predpisi)
 
 export default rootRouter

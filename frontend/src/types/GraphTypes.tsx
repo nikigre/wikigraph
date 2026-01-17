@@ -5,14 +5,24 @@ export type APIResponse = {
   link_id: number;
 }[];
 
+export type PredpisRelation = {
+  mopedID: string;
+  naziv: string;
+  category: string;
+};
+
 export type Link = {
   source: string;
   target: string;
+  edgeName?: string;
+  ranking?: number;
 };
 
 export type Node = {
   id: string;
   title: string;
+  tag?: string;
+  tags?: string[];
 };
 
 export type Data = {

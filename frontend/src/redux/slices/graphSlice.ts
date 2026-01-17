@@ -1,8 +1,6 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { Data, Link, Node } from "../../types/GraphTypes";
 import { distinctByKey } from "../../utils/distinctByKey";
-import { randomSearchRecommendation } from "../../utils/randomeSearchRecommendation";
-import { searchableSuggestions } from "../../utils/constants";
 
 type InitialState = {
   loading: boolean;
@@ -21,7 +19,7 @@ const initialState: InitialState = {
   hoveredNodeId: null,
   highlightedNodes: {},
   isNewSearch: true,
-  currentSearch: randomSearchRecommendation(searchableSuggestions),
+  currentSearch: "ZAKO8611", // Default to ZEKom-2 law
 };
 
 export const graphSlice = createSlice({

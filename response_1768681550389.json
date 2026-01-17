@@ -1,0 +1,627 @@
+{
+  "page": 1,
+  "requestedPageSize": 10,
+  "realPageSize": 1,
+  "totalCount": 1,
+  "data": [
+    {
+      "id": 181463,
+      "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)",
+      "kratica": "ZEKom-2",
+      "mopedId": "ZAKO8611",
+      "eva": "2022-1211-0016",
+      "epa": "0016-IX",
+      "sop": "2022-01-3081",
+      "kazaloPravnihAktov": [
+        {
+          "id": 66,
+          "idNadrejeni": -1,
+          "naziv": "Zakon"
+        }
+      ],
+      "osnovni": true,
+      "datumSprejetja": "2022-09-28",
+      "datumObjave": "2022-10-11",
+      "datumZacetkaVeljavnosti": "2022-11-10",
+      "datumZacetkaUporabe": null,
+      "datumPrenehanjaVeljavnosti": null,
+      "datumKoncaUporabe": null,
+      "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2022-01-3081\" title=\"Zakon o elektronskih komunikacijah (ZEKom-2)\">130/22</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0348\" title=\"Zakon o spremembah in dopolnitvah Zakona o državni upravi (ZDU-1O)\">18/23</a> – ZDU-1O in <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2025-01-1571\" title=\"Zakon o informacijski varnosti (ZInfV-1)\">40/25</a> – ZInfV-1",
+      "vrstaAkta": {
+        "id": 128102,
+        "idNadrejeni": -1,
+        "naziv": "Zakon"
+      },
+      "kategorizacijaAkta": null,
+      "organOdgovorenZaPripravo": [
+        {
+          "id": 126534,
+          "idNadrejeni": -1,
+          "naziv": "Državni zbor RS"
+        }
+      ],
+      "organKiJeSprejelOzIzdalAkt": {
+        "id": 126534,
+        "idNadrejeni": -1,
+        "naziv": "Državni zbor RS"
+      },
+      "podlaga": [],
+      "zveza": [],
+      "posegiVPredpis": [
+        {
+          "mopedID": "ZAKO8642",
+          "naziv": "Zakon o spremembah in dopolnitvah Zakona o državni upravi (ZDU-1O)"
+        },
+        {
+          "mopedID": "ZAKO8934",
+          "naziv": "Zakon o informacijski varnosti (ZInfV-1)"
+        }
+      ],
+      "vpliviNaPredpis": [
+        {
+          "mopedID": "ZAKO8875",
+          "naziv": "Zakon o interventnih ukrepih za odpravo posledic poplav in zemeljskih plazov iz avgusta 2023 (ZIUOPZP)"
+        },
+        {
+          "mopedID": "ZAKO8910",
+          "naziv": "Zakon o obnovi, razvoju in zagotavljanju finančnih sredstev (ZORZFS)"
+        },
+        {
+          "mopedID": "ZAKO9225",
+          "naziv": "Zakon o izvajanju uredbe (EU) o določitvi harmoniziranih pravil o umetni inteligenci (ZIUDHPUI)"
+        }
+      ],
+      "podrejeniPredpisi": [
+        {
+          "mopedID": "AKT_1303",
+          "naziv": "Splošni akt o načinu izračuna plačil za uporabo radijskih frekvenc"
+        },
+        {
+          "mopedID": "URED8786",
+          "naziv": "Uredba o načrtu razporeditve radiofrekvenčnih pasov"
+        },
+        {
+          "mopedID": "AKT_1336",
+          "naziv": "Splošni akt o posredovalnem postopku"
+        },
+        {
+          "mopedID": "AKT_1301",
+          "naziv": "Splošni akt o načrtu uporabe radijskih frekvenc (NURF-5)"
+        },
+        {
+          "mopedID": "AKT_1352",
+          "naziv": "Splošni akt o razčlenjenem računu"
+        },
+        {
+          "mopedID": "AKT_1378",
+          "naziv": "Splošni akt o spremembi in dopolnitvi Splošnega akta o razčlenjenem računu"
+        },
+        {
+          "mopedID": "AKT_1306",
+          "naziv": "Splošni Akt o uporabi sistema RDS in identifikaciji v DAB omrežjih"
+        },
+        {
+          "mopedID": "AKT_1339",
+          "naziv": "Splošni akt o načinu izračuna višine plačila za uporabo elementov oštevilčenja"
+        },
+        {
+          "mopedID": "AKT_1350",
+          "naziv": "Splošni akt o zbiranju, uporabi in načinu dostopa do podatkov in informacij"
+        },
+        {
+          "mopedID": "AKT_1332",
+          "naziv": "Splošni akt o varnosti omrežij, storitev in podatkov"
+        },
+        {
+          "mopedID": "AKT_1344",
+          "naziv": "Splošni akt o načinu upoštevanja meril glede nudenja cenovnih opcij ali paketov za potrošnike z nizkimi dohodki oziroma s posebnimi potrebami v okviru zagotavljanja univerzalne storitve"
+        },
+        {
+          "mopedID": "DRUG5111",
+          "naziv": "Sklep o objavi datuma začetka veljavnosti Delegirane uredbe Komisije 2021/654/EU"
+        },
+        {
+          "mopedID": "AKT_1314",
+          "naziv": "Splošni akt o prenosljivosti številk in zamenjavi izvajalca storitev dostopa do interneta"
+        },
+        {
+          "mopedID": "AKT_1312",
+          "naziv": "Splošni akt o spremljanju in nadzoru porabe storitev"
+        },
+        {
+          "mopedID": "TARI247",
+          "naziv": "Tarifa 2023 o vrednosti točke za plačilo na podlagi obvestila, za plačilo za uporabo radijskih frekvenc in za plačilo za uporabo elementov oštevilčenja"
+        },
+        {
+          "mopedID": "PRAV14893",
+          "naziv": "Pravilnik o načinu izvajanja 220. člena Zakona o elektronskih komunikacijah"
+        },
+        {
+          "mopedID": "AKT_1304",
+          "naziv": "Splošni akt o pogojih za uporabo radijskih frekvenc, namenjenih radioamaterski in radioamaterski satelitski storitvi"
+        },
+        {
+          "mopedID": "PRAV14960",
+          "naziv": "Pravilnik o enostavnih komunikacijskih objektih in vzdrževanju komunikacijskih objektov"
+        },
+        {
+          "mopedID": "AKT_1341",
+          "naziv": "Splošni akt o načrtu oštevilčenja"
+        },
+        {
+          "mopedID": "AKT_1307",
+          "naziv": "Splošni akt o omejitvah signalov analognih zvokovnih radiodifuznih postaj"
+        },
+        {
+          "mopedID": "AKT_1305",
+          "naziv": "Splošni Akt o zahtevah za medsebojno delovanje digitalnih interaktivnih televizijskih storitev in digitalne televizijske opreme, ki jo uporabljajo potrošniki"
+        },
+        {
+          "mopedID": "AKT_1302",
+          "naziv": "Splošni Akt o razvrstitvi programov v javnih komunikacijskih omrežjih, namenjenih za distribucijo digitalnih televizijskih storitev"
+        },
+        {
+          "mopedID": "AKT_1316",
+          "naziv": "Splošni akt o storitvah dostopa do interneta in s tem povezanih pravic končnih uporabnikov"
+        },
+        {
+          "mopedID": "AKT_1328",
+          "naziv": "Splošni akt o dostopu do obstoječe fizične infrastrukture"
+        },
+        {
+          "mopedID": "AKT_1351",
+          "naziv": "Splošni akt o vsebini in obliki obvestila o zagotavljanju javnih komunikacijskih omrežij oziroma izvajanju javnih komunikacijskih storitev"
+        },
+        {
+          "mopedID": "AKT_1340",
+          "naziv": "Splošni akt o vsebini in obliki vloge za pridobitev odločbe o dodelitvi elementov oštevilčenja"
+        },
+        {
+          "mopedID": "URED8695",
+          "naziv": "Uredba o načrtu razporeditve radiofrekvenčnih pasov"
+        },
+        {
+          "mopedID": "AKT_1346",
+          "naziv": "Splošni akt o kakovosti univerzalne storitve"
+        },
+        {
+          "mopedID": "AKT_1329",
+          "naziv": "Splošni akt o minimalnih zahtevah pri načrtovanju in gradnji stavbne fizične in pasivne komunikacijske infrastrukture ter razdelilnih točk"
+        },
+        {
+          "mopedID": "AKT_1347",
+          "naziv": "Splošni akt o načinu izračuna neto stroškov univerzalne storitve"
+        },
+        {
+          "mopedID": "AKT_1345",
+          "naziv": "Splošni akt o prenosni hitrosti, primerni za širokopasovni dostop do interneta"
+        },
+        {
+          "mopedID": "URED8788",
+          "naziv": "Uredba o ukrepih za končne uporabnike invalide"
+        },
+        {
+          "mopedID": "PRAV14963",
+          "naziv": "Pravilnik o opremi in vmesnikih za zakonito prestrezanje komunikacij"
+        },
+        {
+          "mopedID": "URED8789",
+          "naziv": "Uredba o pravici do omrežnih priključnih točk s prednostjo"
+        },
+        {
+          "mopedID": "URED8697",
+          "naziv": "Uredba o pravici do omrežnih priključnih točk s prednostjo"
+        },
+        {
+          "mopedID": "PRAV14961",
+          "naziv": "Pravilnik o vodenju in vsebini podatkov o elektronskih komunikacijskih omrežjih in pripadajoči infrastrukturi, omrežnih priključnih točkah in drugih elektronskih komunikacijskih omrežjih"
+        },
+        {
+          "mopedID": "URED8694",
+          "naziv": "Uredba o vodenju in vsebini podatkov o elektronskih komunikacijskih omrežjih in pripadajoči infrastrukturi, omrežnih priključnih točkah in drugih elektronskih komunikacijskih omrežjih"
+        },
+        {
+          "mopedID": "AKT_1331",
+          "naziv": "Splošni akt o preglednosti v zvezi z načrtovanimi gradbenimi deli in o skupni gradnji gospodarske javne infrastrukture"
+        },
+        {
+          "mopedID": "AKT_1355",
+          "naziv": "Splošni akt o kakovosti storitev komunikacij v sili"
+        },
+        {
+          "mopedID": "AKT_1300",
+          "naziv": "Splošni akt o načinu določanja območij pokrivanja za odločbe o dodelitvi radijskih frekvenc za opravljanje analogne radiodifuzije"
+        },
+        {
+          "mopedID": "TARI258",
+          "naziv": "Tarifa 2024 o vrednosti točke za plačilo na podlagi obvestila, za plačilo za uporabo radijskih frekvenc in za plačilo za uporabo elementov oštevilčenja"
+        },
+        {
+          "mopedID": "AKT_1376",
+          "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc"
+        },
+        {
+          "mopedID": "AKT_1313",
+          "naziv": "Splošni akt o načinu določanja nadomestil ob nedelovanju ali slabši kakovosti delovanja javnih komunikacijskih storitev"
+        },
+        {
+          "mopedID": "AKT_1311",
+          "naziv": "Splošni akt o preglednosti in objavi informacij"
+        },
+        {
+          "mopedID": "AKT_1315",
+          "naziv": "Splošni akt o določitvi informacij o kakovosti javnih komunikacijskih storitev"
+        },
+        {
+          "mopedID": "AKT_1327",
+          "naziv": "Splošni akt za pregled in napoved postavitve omrežij ter izvedbo poizvedovanja po tržnem interesu za gradnjo visokozmogljivih omrežij"
+        },
+        {
+          "mopedID": "AKT_1342",
+          "naziv": "Splošni akt o lokacijah omrežnih priključnih točk"
+        },
+        {
+          "mopedID": "AKT_1348",
+          "naziv": "Splošni akt o obveščanju in vrednotenju varnostnih incidentov ter o najavi omejitev ali prekinitev"
+        },
+        {
+          "mopedID": "AKT_1375",
+          "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načrtu oštevilčenja"
+        },
+        {
+          "mopedID": "URED8787",
+          "naziv": "Uredba o vzpostavitvi in zagotavljanju sistema javnega obveščanja in alarmiranja prek javnih mobilnih omrežij"
+        },
+        {
+          "mopedID": "AKT_1384",
+          "naziv": "Splošni akt o spremembi Splošnega akta o spremljanju in nadzoru porabe storitev"
+        },
+        {
+          "mopedID": "URED8785",
+          "naziv": "Uredba o uporabi javnih sredstev za gradnjo visokozmogljivih fiksnih širokopasovnih omrežij oziroma nadgradnjo obstoječih fiksnih omrežij, gradnjo mobilnih omrežij 5G, gradnjo zalednih omrežij in za spodbujanje povezljivosti"
+        },
+        {
+          "mopedID": "AKT_1377",
+          "naziv": "Splošni akt o spremembi Splošnega akta o kakovosti storitev komunikacij v sili"
+        },
+        {
+          "mopedID": "ANJP7",
+          "naziv": "Statut Agencije za komunikacijska omrežja in storitve Republike Slovenije"
+        },
+        {
+          "mopedID": "ANJP19",
+          "naziv": "Splošni akt o spremembah Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-5a)"
+        },
+        {
+          "mopedID": "PRAV15515",
+          "naziv": "Pravilnik o službeni izkaznici pooblaščene osebe Agencije za komunikacijska omrežja in storitve Republike Slovenije"
+        },
+        {
+          "mopedID": "TARI263",
+          "naziv": "Tarifa 2025 o vrednosti točke za plačilo na podlagi obvestila, za plačilo za uporabo radijskih frekvenc in za plačilo za uporabo elementov oštevilčenja"
+        },
+        {
+          "mopedID": "ANJP68",
+          "naziv": "Splošni akt o spremembah Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-5b)"
+        },
+        {
+          "mopedID": "SKLE13859",
+          "naziv": "Sklep o dopolnitvah Sklepa o ustanovitvi Agencije za komunikacijska omrežja in storitve Republike Slovenije"
+        },
+        {
+          "mopedID": "ANJP94",
+          "naziv": "Splošni akt o spremembah Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc"
+        },
+        {
+          "mopedID": "AKT_1472",
+          "naziv": "Splošni akt o spremembah Splošnega akta o kakovosti univerzalne storitve"
+        },
+        {
+          "mopedID": "ANJP119",
+          "naziv": "Statut Agencije za komunikacijska omrežja in storitve Republike Slovenije"
+        },
+        {
+          "mopedID": "URED9304",
+          "naziv": "Uredba o spremembah Uredbe o načrtu razporeditve radiofrekvenčnih pasov"
+        },
+        {
+          "mopedID": "POSL161",
+          "naziv": "Poslovnik Sveta za elektronske komunikacije Republike Slovenije"
+        },
+        {
+          "mopedID": "ANJP199",
+          "naziv": "Tarifa 2026 o vrednosti točke za plačilo na podlagi obvestila, za plačilo za uporabo radijskih frekvenc in za plačilo za uporabo elementov oštevilčenja"
+        },
+        {
+          "mopedID": "SKLE14203",
+          "naziv": "Sklep o spremembi in dopolnitvah Sklepa o ustanovitvi Agencije za komunikacijska omrežja in storitve Republike Slovenije"
+        },
+        {
+          "mopedID": "SKLE13592",
+          "naziv": "Sklep o spremembah in dopolnitvah Sklepa o ustanovitvi Agencije za komunikacijska omrežja in storitve Republike Slovenije"
+        }
+      ],
+      "posegaVPredpise": [
+        {
+          "mopedID": "ZAKO5056",
+          "naziv": "Zakon o digitalni radiodifuziji (ZDRad)"
+        },
+        {
+          "mopedID": "ZAKO6405",
+          "naziv": "Zakon o elektronskih komunikacijah (ZEKom-1)"
+        },
+        {
+          "mopedID": "AKT_827",
+          "naziv": "Splošni akt o načinu izračuna plačil za uporabo radijskih frekvenc"
+        },
+        {
+          "mopedID": "AKT_837",
+          "naziv": "Splošni akt o načinu izračuna višine plačil za uporabo elementov oštevilčenja"
+        },
+        {
+          "mopedID": "AKT_829",
+          "naziv": "Splošni akt o omejitvah signalov analognih zvokovnih radiodifuznih postaj"
+        },
+        {
+          "mopedID": "AKT_831",
+          "naziv": "Splošni akt o zahtevah za medsebojno delovanje digitalnih interaktivnih televizijskih storitev in digitalne televizijske opreme, ki jo uporabljajo potrošniki"
+        },
+        {
+          "mopedID": "AKT_832",
+          "naziv": "Splošni akt o razvrščanju programov v javnih digitalnih televizijskih omrežjih"
+        },
+        {
+          "mopedID": "AKT_853",
+          "naziv": "Splošni akt o prenosljivosti številk"
+        },
+        {
+          "mopedID": "AKT_868",
+          "naziv": "Splošni akt o vsebini in obliki obvestila o zagotavljanju javnih komunikacijskih omrežij oziroma izvajanju javnih komunikacijskih storitev"
+        },
+        {
+          "mopedID": "AKT_856",
+          "naziv": "Splošni akt o načrtu oštevilčenja"
+        },
+        {
+          "mopedID": "AKT_869",
+          "naziv": "Splošni akt o načinu upoštevanja meril glede nudenja cenovnih opcij in za določitev paketov za potrošnike z nizkimi dohodki oziroma s posebnimi potrebami v okviru zagotavljanja univerzalne storitve"
+        },
+        {
+          "mopedID": "AKT_852",
+          "naziv": "Splošni akt o velikosti številskih blokov, za pridobitev katerih je treba vlogi priložiti projekt"
+        },
+        {
+          "mopedID": "AKT_870",
+          "naziv": "Splošni akt o elementih vzorčne ponudbe za razvezan dostop do krajevne zanke"
+        },
+        {
+          "mopedID": "AKT_875",
+          "naziv": "Splošni akt o posredovalnem postopku"
+        },
+        {
+          "mopedID": "AKT_854",
+          "naziv": "Splošni akt o pretvorbi številk v ENUM – številke"
+        },
+        {
+          "mopedID": "AKT_855",
+          "naziv": "Splošni akt o vsebini in obliki vloge za izdajo odločbe o dodelitvi elementov oštevilčenja"
+        },
+        {
+          "mopedID": "AKT_857",
+          "naziv": "Splošni akt o pogojih za uporabo radijskih frekvenc, namenjenih radioamaterski in radioamaterski satelitski storitvi"
+        },
+        {
+          "mopedID": "URED6503",
+          "naziv": "Uredba o načrtu razporeditve radiofrekvenčnih pasov"
+        },
+        {
+          "mopedID": "PRAV11648",
+          "naziv": "Pravilnik o načinu izvajanja 153. člena Zakona o elektronskih komunikacijah"
+        },
+        {
+          "mopedID": "AKT_864",
+          "naziv": "Splošni akt o varnosti omrežij in storitev"
+        },
+        {
+          "mopedID": "URED6517",
+          "naziv": "Uredba o pravici do omrežnih priključnih točk s prednostjo"
+        },
+        {
+          "mopedID": "AKT_877",
+          "naziv": "Splošni akt o razčlenjenem računu"
+        },
+        {
+          "mopedID": "PRAV11731",
+          "naziv": "Pravilnik o kategorijah potrošnikov, ki so upravičeni do posebnih cenovnih opcij ali paketov"
+        },
+        {
+          "mopedID": "URED6509",
+          "naziv": "Uredba o ukrepih za končne uporabnike invalide"
+        },
+        {
+          "mopedID": "AKT_939",
+          "naziv": "Splošni akt o uporabi sistema RDS in identifikaciji v DAB omrežjih"
+        },
+        {
+          "mopedID": "AKT_988",
+          "naziv": "Splošni akt o zbiranju, uporabi in dajanju podatkov o razvoju trga elektronskih komunikacij"
+        },
+        {
+          "mopedID": "DRUG4475",
+          "naziv": "Splošni akt o spremljanju in nadzoru porabe podatkovnih storitev"
+        },
+        {
+          "mopedID": "DRUG4464",
+          "naziv": "Splošni akt o preglednosti v zvezi z načrtovanimi gradbenimi deli in o skupni gradnji gospodarske javne infrastrukture"
+        },
+        {
+          "mopedID": "AKT_1010",
+          "naziv": "Splošni akt o načrtu uporabe radijskih frekvenc (NURF-4)"
+        },
+        {
+          "mopedID": "DRUG4474",
+          "naziv": "Splošni akt o dostopu do obstoječe fizične infrastrukture"
+        },
+        {
+          "mopedID": "DRUG4494",
+          "naziv": "Splošni akt o kakovosti univerzalne storitve"
+        },
+        {
+          "mopedID": "DRUG4497",
+          "naziv": "Splošni akt o prenosni hitrosti, primerni za funkcionalen dostop do interneta"
+        },
+        {
+          "mopedID": "DRUG4496",
+          "naziv": "Splošni akt o načinu izračuna neto stroškov univerzalne storitve"
+        },
+        {
+          "mopedID": "ZAKO7707",
+          "naziv": "Zakon o informacijski varnosti (ZInfV)"
+        },
+        {
+          "mopedID": "DRUG4495",
+          "naziv": "Splošni akt o minimalnih zahtevah pri načrtovanju in izvedbi dostopovnih in razdelilnih točk"
+        },
+        {
+          "mopedID": "AKT_1077",
+          "naziv": "Splošni akt o elementih vzorčne ponudbe za veleprodajni lokalni dostop na fiksni lokaciji"
+        },
+        {
+          "mopedID": "AKT_1126",
+          "naziv": "Splošni akt o storitvah dostopa do interneta in s tem povezanih pravic končnih uporabnikov"
+        },
+        {
+          "mopedID": "DRUG5030",
+          "naziv": "Splošni akt o objavi informacij o veljavnih tarifah"
+        }
+      ],
+      "vplivaNaPredpise": [
+        {
+          "mopedID": "ZAKO1608",
+          "naziv": "Zakon o medijih (ZMed)"
+        },
+        {
+          "mopedID": "ZAKO6014",
+          "naziv": "Zakon o dopolnitvah Zakona o digitalni radiodifuziji (ZDRad-A)"
+        },
+        {
+          "mopedID": "ZAKO6404",
+          "naziv": "Zakon o spremembah in dopolnitvah Zakona o digitalni radiodifuziji (ZDRad-B)"
+        },
+        {
+          "mopedID": "ZAKO6793",
+          "naziv": "Zakon o spremembah in dopolnitvi Zakona o elektronskih komunikacijah (ZEKom-1A)"
+        },
+        {
+          "mopedID": "AKT_907",
+          "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc"
+        },
+        {
+          "mopedID": "AKT_940",
+          "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o varnosti omrežij in storitev"
+        },
+        {
+          "mopedID": "ZAKO7224",
+          "naziv": "Zakon o spremembah in dopolnitvah Zakona o elektronskih komunikacijah (ZEKom-1B)"
+        },
+        {
+          "mopedID": "DRUG4216",
+          "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načinu izračuna plačil za uporabo elementov oštevilčenja"
+        },
+        {
+          "mopedID": "DRUG4217",
+          "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc"
+        },
+        {
+          "mopedID": "DRUG4290",
+          "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc"
+        },
+        {
+          "mopedID": "URED7429",
+          "naziv": "Uredba o spremembah Uredbe o načrtu razporeditve radiofrekvenčnih pasov"
+        },
+        {
+          "mopedID": "AKT_1009",
+          "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načinu izračuna plačil za uporabo elementov oštevilčenja"
+        },
+        {
+          "mopedID": "ZAKO7549",
+          "naziv": "Zakon o spremembah in dopolnitvah Zakona o elektronskih komunikacijah (ZEKom-1C)"
+        },
+        {
+          "mopedID": "DRUG4477",
+          "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o prenosljivosti številk"
+        },
+        {
+          "mopedID": "AKT_1053",
+          "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načrtu oštevilčenja"
+        },
+        {
+          "mopedID": "AKT_1058",
+          "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o pogojih za uporabo radijskih frekvenc, namenjenih radioamaterski in radioamaterski satelitski storitvi"
+        },
+        {
+          "mopedID": "AKT_1074",
+          "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načinu izračuna plačil za uporabo elementov oštevilčenja"
+        },
+        {
+          "mopedID": "AKT_1075",
+          "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o velikosti številskih blokov, za pridobitev katerih je treba vlogi priložiti projekt"
+        },
+        {
+          "mopedID": "AKT_1076",
+          "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o vsebini in obliki vloge za izdajo odločbe o dodelitvi elementov oštevilčenja"
+        },
+        {
+          "mopedID": "AKT_1078",
+          "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o prenosljivosti številk"
+        },
+        {
+          "mopedID": "AKT_1081",
+          "naziv": "Splošni akt o spremembah in dopolnitvi Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-4a)"
+        },
+        {
+          "mopedID": "AKT_1127",
+          "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o zbiranju, uporabi in dajanju podatkov o razvoju trga elektronskih komunikacij"
+        },
+        {
+          "mopedID": "URED7964",
+          "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc"
+        },
+        {
+          "mopedID": "AKT_1163",
+          "naziv": "Splošni akt o spremembah in dopolnitvi Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-4b)"
+        },
+        {
+          "mopedID": "URED8125",
+          "naziv": "Uredba o spremembah Uredbe o načrtu razporeditve radiofrekvenčnih pasov"
+        },
+        {
+          "mopedID": "DRUG4873",
+          "naziv": "Splošni akt o spremembi in dopolnitvi Splošnega akta o kakovosti univerzalne storitve"
+        },
+        {
+          "mopedID": "DRUG4874",
+          "naziv": "Splošni akt o spremembi in dopolnitvi Splošnega akta o prenosni hitrosti, primerni za funkcionalen dostop do interneta"
+        },
+        {
+          "mopedID": "AKT_1223",
+          "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-4c)"
+        }
+      ],
+      "podrocje": [
+        {
+          "id": 115312,
+          "idNadrejeni": -1,
+          "naziv": "Gospodarske dejavnosti"
+        },
+        {
+          "id": 115322,
+          "idNadrejeni": 115312,
+          "naziv": "Pošta in elektronske komunikacije"
+        }
+      ]
+    }
+  ],
+  "error": null
+}

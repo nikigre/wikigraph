@@ -12,7 +12,12 @@ const App: FC = () => {
   const { searchLinks } = useGetLinks();
 
   useEffect(() => {
-    searchLinks({ title: currentSearch, type: "set" });
+    console.log('🚀 App: Current search changed to:', currentSearch);
+    if (currentSearch) {
+      searchLinks({ mopedID: currentSearch, type: "set" });
+    } else {
+      console.log('⚠️ App: Empty currentSearch, skipping API call');
+    }
   }, [currentSearch]);
 
   return (

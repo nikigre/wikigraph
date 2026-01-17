@@ -3,54 +3,124 @@ import {
   setGraphData,
   setIsNewSearch,
   useAppDispatch,
-  useAppSelector,
 } from "../redux";
-import { APIResponse } from "../types/GraphTypes";
+import { PredpisSearchResponse } from "../types/PredpisSearchTypes";
 import { api } from "./api";
 
 type LinkSearch = {
-  title: string;
+  mopedID: string;
   type: "set" | "add";
+};
+
+const PREDPIS_TYPES = [
+  'posegiVPredpis',
+  'vpliviNaPredpis', 
+  'podrejeniPredpisi',
+  'posegaVPredpise',
+  'vplivaNaPredpise'
+];
+
+const getNameOfTag = (tagname: string): string => {
+  switch (tagname) {
+    case "zakon":
+      return 'Izbrani zakon';
+    case "posegiVPredpis":
+      return "posega v ta akt";
+    case "vpliviNaPredpis": 
+      return "vpliva na ta akt";
+    case "podrejeniPredpisi":
+      return "podrejeni predpis";
+    case "posegaVPredpise":
+      return "ta akt posega v";
+    case "vplivaNaPredpise":
+      return "ta akt vpliva na";
+    default:
+      return "/";
+  }
 };
 
 const useGetLinks = () => {
   const dispatch = useAppDispatch();
-  const currentSearch = useAppSelector((state) => state.graph.currentSearch);
 
-  const searchLinks = async ({ title, type }: LinkSearch) => {
+  const searchLinks = async ({ mopedID, type }: LinkSearch) => {
     try {
-      const { data } = await api<APIResponse>({
-        url: `/links/${encodeURIComponent(title)}`,
-        method: "GET",
-      });
-
-      const newLinks = data.map((link) => ({
-        source: link.from_title_id,
-        target: link.to_title_id,
-      }));
-      const newNodes = data.map((node) => ({
-        id: node.to_title_id,
-        title: node.to_title,
-      }));
-
-      // add missing root node
-      if (!newNodes.some((node) => node.id === currentSearch)) {
-        newNodes.push({
-          id: currentSearch,
-          title: currentSearch,
-        });
+      if (!mopedID || mopedID.trim() === '') {
+        console.warn('Empty mopedID, skipping search');
+        return;
       }
 
+      console.log('🔍 Searching for mopedID:', mopedID);
+
+      const { data } = await api.get<PredpisSearchResponse>('/predpisi/search', {
+        params: { mopedID: mopedID.trim() }
+      });
+
+      console.log('📦 API Response:', data);
+
+      if (!data.primary) {
+        console.warn(`No data found for mopedID: ${mopedID}`);
+        return;
+      }
+
+      console.log('✅ Primary data found:', data.primary);
+
+      const newNodes: Array<{ id: string; title: string; tag: string; tags: string[] }> = [];
+      const newLinks: Array<{ source: string; target: string; edgeName: string; ranking: number }> = [];
+
+      // Add the main predpis node
+      newNodes.push({
+        id: mopedID,
+        title: data.primary.naziv || mopedID,
+        tag: 'zakon',
+        tags: ['zakon']
+      });
+
+      console.log('🏷️ Added main node:', newNodes[0]);
+
+      // Process each predpis type
+      PREDPIS_TYPES.forEach(predpisType => {
+        const drawData = data.primary[predpisType];
+        console.log(`🔗 Processing ${predpisType}:`, drawData ? drawData.length : 0, 'items');
+        
+        if (drawData && Array.isArray(drawData)) {
+          drawData.forEach((item: any) => {
+            if (item.mopedID && item.naziv) {
+              newNodes.push({
+                id: item.mopedID,
+                title: item.naziv,
+                tag: 'predpis',
+                tags: [predpisType]
+              });
+
+              newLinks.push({
+                source: mopedID,
+                target: item.mopedID,
+                edgeName: getNameOfTag(predpisType),
+                ranking: 3
+              });
+            }
+          });
+        }
+      });
+
+      console.log('📊 Total nodes created:', newNodes.length);
+      console.log('🔗 Total links created:', newLinks.length);
+      console.log('📝 Nodes:', newNodes);
+      console.log('🔗 Links:', newLinks);
+
       if (type === "set") {
+        console.log('🎯 Setting graph data (new search)');
         dispatch(setGraphData({ nodes: newNodes, links: newLinks }));
         dispatch(setIsNewSearch(true));
       }
 
       if (type === "add") {
+        console.log('➕ Adding to existing graph data');
         dispatch(addGraphData({ nodes: newNodes, links: newLinks }));
       }
     } catch (err) {
-      console.log(err);
+      console.error('❌ Error fetching predpis data:', err);
+      throw err;
     }
   };
 

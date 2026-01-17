@@ -64,23 +64,23 @@ const useGraphUtils = (
   };
 
   const handleClick = async (node: NodeObject<Node>, event: MouseEvent) => {
-    const openWikipedia = event.metaKey || event.ctrlKey
+    const openPisrs = event.metaKey || event.ctrlKey
 
     window.gtag('event', 'node_click', {
-      'open_wikipedia': openWikipedia,
-      'title': node.title.split(" ").join("_")
+      'open_pisrs': openPisrs,
+      'mopedID': node.id
     });
 
-    // open wikipedia page if holding command or control keys
-    if (openWikipedia) {
+    // open PISRS page if holding command or control keys
+    if (openPisrs) {
       window.open(
-        "https://wikipedia.com/wiki/" + node.title.split(" ").join("_"),
+        "https://pisrs.si/pis/predpis.nsf/predlog01?OpenForm&ref=" + node.id,
         "__blank"
       );
       return;
     }
 
-    await searchLinks({ title: node.id, type: "add" });
+    await searchLinks({ mopedID: node.id, type: "add" });
 
     // wait for graph to finish animating + 200ms for safety
     setTimeout(() => {

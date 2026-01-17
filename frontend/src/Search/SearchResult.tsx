@@ -11,7 +11,7 @@ const SearchResult: FC<Props> = ({ result, onClick }) => {
   return (
     <StyledSearchResult onClick={onClick}>
       <p className="title">{result.title}</p>
-      <p className="snippet" dangerouslySetInnerHTML={{ __html: result.snippet }} />
+      <p className="snippet">{result.snippet}</p>
     </StyledSearchResult>
   );
 };

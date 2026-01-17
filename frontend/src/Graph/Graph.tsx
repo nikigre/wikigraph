@@ -24,16 +24,21 @@ const Graph: FC<Props> = () => {
   const [data, setData] = useState<Data>({ nodes: [], links: [] });
 
   useEffect(() => {
+    console.log('🎨 Graph effect triggered - isNewSearch:', isNewSearch, 'nodes:', nodes.length, 'links:', links.length);
+    
     if (isNewSearch) {
-      setData({
+      console.log('🆕 NEW SEARCH - Setting fresh graph data');
+      const newData = {
         nodes: nodes.map((node) => Object.assign({}, node)),
         links: links.map((link) => Object.assign({}, link)),
-      });
+      };
+      console.log('📊 Graph data to render:', newData);
+      setData(newData);
       return;
     }
 
     // need to copy nodes to prevent the library for mutating state directly
-    setData({
+    const updatedData = {
       nodes: [
         ...data.nodes,
         ...nodes
@@ -46,7 +51,9 @@ const Graph: FC<Props> = () => {
           .slice(data.links.length)
           .map((link) => Object.assign({}, link)),
       ],
-    });
+    };
+    console.log('➕ ADDING to existing graph - Total nodes:', updatedData.nodes.length, 'Total links:', updatedData.links.length);
+    setData(updatedData);
   }, [nodes.length, links.length]);
 
   const { handleHover, handleClick, handleInitialZoom } = useGraphUtils(
