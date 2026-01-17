@@ -1,16 +1,17 @@
 export type PredpisSearchDisplay = {
-  mopedID: string;
+  mopedId: string;
   naziv: string;
 };
 
 export type PredpisData = {
-  mopedID: string;
+  mopedId: string;
   naziv: string;
   category?: string;
   posegiVPredpis?: any[];
   vpliviNaPredpis?: any[];
   posegaVPredpise?: any[];
   vplivaNaPredpise?: any[];
+  podrejeniPredpisi?: any[];
   [key: string]: any;
 };
 

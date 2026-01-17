@@ -7,10 +7,12 @@ import { randomSearchRecommendation } from "../utils/randomeSearchRecommendation
 import { useDebounce } from "usehooks-ts";
 import { setCurrentSearch, useAppDispatch, useAppSelector } from "../redux";
 import { ReactComponent as SearchIcon } from "./SearchIcon.svg";
+import useGetLinks from "../utils/getLinks";
 
 const Search: FC = () => {
   const dispatch = useAppDispatch();
   const currentSearch = useAppSelector((state) => state.graph.currentSearch);
+  const { searchLinks } = useGetLinks();
 
   const [searchInputValue, setSearchInputValue] = useState("");
   const [results, setResults] = useState<PredpisSearchDisplay[]>([]);
@@ -33,7 +35,7 @@ const Search: FC = () => {
 
       if (data.primary) {
         const searchResults: PredpisSearchDisplay[] = [{
-          mopedID: data.primary.mopedID,
+          mopedId: data.primary.mopedId,
           naziv: data.primary.naziv,
         }];
 
@@ -66,16 +68,21 @@ const Search: FC = () => {
       <div className="results">
         {results.map((result, index) => (
           <SearchResult
-            key={`${result.mopedID}-${index}`}
-            result={{ title: result.naziv, snippet: result.mopedID }}
+            key={`${result.mopedId}-${index}`}
+            result={{ title: result.naziv, snippet: result.mopedId }}
             onClick={() => {
               window.gtag("event", "search", {
-                mopedID: result.mopedID,
+                mopedID: result.mopedId,
               });
 
-              dispatch(setCurrentSearch(result.mopedID));
+              console.log('🎯 Search result clicked:', result.mopedId, '- Adding to graph');
+              
+              // Add to graph instead of replacing
+              searchLinks({ mopedID: result.mopedId, type: "add" });
+              
+              // Update placeholder but keep current search for initial load
               setSearchInputValue("");
-              setPlaceholderText(result.mopedID);
+              setPlaceholderText(result.naziv);
             }}
           />
         ))}

@@ -84,9 +84,11 @@ const useGetLinks = () => {
         
         if (drawData && Array.isArray(drawData)) {
           drawData.forEach((item: any) => {
-            if (item.mopedID && item.naziv) {
+            // API returns mopedId (lowercase 'd'), not mopedID
+            const itemId = item.mopedId || item.mopedID;
+            if (itemId && item.naziv) {
               newNodes.push({
-                id: item.mopedID,
+                id: itemId,
                 title: item.naziv,
                 tag: 'predpis',
                 tags: [predpisType]
@@ -94,7 +96,7 @@ const useGetLinks = () => {
 
               newLinks.push({
                 source: mopedID,
-                target: item.mopedID,
+                target: itemId,
                 edgeName: getNameOfTag(predpisType),
                 ranking: 3
               });
