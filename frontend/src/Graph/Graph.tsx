@@ -20,6 +20,7 @@ type GraphElement = ForceGraphMethods<NodeObject<Node>, LinkObject<Node, Link>>;
 
 const Graph: FC<Props> = () => {
   const ref = useRef<GraphElement>();
+  const [zoomedNodeId, setZoomedNodeId] = useState<string | null>(null);
 
   const { isNewSearch, nodes, links } = useAppSelector((state) => state.graph);
   const settings = useAppSelector((state) => state.settings);
@@ -174,6 +175,50 @@ const Graph: FC<Props> = () => {
       }
     }
   }, [filteredData]);
+
+  // Listen for zoom to node events from search
+  useEffect(() => {
+    const handleZoomToNode = (event: Event) => {
+      const customEvent = event as CustomEvent;
+      const nodeId = customEvent.detail?.nodeId;
+      console.log('📍 Zoom event received for node:', nodeId);
+      
+      if (nodeId && ref.current) {
+        const node = filteredData.nodes.find((n) => n.id === nodeId);
+        if (node) {
+          console.log('🔍 Found node, attempting zoom:', { id: node.id, x: node.x, y: node.y });
+          
+          // If node has coordinates, zoom to them
+          if (node.x !== undefined && node.y !== undefined) {
+            ref.current.centerAt(node.x, node.y, 400);
+            ref.current.zoom(8, 400); // Zoom in closer
+            setZoomedNodeId(nodeId);
+            setTimeout(() => setZoomedNodeId(null), 500); // Highlight for 500ms
+          } else {
+            // If coordinates not set yet, try to zoom to graph center or use a timeout
+            console.log('⏱️ Node coords not set yet, waiting for layout...');
+            setTimeout(() => {
+              if (node.x !== undefined && node.y !== undefined) {
+                console.log('✅ Coords ready after delay, zooming to:', { x: node.x, y: node.y });
+                ref.current?.centerAt(node.x, node.y, 400);
+                ref.current?.zoom(8, 400);
+                setZoomedNodeId(nodeId);
+                setTimeout(() => setZoomedNodeId(null), 500);
+              }
+            }, 300);
+          }
+        } else {
+          console.warn('❌ Node not found in filtered data:', nodeId);
+          console.log('Available nodes:', filteredData.nodes.map(n => ({ id: n.id, x: n.x, y: n.y })));
+        }
+      } else {
+        console.warn('❌ No nodeId in event or ref not ready');
+      }
+    };
+
+    window.addEventListener("zoomToNode", handleZoomToNode);
+    return () => window.removeEventListener("zoomToNode", handleZoomToNode);
+  }, [filteredData.nodes]);
 
   if (show3d) {
     return (

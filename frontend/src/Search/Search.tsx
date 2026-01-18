@@ -1,4 +1,4 @@
-import { FC, useEffect, useState } from "react";
+import { FC, useEffect, useState, useRef } from "react";
 import { StyledSearch } from "./Search.styled";
 import { api } from "../utils/api";
 import { PredpisSearchDisplay } from "../types/PredpisSearchTypes";
@@ -12,12 +12,14 @@ import useGetLinks from "../utils/getLinks";
 const Search: FC = () => {
   const dispatch = useAppDispatch();
   const currentSearch = useAppSelector((state) => state.graph.currentSearch);
+  const nodes = useAppSelector((state) => state.graph.nodes);
   const { searchLinks } = useGetLinks();
+  const graphRef = useRef<any>(null);
 
   const [searchInputValue, setSearchInputValue] = useState("");
   const [results, setResults] = useState<PredpisSearchDisplay[]>([]);
   const [placeholderText, setPlaceholderText] = useState(currentSearch);
-
+  const [foundInGraph, setFoundInGraph] = useState<PredpisSearchDisplay | null>(null);
 
   const debouncedQuery = useDebounce(searchInputValue, 300);
 
@@ -25,10 +27,29 @@ const Search: FC = () => {
     try {
       if (!debouncedQuery) {
         setResults([]);
+        setFoundInGraph(null);
         return;
       }
 
-      // Search by mopedID
+      // First, check if the node exists in current graph
+      const matchingNode = nodes.find(
+        (node) =>
+          node.id.toLowerCase() === debouncedQuery.toLowerCase() ||
+          node.title.toLowerCase().includes(debouncedQuery.toLowerCase())
+      );
+
+      if (matchingNode) {
+        setFoundInGraph({
+          mopedId: matchingNode.id,
+          naziv: matchingNode.title,
+        });
+        setResults([]);
+        return;
+      }
+
+      setFoundInGraph(null);
+
+      // Search by mopedID via API
       const { data } = await api.get('/predpisi/search', {
         params: { mopedID: debouncedQuery },
       });
@@ -49,13 +70,17 @@ const Search: FC = () => {
     }
   };
 
-
   useEffect(() => {
     getPredpisSearch();
-  }, [debouncedQuery]);
+  }, [debouncedQuery, nodes]);
+
+  const handleZoomToNode = (mopedId: string) => {
+    console.log('🎯 handleZoomToNode called for:', mopedId);
+    window.dispatchEvent(new CustomEvent("zoomToNode", { detail: { nodeId: mopedId } }));
+  };
 
   return (
-    <StyledSearch $areResults={!!results.length}>
+    <StyledSearch $areResults={!!results.length || !!foundInGraph}>
       <div className="input-box">
         <SearchIcon className="search-icon" />
         <input
@@ -66,6 +91,29 @@ const Search: FC = () => {
       </div>
 
       <div className="results">
+        {foundInGraph && (
+          <div
+            style={{
+              padding: "10px 12px",
+              background: "#4CAF50",
+              color: "white",
+              borderRadius: "4px",
+              marginBottom: "8px",
+              cursor: "pointer",
+              fontSize: "13px",
+            }}
+            onClick={() => {
+              setSearchInputValue("");
+              handleZoomToNode(foundInGraph.mopedId);
+            }}
+          >
+            <strong>✓ Najdeno v grafu:</strong> {foundInGraph.naziv}
+            <div style={{ fontSize: "11px", marginTop: "4px", opacity: 0.9 }}>
+              Kliknite za prikaz
+            </div>
+          </div>
+        )}
+
         {results.map((result, index) => (
           <SearchResult
             key={`${result.mopedId}-${index}`}
