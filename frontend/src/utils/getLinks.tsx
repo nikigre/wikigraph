@@ -64,7 +64,17 @@ const useGetLinks = () => {
 
       console.log('✅ Primary data found:', data.primary);
 
-      const newNodes: Array<{ id: string; title: string; tag: string; tags: string[] }> = [];
+      const newNodes: Array<{ 
+        id: string; 
+        title: string; 
+        tag: string; 
+        tags: string[];
+        datumSprejetja?: string;
+        datumObjave?: string;
+        datumZacetkaVeljavnosti?: string;
+        datumPrenehanjaVeljavnosti?: string;
+        datumKoncaUporabe?: string;
+      }> = [];
       const newLinks: Array<{ source: string; target: string; edgeName: string; ranking: number }> = [];
 
       // Add the main predpis node
@@ -72,7 +82,12 @@ const useGetLinks = () => {
         id: mopedID,
         title: data.primary.naziv || mopedID,
         tag: 'zakon',
-        tags: ['zakon']
+        tags: ['zakon'],
+        datumSprejetja: data.primary.datumSprejetja,
+        datumObjave: data.primary.datumObjave,
+        datumZacetkaVeljavnosti: data.primary.datumZacetkaVeljavnosti,
+        datumPrenehanjaVeljavnosti: data.primary.datumPrenehanjaVeljavnosti,
+        datumKoncaUporabe: data.primary.datumKoncaUporabe
       });
 
       console.log('🏷️ Added main node:', newNodes[0]);
@@ -91,7 +106,12 @@ const useGetLinks = () => {
                 id: itemId,
                 title: item.naziv,
                 tag: 'predpis',
-                tags: [predpisType]
+                tags: [predpisType],
+                datumSprejetja: item.datumSprejetja,
+                datumObjave: item.datumObjave,
+                datumZacetkaVeljavnosti: item.datumZacetkaVeljavnosti,
+                datumPrenehanjaVeljavnosti: item.datumPrenehanjaVeljavnosti,
+                datumKoncaUporabe: item.datumKoncaUporabe
               });
 
               newLinks.push({

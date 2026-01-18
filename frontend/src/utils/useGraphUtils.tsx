@@ -74,7 +74,7 @@ const useGraphUtils = (
     // open PISRS page if holding command or control keys
     if (openPisrs) {
       window.open(
-        "https://pisrs.si/pis/predpis.nsf/predlog01?OpenForm&ref=" + node.id,
+        "https://pisrs.si/pregledPredpisa?id=" + node.id,
         "__blank"
       );
       return;

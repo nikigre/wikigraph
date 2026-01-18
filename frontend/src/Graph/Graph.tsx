@@ -9,6 +9,7 @@ import { Data, Link, Node } from "../types/GraphTypes";
 import useGraphUtils from "../utils/useGraphUtils";
 import { useAppSelector } from "../redux";
 import useGraphStyling from "../utils/useGraphStyling";
+import Legend from "../Legend/Legend";
 
 type Props = {};
 
@@ -37,6 +38,18 @@ const Graph: FC<Props> = () => {
       return;
     }
 
+    // When nodes are updated (even if count doesn't change), we need to sync
+    // This happens when clicking on existing nodes to get more details
+    if (nodes.length === data.nodes.length) {
+      console.log('🔄 UPDATING existing nodes with new data');
+      const updatedData = {
+        nodes: nodes.map((node) => Object.assign({}, node)),
+        links: links.map((link) => Object.assign({}, link)),
+      };
+      setData(updatedData);
+      return;
+    }
+
     // need to copy nodes to prevent the library for mutating state directly
     const updatedData = {
       nodes: [
@@ -54,7 +67,7 @@ const Graph: FC<Props> = () => {
     };
     console.log('➕ ADDING to existing graph - Total nodes:', updatedData.nodes.length, 'Total links:', updatedData.links.length);
     setData(updatedData);
-  }, [nodes.length, links.length]);
+  }, [nodes, links, isNewSearch]);
 
   const { handleHover, handleClick, handleInitialZoom } = useGraphUtils(
     ref.current,
@@ -70,39 +83,45 @@ const Graph: FC<Props> = () => {
 
   if (show3d) {
     return (
-      <ForceGraph3d
-        enableNodeDrag={false}
-        onNodeClick={handleClick}
-        graphData={data as any}
-        nodeLabel={(n) => n.title}
-        onNodeHover={handleHover}
-        linkWidth={decideLineWidth}
-        linkDirectionalParticles={4}
-        linkDirectionalParticleWidth={decideShowParticles}
-      />
+      <>
+        <Legend />
+        <ForceGraph3d
+          enableNodeDrag={false}
+          onNodeClick={handleClick}
+          graphData={data as any}
+          nodeLabel={(n) => n.title}
+          onNodeHover={handleHover}
+          linkWidth={decideLineWidth}
+          linkDirectionalParticles={4}
+          linkDirectionalParticleWidth={decideShowParticles}
+        />
+      </>
     );
   }
 
   return (
-    <ForceGraph2d
-      ref={ref}
-      enableNodeDrag={false}
-      onNodeClick={handleClick}
-      graphData={data}
-      cooldownTime={400}
-      nodeLabel={(n) => n.title}
-      linkColor={decideLineColor}
-      linkDirectionalParticleColor={() => "white"}
-      nodeCanvasObject={nodeCanvasObject}
-      onNodeHover={handleHover}
-      nodeRelSize={5}
-      maxZoom={20}
-      minZoom={0.2}
-      linkWidth={decideLineWidth}
-      linkDirectionalParticles={4}
-      linkDirectionalParticleWidth={decideShowParticles}
-      onEngineStop={handleInitialZoom}
-    />
+    <>
+      <Legend />
+      <ForceGraph2d
+        ref={ref}
+        enableNodeDrag={false}
+        onNodeClick={handleClick}
+        graphData={data}
+        cooldownTime={400}
+        nodeLabel={(n) => n.title}
+        linkColor={decideLineColor}
+        linkDirectionalParticleColor={() => "white"}
+        nodeCanvasObject={nodeCanvasObject}
+        onNodeHover={handleHover}
+        nodeRelSize={5}
+        maxZoom={20}
+        minZoom={0.2}
+        linkWidth={decideLineWidth}
+        linkDirectionalParticles={4}
+        linkDirectionalParticleWidth={decideShowParticles}
+        onEngineStop={handleInitialZoom}
+      />
+    </>
   );
 };
 

@@ -23,6 +23,11 @@ export type Node = {
   title: string;
   tag?: string;
   tags?: string[];
+  datumSprejetja?: string;
+  datumObjave?: string;
+  datumZacetkaVeljavnosti?: string;
+  datumPrenehanjaVeljavnosti?: string;
+  datumKoncaUporabe?: string;
 };
 
 export type Data = {

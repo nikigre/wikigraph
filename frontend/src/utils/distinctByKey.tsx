@@ -1,14 +1,16 @@
 export const distinctByKey = (array: Array<any>, key: string) => {
-  const seen = new Set();
+  const map = new Map();
 
-  return array.filter((item) => {
+  array.forEach((item) => {
     const value = item[key];
-
-    if (!seen.has(value)) {
-      seen.add(value);
-      return true;
+    
+    if (map.has(value)) {
+      // Merge with existing item - new data takes precedence
+      map.set(value, { ...map.get(value), ...item });
+    } else {
+      map.set(value, item);
     }
-
-    return false;
   });
+
+  return Array.from(map.values());
 }

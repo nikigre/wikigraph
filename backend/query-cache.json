@@ -22105,5 +22105,5219 @@
     },
     "dateOfUpdate": "2026-01-18T15:11:44.950Z",
     "created_at": "2026-01-18T15:11:44.952Z"
+  },
+  "AKT_1315": {
+    "mopedID": "AKT_1315",
+    "data": {
+      "primary": {
+        "id": 13311827,
+        "naziv": "Splošni akt o določitvi informacij o kakovosti javnih komunikacijskih storitev",
+        "kratica": null,
+        "mopedId": "AKT_1315",
+        "eva": "2023-1545-0006",
+        "epa": null,
+        "sop": "2023-01-0824",
+        "kazaloPravnihAktov": [
+          {
+            "id": 103,
+            "idNadrejeni": -1,
+            "naziv": "Splošni akt, izdan za izvrševanje javnih pooblastil"
+          },
+          {
+            "id": 104,
+            "idNadrejeni": 103,
+            "naziv": "Akt pravne osebe javnega prava"
+          },
+          {
+            "id": 105,
+            "idNadrejeni": 104,
+            "naziv": "Akt javne agencije"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "2023-03-13",
+        "datumObjave": "2023-03-17",
+        "datumZacetkaVeljavnosti": "2023-03-18",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": null,
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0824\" title=\"Splošni akt o določitvi informacij o kakovosti javnih komunikacijskih storitev\">32/23</a>",
+        "vrstaAkta": {
+          "id": 128071,
+          "idNadrejeni": -1,
+          "naziv": "Akt"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126614,
+            "idNadrejeni": -1,
+            "naziv": "Služba Vlade Republike Slovenije za digitalno preobrazbo"
+          },
+          {
+            "id": 126768,
+            "idNadrejeni": -1,
+            "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126768,
+          "idNadrejeni": -1,
+          "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [],
+        "vpliviNaPredpis": [],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "splosniAktiZaIzvrsevanjeJavnihPooblastil"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:13:15.995Z",
+    "created_at": "2026-01-18T15:13:15.995Z"
+  },
+  "ZAKO6014": {
+    "mopedID": "ZAKO6014",
+    "data": {
+      "primary": {
+        "id": 12888027,
+        "naziv": "Zakon o dopolnitvah Zakona o digitalni radiodifuziji (ZDRad-A)",
+        "kratica": "ZDRad-A",
+        "mopedId": "ZAKO6014",
+        "eva": "2010-3211-0054",
+        "epa": "1325-V",
+        "sop": "2010-01-4556",
+        "kazaloPravnihAktov": [
+          {
+            "id": 66,
+            "idNadrejeni": -1,
+            "naziv": "Zakon"
+          }
+        ],
+        "osnovni": false,
+        "datumSprejetja": "2010-10-19",
+        "datumObjave": "2010-10-29",
+        "datumZacetkaVeljavnosti": "2010-10-30",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": "2022-11-10",
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2010-01-4556\" title=\"Zakon o dopolnitvah Zakona o digitalni radiodifuziji (ZDRad-A)\">85/10</a>",
+        "vrstaAkta": {
+          "id": 128102,
+          "idNadrejeni": -1,
+          "naziv": "Zakon"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 127723,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za visoko šolstvo, znanost in tehnologijo"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126534,
+          "idNadrejeni": -1,
+          "naziv": "Državni zbor RS"
+        },
+        "podlaga": [],
+        "zveza": [],
+        "posegiVPredpis": [],
+        "vpliviNaPredpis": [
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          }
+        ],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "ZAKO5056",
+            "naziv": "Zakon o digitalni radiodifuziji (ZDRad)"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "neveljavniPredpisi"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:13:19.605Z",
+    "created_at": "2026-01-18T15:13:19.605Z"
+  },
+  "ZAKO5056": {
+    "mopedID": "ZAKO5056",
+    "data": {
+      "primary": {
+        "id": 600450,
+        "naziv": "Zakon o digitalni radiodifuziji (ZDRad)",
+        "kratica": "ZDRad",
+        "mopedId": "ZAKO5056",
+        "eva": "2007-2111-0002",
+        "epa": "1494-IV",
+        "sop": "2007-01-5066",
+        "kazaloPravnihAktov": [
+          {
+            "id": 66,
+            "idNadrejeni": -1,
+            "naziv": "Zakon"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "2007-10-25",
+        "datumObjave": "2007-11-09",
+        "datumZacetkaVeljavnosti": "2007-11-24",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": "2022-11-10",
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2007-01-5066\" title=\"Zakon o digitalni radiodifuziji (ZDRad)\">102/07</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2010-01-4556\" title=\"Zakon o dopolnitvah Zakona o digitalni radiodifuziji (ZDRad-A)\">85/10</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2012-01-1961\" title=\"Zakon o spremembah in dopolnitvah Zakona o digitalni radiodifuziji (ZDRad-B)\">47/12</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2012-01-4315\" title=\"Zakon o elektronskih komunikacijah (ZEKom-1)\">109/12</a> – ZEKom-1, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2021-01-3724\" title=\"Zakon o spremembah Zakona o državni upravi (ZDU-1M)\">189/21</a> – ZDU-1M in <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2022-01-3081\" title=\"Zakon o elektronskih komunikacijah (ZEKom-2)\">130/22</a> – ZEKom-2",
+        "vrstaAkta": {
+          "id": 128102,
+          "idNadrejeni": -1,
+          "naziv": "Zakon"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 127279,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za izobraževanje, znanost, kulturo in šport"
+          },
+          {
+            "id": 127819,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za gospodarstvo"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126534,
+          "idNadrejeni": -1,
+          "naziv": "Državni zbor RS"
+        },
+        "podlaga": [],
+        "zveza": [],
+        "posegiVPredpis": [
+          {
+            "mopedID": "ZAKO6014",
+            "naziv": "Zakon o dopolnitvah Zakona o digitalni radiodifuziji (ZDRad-A)"
+          },
+          {
+            "mopedID": "ZAKO6404",
+            "naziv": "Zakon o spremembah in dopolnitvah Zakona o digitalni radiodifuziji (ZDRad-B)"
+          },
+          {
+            "mopedID": "ZAKO6405",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-1)"
+          },
+          {
+            "mopedID": "ZAKO8464",
+            "naziv": "Zakon o spremembah Zakona o državni upravi (ZDU-1M)"
+          },
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          }
+        ],
+        "vpliviNaPredpis": [
+          {
+            "mopedID": "ZAKO6201",
+            "naziv": "Zakon o spremembah in dopolnitvah Zakona o digitalni radiodifuziji (ZDRad-B)"
+          }
+        ],
+        "podrejeniPredpisi": [
+          {
+            "mopedID": "AKT_492",
+            "naziv": "Splošni akt o določitvi geografskih območij za digitalno televizijsko radiodifuzijo"
+          }
+        ],
+        "posegaVPredpise": [
+          {
+            "mopedID": "ZAKO3781",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom)"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "neveljavniPredpisi"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:13:23.193Z",
+    "created_at": "2026-01-18T15:13:23.193Z"
+  },
+  "AKT_492": {
+    "mopedID": "AKT_492",
+    "data": {
+      "primary": {
+        "id": 12888024,
+        "naziv": "Splošni akt o določitvi geografskih območij za digitalno televizijsko radiodifuzijo",
+        "kratica": null,
+        "mopedId": "AKT_492",
+        "eva": "2008-2111-0027",
+        "epa": null,
+        "sop": "2008-01-0784",
+        "kazaloPravnihAktov": [
+          {
+            "id": 103,
+            "idNadrejeni": -1,
+            "naziv": "Splošni akt, izdan za izvrševanje javnih pooblastil"
+          },
+          {
+            "id": 104,
+            "idNadrejeni": 103,
+            "naziv": "Akt pravne osebe javnega prava"
+          },
+          {
+            "id": 105,
+            "idNadrejeni": 104,
+            "naziv": "Akt javne agencije"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "2008-02-15",
+        "datumObjave": "2008-03-04",
+        "datumZacetkaVeljavnosti": "2008-03-19",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": null,
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2008-01-0784\" title=\"Splošni akt o določitvi geografskih območij za digitalno televizijsko radiodifuzijo\">22/08</a>",
+        "vrstaAkta": {
+          "id": 128071,
+          "idNadrejeni": -1,
+          "naziv": "Akt"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 127073,
+            "idNadrejeni": -1,
+            "naziv": "Agencija za pošto in elektronske komunikacije Republike Slovenije"
+          },
+          {
+            "id": 127819,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za gospodarstvo"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 127073,
+          "idNadrejeni": -1,
+          "naziv": "Agencija za pošto in elektronske komunikacije Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO5056",
+            "naziv": "Zakon o digitalni radiodifuziji (ZDRad)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [],
+        "vpliviNaPredpis": [],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "splosniAktiZaIzvrsevanjeJavnihPooblastil"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:13:29.633Z",
+    "created_at": "2026-01-18T15:13:29.633Z"
+  },
+  "ZAKO8464": {
+    "mopedID": "ZAKO8464",
+    "data": {
+      "primary": {
+        "id": 383809,
+        "naziv": "Zakon o spremembah Zakona o državni upravi (ZDU-1M)",
+        "kratica": "ZDU-1M",
+        "mopedId": "ZAKO8464",
+        "eva": "2021-3130-0049",
+        "epa": "2180-VIII",
+        "sop": "2021-01-3724",
+        "kazaloPravnihAktov": [
+          {
+            "id": 66,
+            "idNadrejeni": -1,
+            "naziv": "Zakon"
+          }
+        ],
+        "osnovni": false,
+        "datumSprejetja": "2021-11-24",
+        "datumObjave": "2021-12-03",
+        "datumZacetkaVeljavnosti": "2021-12-18",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": null,
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2021-01-3724\" title=\"Zakon o spremembah Zakona o državni upravi (ZDU-1M)\">189/21</a>",
+        "vrstaAkta": {
+          "id": 128102,
+          "idNadrejeni": -1,
+          "naziv": "Zakon"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126558,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za javno upravo"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126534,
+          "idNadrejeni": -1,
+          "naziv": "Državni zbor RS"
+        },
+        "podlaga": [],
+        "zveza": [],
+        "posegiVPredpis": [],
+        "vpliviNaPredpis": [
+          {
+            "mopedID": "ZAKO8672",
+            "naziv": "Zakon o spremembah in dopolnitvi Zakona o državni upravi (ZDU-1N)"
+          }
+        ],
+        "podrejeniPredpisi": [
+          {
+            "mopedID": "ODLB1709",
+            "naziv": "Odločba o soglasju k spremembam Akta o ustanovitvi ustanove in spremembi sedeža ustanove Fundacije Palpung Ješe Čöling, ustanova za ohranjanje tibetanskega budizma"
+          },
+          {
+            "mopedID": "ODLB1796",
+            "naziv": "Odločba o soglasju k spremembam Akta o ustanovitvi ustanove in spremembi imena ter namena ustanove »Ustanova Sklad Janeza Boska«"
+          },
+          {
+            "mopedID": "ODLB1795",
+            "naziv": "Odločba o soglasju k spremembam Akta o ustanovitvi ustanove »Fundacija za podporo športnikom iz socialno šibkih okolij, ustanova« in spremembi imena ustanove"
+          },
+          {
+            "mopedID": "ODLB1824",
+            "naziv": "Odločba o soglasju k sklepu uprave o prenehanju ustanove »PERENNIA Ustanova za trajne človekove vrednote«"
+          },
+          {
+            "mopedID": "ODLB1809",
+            "naziv": "Odločba o soglasju k Sklepu uprave o prenehanju ustanove »Fundacija Mima, ustanova za mlade upe«"
+          },
+          {
+            "mopedID": "ODLB1823",
+            "naziv": "Odločba o soglasju k spremembam Ustanovitvenega akta Ustanove – Sklada Okrešelj in spremembi namena ustanove"
+          },
+          {
+            "mopedID": "ODLB1834",
+            "naziv": "Odločba o soglasju k Aktu o ustanovitvi FUNDACIJE GREEN GAIA"
+          },
+          {
+            "mopedID": "ODLB1825",
+            "naziv": "Odločba o soglasju k odločitvi uprave o prenehanju ustanove »Ustanova Elerin, Fundacija za življenje z vrednotami«"
+          },
+          {
+            "mopedID": "ODLB1848",
+            "naziv": "Odločba o prenehanju ustanove »Ustanova za študij slovenskega nacionalnega programa«"
+          },
+          {
+            "mopedID": "ODLB1884",
+            "naziv": "Odločba o soglasju k Aktu o ustanovitvi Jožefovega sklada, ustanova montessori"
+          },
+          {
+            "mopedID": "ODLB1841",
+            "naziv": "Odločba o soglasju k Aktu o ustanovitvi Fundacije Matej Mohorič - ustanova za pomoč otrokom in mladini"
+          },
+          {
+            "mopedID": "URED8436",
+            "naziv": "Uredba o spremembah Uredbe o celostni grafični podobi Vlade Republike Slovenije in drugih organov državne uprave"
+          },
+          {
+            "mopedID": "ODLO1964",
+            "naziv": "Odlok o Svetu za razvoj informatike"
+          },
+          {
+            "mopedID": "URED8525",
+            "naziv": "Uredba o spremembah in dopolnitvah Uredbe o upravnem poslovanju"
+          },
+          {
+            "mopedID": "URED8585",
+            "naziv": "Uredba o dopolnitvah Uredbe o organih v sestavi ministrstev"
+          },
+          {
+            "mopedID": "URED8602",
+            "naziv": "Uredba o spremembah Uredbe o organih v sestavi ministrstev"
+          },
+          {
+            "mopedID": "PRAV14719",
+            "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o sofinanciranju šolskih tekmovanj"
+          },
+          {
+            "mopedID": "URED8658",
+            "naziv": "Uredba o dopolnitvi Uredbe o upravnem poslovanju"
+          },
+          {
+            "mopedID": "PRAV14836",
+            "naziv": "Pravilnik o predložitvi zaključnih računov občinskih proračunov"
+          },
+          {
+            "mopedID": "ODRE2765",
+            "naziv": "Odredba o normativnih za področje socialnega dela v zdravstveni dejavnosti"
+          }
+        ],
+        "posegaVPredpise": [
+          {
+            "mopedID": "ZAKO3225",
+            "naziv": "Zakon o državni upravi (ZDU-1)"
+          },
+          {
+            "mopedID": "ZAKO3239",
+            "naziv": "Zakon o vračanju vlaganj v javno telekomunikacijsko omrežje (ZVVJTO)"
+          },
+          {
+            "mopedID": "ZAKO3822",
+            "naziv": "Zakon o pogojnem dostopu do zaščitenih elektronskih storitev (ZPDZES)"
+          },
+          {
+            "mopedID": "ZAKO4600",
+            "naziv": "Zakon o elektronskem poslovanju na trgu (ZEPT)"
+          },
+          {
+            "mopedID": "ZAKO5056",
+            "naziv": "Zakon o digitalni radiodifuziji (ZDRad)"
+          },
+          {
+            "mopedID": "ZAKO6405",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-1)"
+          },
+          {
+            "mopedID": "PRAV11724",
+            "naziv": "Pravilnik o enostavnih komunikacijskih objektih in vzdrževanju komunikacijskih objektov"
+          },
+          {
+            "mopedID": "PRAV11734",
+            "naziv": "Pravilnik o opremi in vmesnikih za zakonito prestrezanje komunikacij"
+          },
+          {
+            "mopedID": "PRAV11731",
+            "naziv": "Pravilnik o kategorijah potrošnikov, ki so upravičeni do posebnih cenovnih opcij ali paketov"
+          },
+          {
+            "mopedID": "PRAV12175",
+            "naziv": "Pravilnik o službeni izkaznici pooblaščene osebe Agencije za komunikacijska omrežja in storitve Republike Slovenije"
+          },
+          {
+            "mopedID": "ZAKO7106",
+            "naziv": "Zakon o kritični infrastrukturi (ZKI)"
+          },
+          {
+            "mopedID": "PRAV13213",
+            "naziv": "Pravilnik o kakovosti storitve za enotno evropsko telefonsko številko za klice v sili 112 in številko policije 113"
+          },
+          {
+            "mopedID": "PRAV13212",
+            "naziv": "Pravilnik o vodenju in vsebini podatkov o komunikacijskih omrežjih in pripadajoči infrastrukturi, omrežnih priključnih točkah in drugih elektronskih komunikacijskih omrežjih"
+          },
+          {
+            "mopedID": "ZAKO7718",
+            "naziv": "Zakon o dostopnosti spletišč in mobilnih aplikacij (ZDSMA)"
+          },
+          {
+            "mopedID": "PRAV13668",
+            "naziv": "Pravilnik o določitvi vzorca izjave o dostopnosti glede skladnosti spletišč in mobilnih aplikacij z zahtevami glede dostopnosti in o metodologiji spremljanja skladnosti spletišč in mobilnih aplikacij"
+          },
+          {
+            "mopedID": "ZAKO7550",
+            "naziv": "Zakon o elektronski identifikaciji in storitvah zaupanja (ZEISZ)"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115064,
+            "idNadrejeni": -1,
+            "naziv": "Ustavna ureditev Republike Slovenije"
+          },
+          {
+            "id": 115071,
+            "idNadrejeni": 115064,
+            "naziv": "Državna ureditev Republike Slovenije"
+          },
+          {
+            "id": 115076,
+            "idNadrejeni": 115071,
+            "naziv": "Javna uprava"
+          }
+        ],
+        "category": "registerPredpisov"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:13:33.038Z",
+    "created_at": "2026-01-18T15:13:33.038Z"
+  },
+  "ZAKO7718": {
+    "mopedID": "ZAKO7718",
+    "data": {
+      "primary": {
+        "id": 1056650,
+        "naziv": "Zakon o dostopnosti spletišč in mobilnih aplikacij (ZDSMA)",
+        "kratica": "ZDSMA",
+        "mopedId": "ZAKO7718",
+        "eva": "2017-3130-0037",
+        "epa": "2552-VII",
+        "sop": "2018-01-1351",
+        "kazaloPravnihAktov": [
+          {
+            "id": 66,
+            "idNadrejeni": -1,
+            "naziv": "Zakon"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "2018-04-17",
+        "datumObjave": "2018-04-26",
+        "datumZacetkaVeljavnosti": "2018-05-11",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": null,
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2018-01-1351\" title=\"Zakon o dostopnosti spletišč in mobilnih aplikacij (ZDSMA)\">30/18</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2021-01-2056\" title=\"Zakon o spremembah in dopolnitvi Zakona o informacijski varnosti (ZInfV-A)\">95/21</a> – ZInfV-A, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2021-01-3724\" title=\"Zakon o spremembah Zakona o državni upravi (ZDU-1M)\">189/21</a> – ZDU-1M in <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0348\" title=\"Zakon o spremembah in dopolnitvah Zakona o državni upravi (ZDU-1O)\">18/23</a> – ZDU-1O",
+        "vrstaAkta": {
+          "id": 128102,
+          "idNadrejeni": -1,
+          "naziv": "Zakon"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126558,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za javno upravo"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126534,
+          "idNadrejeni": -1,
+          "naziv": "Državni zbor RS"
+        },
+        "podlaga": [],
+        "zveza": [],
+        "posegiVPredpis": [
+          {
+            "mopedID": "ZAKO8380",
+            "naziv": "Zakon o spremembah in dopolnitvi Zakona o informacijski varnosti (ZInfV-A)"
+          },
+          {
+            "mopedID": "ZAKO8464",
+            "naziv": "Zakon o spremembah Zakona o državni upravi (ZDU-1M)"
+          },
+          {
+            "mopedID": "ZAKO8642",
+            "naziv": "Zakon o spremembah in dopolnitvah Zakona o državni upravi (ZDU-1O)"
+          }
+        ],
+        "vpliviNaPredpis": [],
+        "podrejeniPredpisi": [
+          {
+            "mopedID": "PRAV13668",
+            "naziv": "Pravilnik o določitvi vzorca izjave o dostopnosti glede skladnosti spletišč in mobilnih aplikacij z zahtevami glede dostopnosti in o metodologiji spremljanja skladnosti spletišč in mobilnih aplikacij"
+          },
+          {
+            "mopedID": "URED8500",
+            "naziv": "Uredba o določitvi vzorca izjave o dostopnosti glede skladnosti spletišč in mobilnih aplikacij z zahtevami glede dostopnosti ter o metodologiji spremljanja skladnosti spletišč in mobilnih aplikacij"
+          }
+        ],
+        "posegaVPredpise": [],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "registerPredpisov"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:13:38.166Z",
+    "created_at": "2026-01-18T15:13:38.166Z"
+  },
+  "ZAKO8380": {
+    "mopedID": "ZAKO8380",
+    "data": {
+      "primary": {
+        "id": 776214,
+        "naziv": "Zakon o spremembah in dopolnitvi Zakona o informacijski varnosti (ZInfV-A)",
+        "kratica": "ZInfV-A",
+        "mopedId": "ZAKO8380",
+        "eva": "2021-3130-0020",
+        "epa": "1893-VIII",
+        "sop": "2021-01-2056",
+        "kazaloPravnihAktov": [
+          {
+            "id": 66,
+            "idNadrejeni": -1,
+            "naziv": "Zakon"
+          }
+        ],
+        "osnovni": false,
+        "datumSprejetja": "2021-06-04",
+        "datumObjave": "2021-06-15",
+        "datumZacetkaVeljavnosti": "2021-06-16",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": "2025-06-19",
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2021-01-2056\" title=\"Zakon o spremembah in dopolnitvi Zakona o informacijski varnosti (ZInfV-A)\">95/21</a>",
+        "vrstaAkta": {
+          "id": 128102,
+          "idNadrejeni": -1,
+          "naziv": "Zakon"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126558,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za javno upravo"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126534,
+          "idNadrejeni": -1,
+          "naziv": "Državni zbor RS"
+        },
+        "podlaga": [],
+        "zveza": [],
+        "posegiVPredpis": [
+          {
+            "mopedID": "ZAKO8934",
+            "naziv": "Zakon o informacijski varnosti (ZInfV-1)"
+          }
+        ],
+        "vpliviNaPredpis": [],
+        "podrejeniPredpisi": [
+          {
+            "mopedID": "URED8577",
+            "naziv": "Uredba o varnostni dokumentaciji in varnostnih ukrepih organov državne uprave"
+          },
+          {
+            "mopedID": "URED8576",
+            "naziv": "Uredba o varnostni dokumentaciji in varnostnih ukrepih izvajalcev bistvenih storitev"
+          }
+        ],
+        "posegaVPredpise": [
+          {
+            "mopedID": "ZAKO7707",
+            "naziv": "Zakon o informacijski varnosti (ZInfV)"
+          },
+          {
+            "mopedID": "ZAKO7718",
+            "naziv": "Zakon o dostopnosti spletišč in mobilnih aplikacij (ZDSMA)"
+          },
+          {
+            "mopedID": "PRAV13624",
+            "naziv": "Pravilnik o varnostni dokumentaciji in varnostnih ukrepih izvajalcev bistvenih storitev"
+          },
+          {
+            "mopedID": "PRAV13669",
+            "naziv": "Pravilnik o varnostni dokumentaciji in varnostnih ukrepih organov državne uprave"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115064,
+            "idNadrejeni": -1,
+            "naziv": "Ustavna ureditev Republike Slovenije"
+          },
+          {
+            "id": 115071,
+            "idNadrejeni": 115064,
+            "naziv": "Državna ureditev Republike Slovenije"
+          },
+          {
+            "id": 115085,
+            "idNadrejeni": 115071,
+            "naziv": "Obramba in varnost države"
+          }
+        ],
+        "category": "registerPredpisov"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:13:41.573Z",
+    "created_at": "2026-01-18T15:13:41.573Z"
+  },
+  "ZAKO7707": {
+    "mopedID": "ZAKO7707",
+    "data": {
+      "primary": {
+        "id": 3087859,
+        "naziv": "Zakon o informacijski varnosti (ZInfV)",
+        "kratica": "ZInfV",
+        "mopedId": "ZAKO7707",
+        "eva": "2017-3130-0029",
+        "epa": "2594-VII",
+        "sop": "2018-01-1350",
+        "kazaloPravnihAktov": [
+          {
+            "id": 66,
+            "idNadrejeni": -1,
+            "naziv": "Zakon"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "2018-04-17",
+        "datumObjave": "2018-04-26",
+        "datumZacetkaVeljavnosti": "2018-05-11",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": "2025-06-19",
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2018-01-1350\" title=\"Zakon o informacijski varnosti (ZInfV)\">30/18</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2021-01-2056\" title=\"Zakon o spremembah in dopolnitvi Zakona o informacijski varnosti (ZInfV-A)\">95/21</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2022-01-3081\" title=\"Zakon o elektronskih komunikacijah (ZEKom-2)\">130/22</a> – ZEKom-2, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0348\" title=\"Zakon o spremembah in dopolnitvah Zakona o državni upravi (ZDU-1O)\">18/23</a> – ZDU-1O, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-1519\" title=\"Zakon o spremembah in dopolnitvah Zakona o informacijski varnosti (ZInfV-B)\">49/23</a> in <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2025-01-1571\" title=\"Zakon o informacijski varnosti (ZInfV-1)\">40/25</a> – ZInfV-1",
+        "vrstaAkta": {
+          "id": 128102,
+          "idNadrejeni": -1,
+          "naziv": "Zakon"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126558,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za javno upravo"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126534,
+          "idNadrejeni": -1,
+          "naziv": "Državni zbor RS"
+        },
+        "podlaga": [],
+        "zveza": [],
+        "posegiVPredpis": [
+          {
+            "mopedID": "ZAKO8380",
+            "naziv": "Zakon o spremembah in dopolnitvi Zakona o informacijski varnosti (ZInfV-A)"
+          },
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          },
+          {
+            "mopedID": "ZAKO8642",
+            "naziv": "Zakon o spremembah in dopolnitvah Zakona o državni upravi (ZDU-1O)"
+          },
+          {
+            "mopedID": "ZAKO8758",
+            "naziv": "Zakon o spremembah in dopolnitvah Zakona o informacijski varnosti (ZInfV-B)"
+          },
+          {
+            "mopedID": "ZAKO8934",
+            "naziv": "Zakon o informacijski varnosti (ZInfV-1)"
+          }
+        ],
+        "vpliviNaPredpis": [
+          {
+            "mopedID": "ZAKO8931",
+            "naziv": "Zakon o spremembah in dopolnitvah Zakona o informacijski varnosti"
+          }
+        ],
+        "podrejeniPredpisi": [
+          {
+            "mopedID": "ODLO2534",
+            "naziv": "Odlok o ustanovitvi, nalogah in organizaciji Urada Vlade Republike Slovenije za informacijsko varnost"
+          },
+          {
+            "mopedID": "ODLO2747",
+            "naziv": "Odlok o dopolnitvi Odloka o ustanovitvi, nalogah in organizaciji Urada Vlade Republike Slovenije za informacijsko varnost"
+          },
+          {
+            "mopedID": "PRAV13669",
+            "naziv": "Pravilnik o varnostni dokumentaciji in varnostnih ukrepih organov državne uprave"
+          },
+          {
+            "mopedID": "URED8593",
+            "naziv": "Uredba o varnostni dokumentaciji in varnostnih ukrepih organov državne uprave"
+          },
+          {
+            "mopedID": "URED8577",
+            "naziv": "Uredba o varnostni dokumentaciji in varnostnih ukrepih organov državne uprave"
+          },
+          {
+            "mopedID": "URED8925",
+            "naziv": "Uredba o varnostni dokumentaciji in minimalnih varnostnih ukrepih povezanih subjektov"
+          },
+          {
+            "mopedID": "PRAV13624",
+            "naziv": "Pravilnik o varnostni dokumentaciji in varnostnih ukrepih izvajalcev bistvenih storitev"
+          },
+          {
+            "mopedID": "URED8592",
+            "naziv": "Uredba o varnostni dokumentaciji in varnostnih ukrepih izvajalcev bistvenih storitev"
+          },
+          {
+            "mopedID": "URED8576",
+            "naziv": "Uredba o varnostni dokumentaciji in varnostnih ukrepih izvajalcev bistvenih storitev"
+          },
+          {
+            "mopedID": "URED7808",
+            "naziv": "Uredba o določitvi bistvenih storitev in podrobnejši metodologiji za določitev izvajalcev bistvenih storitev"
+          }
+        ],
+        "posegaVPredpise": [],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115064,
+            "idNadrejeni": -1,
+            "naziv": "Ustavna ureditev Republike Slovenije"
+          },
+          {
+            "id": 115071,
+            "idNadrejeni": 115064,
+            "naziv": "Državna ureditev Republike Slovenije"
+          },
+          {
+            "id": 115085,
+            "idNadrejeni": 115071,
+            "naziv": "Obramba in varnost države"
+          }
+        ],
+        "category": "neveljavniPredpisi"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:13:45.273Z",
+    "created_at": "2026-01-18T15:13:45.273Z"
+  },
+  "URED7808": {
+    "mopedID": "URED7808",
+    "data": {
+      "primary": {
+        "id": 12979503,
+        "naziv": "Uredba o določitvi bistvenih storitev in podrobnejši metodologiji za določitev izvajalcev bistvenih storitev",
+        "kratica": null,
+        "mopedId": "URED7808",
+        "eva": "2018-3130-0029",
+        "epa": null,
+        "sop": "2019-01-1884",
+        "kazaloPravnihAktov": [
+          {
+            "id": 67,
+            "idNadrejeni": -1,
+            "naziv": "Podzakonski predpis"
+          },
+          {
+            "id": 68,
+            "idNadrejeni": 67,
+            "naziv": "Podzakonski predpis vlade"
+          },
+          {
+            "id": 69,
+            "idNadrejeni": 68,
+            "naziv": "Uredba"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "2019-06-20",
+        "datumObjave": "2019-06-21",
+        "datumZacetkaVeljavnosti": "2019-06-22",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": "2025-06-19",
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2019-01-1884\" title=\"Uredba o določitvi bistvenih storitev in podrobnejši metodologiji za določitev izvajalcev bistvenih storitev\">39/19</a> in <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2025-01-1571\" title=\"Zakon o informacijski varnosti (ZInfV-1)\">40/25</a> – ZInfV-1",
+        "vrstaAkta": {
+          "id": 128098,
+          "idNadrejeni": -1,
+          "naziv": "Uredba"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126558,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za javno upravo"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126537,
+          "idNadrejeni": -1,
+          "naziv": "Vlada Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO7707",
+            "naziv": "Zakon o informacijski varnosti (ZInfV)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [
+          {
+            "mopedID": "ZAKO8934",
+            "naziv": "Zakon o informacijski varnosti (ZInfV-1)"
+          }
+        ],
+        "vpliviNaPredpis": [],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115064,
+            "idNadrejeni": -1,
+            "naziv": "Ustavna ureditev Republike Slovenije"
+          },
+          {
+            "id": 115071,
+            "idNadrejeni": 115064,
+            "naziv": "Državna ureditev Republike Slovenije"
+          },
+          {
+            "id": 115085,
+            "idNadrejeni": 115071,
+            "naziv": "Obramba in varnost države"
+          }
+        ],
+        "category": "neveljavniPredpisi"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:13:48.791Z",
+    "created_at": "2026-01-18T15:13:48.791Z"
+  },
+  "ZAKO8931": {
+    "mopedID": "ZAKO8931",
+    "data": {
+      "primary": {
+        "id": 12979531,
+        "naziv": "Zakon o spremembah in dopolnitvah Zakona o informacijski varnosti",
+        "kratica": null,
+        "mopedId": "ZAKO8931",
+        "eva": "2023-1544-0004",
+        "epa": null,
+        "sop": null,
+        "kazaloPravnihAktov": [],
+        "osnovni": false,
+        "datumSprejetja": null,
+        "datumObjave": null,
+        "datumZacetkaVeljavnosti": null,
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": null,
+        "datumKoncaUporabe": null,
+        "citat": null,
+        "vrstaAkta": {
+          "id": 128102,
+          "idNadrejeni": -1,
+          "naziv": "Zakon"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126613,
+            "idNadrejeni": -1,
+            "naziv": "Urad Vlade Republike Slovenije za informacijsko varnost"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126534,
+          "idNadrejeni": -1,
+          "naziv": "Državni zbor RS"
+        },
+        "podlaga": [],
+        "zveza": [],
+        "posegiVPredpis": [],
+        "vpliviNaPredpis": [],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [],
+        "vplivaNaPredpise": [
+          {
+            "mopedID": "ZAKO7707",
+            "naziv": "Zakon o informacijski varnosti (ZInfV)"
+          }
+        ],
+        "podrocje": [
+          {
+            "id": 115064,
+            "idNadrejeni": -1,
+            "naziv": "Ustavna ureditev Republike Slovenije"
+          },
+          {
+            "id": 115071,
+            "idNadrejeni": 115064,
+            "naziv": "Državna ureditev Republike Slovenije"
+          },
+          {
+            "id": 115085,
+            "idNadrejeni": 115071,
+            "naziv": "Obramba in varnost države"
+          }
+        ],
+        "category": "neveljavniPredpisi"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:13:52.348Z",
+    "created_at": "2026-01-18T15:13:52.348Z"
+  },
+  "ZAKO8642": {
+    "mopedID": "ZAKO8642",
+    "data": {
+      "primary": {
+        "id": 131604,
+        "naziv": "Zakon o spremembah in dopolnitvah Zakona o državni upravi (ZDU-1O)",
+        "kratica": "ZDU-1O",
+        "mopedId": "ZAKO8642",
+        "eva": "2022-3130-0032",
+        "epa": "0572-IX",
+        "sop": "2023-01-0348",
+        "kazaloPravnihAktov": [
+          {
+            "id": 66,
+            "idNadrejeni": -1,
+            "naziv": "Zakon"
+          }
+        ],
+        "osnovni": false,
+        "datumSprejetja": "2023-02-03",
+        "datumObjave": "2023-02-13",
+        "datumZacetkaVeljavnosti": "2023-02-14",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": null,
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0348\" title=\"Zakon o spremembah in dopolnitvah Zakona o državni upravi (ZDU-1O)\">18/23</a>",
+        "vrstaAkta": {
+          "id": 128102,
+          "idNadrejeni": -1,
+          "naziv": "Zakon"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126558,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za javno upravo"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126534,
+          "idNadrejeni": -1,
+          "naziv": "Državni zbor RS"
+        },
+        "podlaga": [],
+        "zveza": [],
+        "posegiVPredpis": [],
+        "vpliviNaPredpis": [],
+        "podrejeniPredpisi": [
+          {
+            "mopedID": "ODLB1937",
+            "naziv": "Odločba o soglasju k sklepu uprave o prenehanju ustanove »Ustanova Janka Jamnika za iskrive mlade v znanosti«"
+          },
+          {
+            "mopedID": "ODLB1957",
+            "naziv": "Odločba o soglasju k Aktu o ustanovitvi ustanove USTANOVA »BRANKO IN DUNJA BEZJAK« FUNDACIJA ZA PODPORO HRVAŠKO – SLOVENSKEGA SODELOVANJA IN SPOZNAVANJA NA PODROČJU KULTURE, IZOBRAŽEVANJA IN HUMANITARNOSTI"
+          },
+          {
+            "mopedID": "ODLB1956",
+            "naziv": "Odločba o soglasju k Aktu o spremembi ustanovitvenega akta Ustanove Petra Pavla Glavarja"
+          },
+          {
+            "mopedID": "ODLB1940",
+            "naziv": "Dopolnilna odločba o soglasju k Aktu o ustanovitvi Ustanove za izobraževanje Andrej Jesenek Tellis Mozirje"
+          },
+          {
+            "mopedID": "PRAV15055",
+            "naziv": "Uredba o uporabi znaka ''Dobra izbira'' za lažje prepoznavanje živila z ugodno prehransko sestavo"
+          },
+          {
+            "mopedID": "URED8740",
+            "naziv": "Uredba o spremembah in dopolnitvah Uredbe o organih v sestavi ministrstev"
+          },
+          {
+            "mopedID": "URED8744",
+            "naziv": "Uredba o spremembah in dopolnitvah Uredbe o notranji organizaciji, sistemizaciji, delovnih mestih in nazivih v organih javne uprave in v pravosodnih organih"
+          },
+          {
+            "mopedID": "ODRE2807",
+            "naziv": "Odredba o objavi datuma vzpostavitve tehničnih možnosti za pridobivanje podatkov iz centralne kazenske evidence v okviru enotnega informacijskega sistema na področju javnega naročanja"
+          },
+          {
+            "mopedID": "SKLE13204",
+            "naziv": "Sklep o datumu prenosa nedokončanih postopkov"
+          },
+          {
+            "mopedID": "URED8894",
+            "naziv": "Uredba o spremembah in dopolnitvah Uredbe o notranji organizaciji, sistemizaciji, delovnih mestih in nazivih v organih javne uprave in v pravosodnih organih"
+          },
+          {
+            "mopedID": "URED8910",
+            "naziv": "Uredba o dopolnitvi Uredbe o upravnem poslovanju"
+          },
+          {
+            "mopedID": "ODRE2850",
+            "naziv": "Odredba o določitvi struktur zračnega prostora LJTSA1 MERYL in LJTSA2 MERYH"
+          },
+          {
+            "mopedID": "URED9004",
+            "naziv": "Uredba o spremembi in dopolnitvah Uredbe o notranji organizaciji, sistemizaciji, delovnih mestih in nazivih v organih javne uprave in v pravosodnih organih"
+          },
+          {
+            "mopedID": "URED9005",
+            "naziv": "Uredba o spremembi Uredbe o organih v sestavi ministrstev"
+          },
+          {
+            "mopedID": "ODRE2842",
+            "naziv": "Odredba o objavi zasebnega višješolskega študijskega programa Programiranje"
+          },
+          {
+            "mopedID": "PRAV15147",
+            "naziv": "Pravilnik o sofinanciranju šolskih tekmovanj"
+          },
+          {
+            "mopedID": "URED8859",
+            "naziv": "Uredba o spremembah in dopolnitvah Uredbe o izvajanju Uredbe (EU) o recikliranju ladij"
+          },
+          {
+            "mopedID": "URED9016",
+            "naziv": "Uredba o dopolnitvi Uredbe o notranji organizaciji, sistemizaciji, delovnih mestih in nazivih v organih javne uprave in v pravosodnih organih"
+          },
+          {
+            "mopedID": "URED9017",
+            "naziv": "Uredba o spremembah Uredbe o organih v sestavi ministrstev"
+          },
+          {
+            "mopedID": "URED9059",
+            "naziv": "Uredba o spremembi Uredbe o upravnem poslovanju"
+          }
+        ],
+        "posegaVPredpise": [
+          {
+            "mopedID": "ZAKO1514",
+            "naziv": "Zakon o denacionalizaciji (ZDen)"
+          },
+          {
+            "mopedID": "ZAKO332",
+            "naziv": "Zakon o sodiščih (ZS)"
+          },
+          {
+            "mopedID": "ZAKO469",
+            "naziv": "Zakon o regijskem parku Škocjanske jame (ZRPSJ)"
+          },
+          {
+            "mopedID": "ZAKO520",
+            "naziv": "Zakon o popotresni obnovi objektov in spodbujanju razvoja v Posočju (ZPOOSRP)"
+          },
+          {
+            "mopedID": "ZAKO1600",
+            "naziv": "Zakon o ohranjanju narave (ZON)"
+          },
+          {
+            "mopedID": "ZAKO1227",
+            "naziv": "Zakon o javnih financah (ZJF)"
+          },
+          {
+            "mopedID": "ZAKO1614",
+            "naziv": "Zakon o železniškem prometu (ZZelP)"
+          },
+          {
+            "mopedID": "ZAKO1627",
+            "naziv": "Zakon o prevoznih pogodbah v železniškem prometu (ZPPŽP)"
+          },
+          {
+            "mopedID": "ZAKO1419",
+            "naziv": "Zakon o zbirkah podatkov s področja zdravstvenega varstva (ZZPPZ)"
+          },
+          {
+            "mopedID": "ZAKO1620",
+            "naziv": "Zakon o letalstvu (ZLet)"
+          },
+          {
+            "mopedID": "ZAKO2133",
+            "naziv": "Zakon o tajnih podatkih (ZTP)"
+          },
+          {
+            "mopedID": "ZAKO3342",
+            "naziv": "Zakon o ukrepih za odpravo posledic določenih zemeljskih plazov večjega obsega iz let 2000 in 2001 (ZUOPZP)"
+          },
+          {
+            "mopedID": "ZAKO3225",
+            "naziv": "Zakon o državni upravi (ZDU-1)"
+          },
+          {
+            "mopedID": "ZAKO3239",
+            "naziv": "Zakon o vračanju vlaganj v javno telekomunikacijsko omrežje (ZVVJTO)"
+          },
+          {
+            "mopedID": "ZAKO3437",
+            "naziv": "Zakon o nepremičninskem posredovanju (ZNPosr)"
+          },
+          {
+            "mopedID": "ZAKO2008",
+            "naziv": "Stanovanjski zakon (SZ-1)"
+          },
+          {
+            "mopedID": "ZAKO3734",
+            "naziv": "Zakon o odpravi posledic naravnih nesreč (ZOPNN)"
+          },
+          {
+            "mopedID": "ZAKO3743",
+            "naziv": "Zakon o prevoznih pogodbah v cestnem prometu (ZPPCP-1)"
+          },
+          {
+            "mopedID": "ZAKO3822",
+            "naziv": "Zakon o pogojnem dostopu do zaščitenih elektronskih storitev (ZPDZES)"
+          },
+          {
+            "mopedID": "ZAKO4291",
+            "naziv": "Zakon o gospodarskih družbah (ZGD-1)"
+          },
+          {
+            "mopedID": "ZAKO3726",
+            "naziv": "Zakon o Poslovnem registru Slovenije (ZPRS-1)"
+          },
+          {
+            "mopedID": "ZAKO4600",
+            "naziv": "Zakon o elektronskem poslovanju na trgu (ZEPT)"
+          },
+          {
+            "mopedID": "ZAKO4236",
+            "naziv": "Zakon o prevozih v cestnem prometu (ZPCP-2)"
+          },
+          {
+            "mopedID": "ZAKO5657",
+            "naziv": "Zakon o infrastrukturi za prostorske informacije (ZIPI)"
+          },
+          {
+            "mopedID": "ZAKO5487",
+            "naziv": "Zakon o Triglavskem narodnem parku (ZTNP-1)"
+          },
+          {
+            "mopedID": "ZAKO5801",
+            "naziv": "Zakon o spodbujanju skladnega regionalnega razvoja (ZSRR-2)"
+          },
+          {
+            "mopedID": "ZAKO6266",
+            "naziv": "Zakon o pogojih koncesije za izkoriščanje energetskega potenciala Spodnje Save (ZPKEPS-1)"
+          },
+          {
+            "mopedID": "ZAKO7385",
+            "naziv": "Zakon o varstvu pred ionizirajočimi sevanji in jedrski varnosti (ZVISJV-1)"
+          },
+          {
+            "mopedID": "ZAKO7707",
+            "naziv": "Zakon o informacijski varnosti (ZInfV)"
+          },
+          {
+            "mopedID": "ZAKO7718",
+            "naziv": "Zakon o dostopnosti spletišč in mobilnih aplikacij (ZDSMA)"
+          },
+          {
+            "mopedID": "ZAKO8207",
+            "naziv": "Interventni zakon za odpravo ovir pri izvedbi pomembnih investicij za zagon gospodarstva po epidemiji COVID-19 (IZOOPIZG)"
+          },
+          {
+            "mopedID": "ZAKO9011",
+            "naziv": "Zakon o začasnih ukrepih za omilitev in odpravo posledic COVID-19 (ZZUOOP)"
+          },
+          {
+            "mopedID": "ZAKO7550",
+            "naziv": "Zakon o elektronski identifikaciji in storitvah zaupanja (ZEISZ)"
+          },
+          {
+            "mopedID": "ZAKO7621",
+            "naziv": "Zakon o dolgotrajni oskrbi (ZDOsk)"
+          },
+          {
+            "mopedID": "ZAKO8249",
+            "naziv": "Zakon o urejanju prostora (ZUreP-3)"
+          },
+          {
+            "mopedID": "ODLO1964",
+            "naziv": "Odlok o Svetu za razvoj informatike"
+          },
+          {
+            "mopedID": "ZAKO8286",
+            "naziv": "Zakon o varstvu okolja (ZVO-2)"
+          },
+          {
+            "mopedID": "ZAKO8478",
+            "naziv": "Zakon o upravljanju javnega potniškega prometa (ZUJPP)"
+          },
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115064,
+            "idNadrejeni": -1,
+            "naziv": "Ustavna ureditev Republike Slovenije"
+          },
+          {
+            "id": 115071,
+            "idNadrejeni": 115064,
+            "naziv": "Državna ureditev Republike Slovenije"
+          },
+          {
+            "id": 115076,
+            "idNadrejeni": 115071,
+            "naziv": "Javna uprava"
+          }
+        ],
+        "category": "registerPredpisov"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:13:55.823Z",
+    "created_at": "2026-01-18T15:13:55.823Z"
+  },
+  "ZAKO3437": {
+    "mopedID": "ZAKO3437",
+    "data": {
+      "primary": {
+        "id": 280107,
+        "naziv": "Zakon o nepremičninskem posredovanju (ZNPosr)",
+        "kratica": "ZNPosr",
+        "mopedId": "ZAKO3437",
+        "eva": "2002-2511-0107",
+        "epa": "0606-III",
+        "sop": "2003-01-2010",
+        "kazaloPravnihAktov": [
+          {
+            "id": 66,
+            "idNadrejeni": -1,
+            "naziv": "Zakon"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "2003-04-23",
+        "datumObjave": "2003-05-09",
+        "datumZacetkaVeljavnosti": "2003-05-24",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": null,
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2006-01-3080\" title=\"Zakon o nepremičninskem posredovanju (uradno prečiščeno besedilo) (ZNPosr-UPB1)\">72/06</a> – uradno prečiščeno besedilo, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2011-01-2354\" title=\"Zakon o spremembah in dopolnitvah Zakona o nepremičninskem posredovanju (ZNPosr-B)\">49/11</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2019-01-2285\" title=\"Zakon o spremembah in dopolnitvah Zakona o nepremičninskem posredovanju (ZNPosr-C)\">47/19</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0348\" title=\"Zakon o spremembah in dopolnitvah Zakona o državni upravi (ZDU-1O)\">18/23</a> – ZDU-1O, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-3358\" title=\"Odločba o razveljavitvi tretjega odstavka 25.a člena in delni razveljavitvi prvega in drugega odstavka 5. člena Zakona o nepremičninskem posredovanju\">116/23</a> – odl. US in <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2025-01-2643\" title=\"Odločba o razveljavitvi prvega, drugega, četrtega, petega, šestega in sedmega odstavka 5.člena Zakona o nepremičninskem posredovanju\">76/25</a> – odl. US",
+        "vrstaAkta": {
+          "id": 128102,
+          "idNadrejeni": -1,
+          "naziv": "Zakon"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 127250,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za okolje, prostor in energijo"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126534,
+          "idNadrejeni": -1,
+          "naziv": "Državni zbor RS"
+        },
+        "podlaga": [],
+        "zveza": [],
+        "posegiVPredpis": [
+          {
+            "mopedID": "ODLU938",
+            "naziv": "Odločba o delni razveljavitvi 1. točke in razveljavitvi 2. točke tretjega odstavka 7. člena Zakona o nepremičninskem posredovanju ter o delni razveljavitvi 1. točke in razveljavitvi 2. točke 26. člena ter 33. člena Pravilnika o strokovnem izpitu, licencah in vodenju imenika nepremičninskih posrednikov"
+          },
+          {
+            "mopedID": "ZAKO4390",
+            "naziv": "Zakon o spremembah in dopolnitvah Zakona o nepremičninskem posredovanju (ZNPosr-A)"
+          },
+          {
+            "mopedID": "ZAKO4312",
+            "naziv": "Zakon o množičnem vrednotenju nepremičnin (ZMVN)"
+          },
+          {
+            "mopedID": "ZAKO5828",
+            "naziv": "Zakon o spremembah in dopolnitvah Zakona o nepremičninskem posredovanju (ZNPosr-B)"
+          },
+          {
+            "mopedID": "ZAKO8066",
+            "naziv": "Zakon o spremembah in dopolnitvah Zakona o nepremičninskem posredovanju (ZNPosr-C)"
+          },
+          {
+            "mopedID": "ZAKO8642",
+            "naziv": "Zakon o spremembah in dopolnitvah Zakona o državni upravi (ZDU-1O)"
+          },
+          {
+            "mopedID": "ODLU2004",
+            "naziv": "Odločba o razveljavitvi tretjega odstavka 25.a člena in delni razveljavitvi prvega in drugega odstavka 5. člena Zakona o nepremičninskem posredovanju"
+          },
+          {
+            "mopedID": "ODLU2126",
+            "naziv": "Odločba o razveljavitvi prvega, drugega, četrtega, petega, šestega in sedmega odstavka 5.člena Zakona o nepremičninskem posredovanju"
+          }
+        ],
+        "vpliviNaPredpis": [
+          {
+            "mopedID": "ODLU2003",
+            "naziv": "Odločba o ugotovitvi, da tretji odstavek 5. člena Zakona o nepremičninskem posredovanju ni v neskladnju z Ustavo"
+          },
+          {
+            "mopedID": "SKLE13500",
+            "naziv": "Sklep o predložitvi vprašanj za predhodno odločanje Sodišču Evropske unije in sklep o prekinitvi postopka"
+          },
+          {
+            "mopedID": "ZAKO8909",
+            "naziv": "Zakon o spremembah Zakona o nepremičninskem posredovanju"
+          }
+        ],
+        "podrejeniPredpisi": [
+          {
+            "mopedID": "PRAV5631",
+            "naziv": "Pravilnik o strokovnem izpitu, licencah in vodenju imenika nepremičninskih posrednikov"
+          },
+          {
+            "mopedID": "NAVO704",
+            "naziv": "Pravilnik o rokih in načinu posredovanja podatkov Davčne uprave Republike Slovenije v evidenco prometa nepremičnin"
+          },
+          {
+            "mopedID": "NAVO673",
+            "naziv": "Navodilo o vodenju in posredovanju podatkov nepremičninske družbe o sklenjenih poslih pri prometu z nepremičninami"
+          },
+          {
+            "mopedID": "PRAV11369",
+            "naziv": "Pravilnik o izvajanju zakona o nepremičninskem posredovanju"
+          }
+        ],
+        "posegaVPredpise": [
+          {
+            "mopedID": "PRAV2301",
+            "naziv": "Pravilnik o enotni metodologiji za izračun prometne vrednosti stanovanjskih hiš in stanovanj ter drugih nepremičnin"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115378,
+            "idNadrejeni": -1,
+            "naziv": "Okolje in prostor"
+          },
+          {
+            "id": 115384,
+            "idNadrejeni": 115378,
+            "naziv": "Prostor"
+          },
+          {
+            "id": 115387,
+            "idNadrejeni": 115384,
+            "naziv": "Stanovanje in poslovni prostori"
+          }
+        ],
+        "category": "registerPredpisov"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:13:59.374Z",
+    "created_at": "2026-01-18T15:13:59.374Z"
+  },
+  "PRAV11369": {
+    "mopedID": "PRAV11369",
+    "data": {
+      "primary": {
+        "id": 518300,
+        "naziv": "Pravilnik o izvajanju zakona o nepremičninskem posredovanju",
+        "kratica": null,
+        "mopedId": "PRAV11369",
+        "eva": "2012-2430-0119",
+        "epa": null,
+        "sop": null,
+        "kazaloPravnihAktov": [
+          {
+            "id": 67,
+            "idNadrejeni": -1,
+            "naziv": "Podzakonski predpis"
+          },
+          {
+            "id": 71,
+            "idNadrejeni": 67,
+            "naziv": "Podzakonski predpis ministra"
+          },
+          {
+            "id": 72,
+            "idNadrejeni": 71,
+            "naziv": "Pravilnik"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": null,
+        "datumObjave": null,
+        "datumZacetkaVeljavnosti": null,
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": null,
+        "datumKoncaUporabe": null,
+        "citat": null,
+        "vrstaAkta": {
+          "id": 128088,
+          "idNadrejeni": -1,
+          "naziv": "Pravilnik"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 127415,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za infrastrukturo in prostor"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 127415,
+          "idNadrejeni": -1,
+          "naziv": "Ministrstvo za infrastrukturo in prostor"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO3437",
+            "naziv": "Zakon o nepremičninskem posredovanju (ZNPosr)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [],
+        "vpliviNaPredpis": [],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [],
+        "vplivaNaPredpise": [
+          {
+            "mopedID": "PRAV5631",
+            "naziv": "Pravilnik o strokovnem izpitu, licencah in vodenju imenika nepremičninskih posrednikov"
+          },
+          {
+            "mopedID": "SKLE4409",
+            "naziv": "Sklep o stroških vpisa v imenik nepremičninskih posrednikov"
+          }
+        ],
+        "podrocje": [
+          {
+            "id": 115378,
+            "idNadrejeni": -1,
+            "naziv": "Okolje in prostor"
+          },
+          {
+            "id": 115384,
+            "idNadrejeni": 115378,
+            "naziv": "Prostor"
+          },
+          {
+            "id": 115387,
+            "idNadrejeni": 115384,
+            "naziv": "Stanovanje in poslovni prostori"
+          }
+        ],
+        "category": "neveljavniPredpisi"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:14:03.335Z",
+    "created_at": "2026-01-18T15:14:03.335Z"
+  },
+  "PRAV5631": {
+    "mopedID": "PRAV5631",
+    "data": {
+      "primary": {
+        "id": 518291,
+        "naziv": "Pravilnik o strokovnem izpitu, licencah in vodenju imenika nepremičninskih posrednikov",
+        "kratica": null,
+        "mopedId": "PRAV5631",
+        "eva": "2004-2511-0031",
+        "epa": null,
+        "sop": "2004-01-0571",
+        "kazaloPravnihAktov": [
+          {
+            "id": 67,
+            "idNadrejeni": -1,
+            "naziv": "Podzakonski predpis"
+          },
+          {
+            "id": 71,
+            "idNadrejeni": 67,
+            "naziv": "Podzakonski predpis ministra"
+          },
+          {
+            "id": 72,
+            "idNadrejeni": 71,
+            "naziv": "Pravilnik"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "2004-01-30",
+        "datumObjave": "2004-02-13",
+        "datumZacetkaVeljavnosti": "2004-02-14",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": null,
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2004-01-0571\" title=\"Pravilnik o strokovnem izpitu, licencah in vodenju imenika nepremičninskih posrednikov\">14/04</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2006-01-0829\" title=\"Odločba o delni razveljavitvi 1. točke in razveljavitvi 2. točke tretjega odstavka 7. člena Zakona o nepremičninskem posredovanju ter o delni razveljavitvi 1. točke in razveljavitvi 2. točke 26. člena ter 33. člena Pravilnika o strokovnem izpitu, licencah in vodenju imenika nepremičninskih posrednikov\">21/06</a> – odl. US in <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2006-01-2025\" title=\"Zakon o spremembah in dopolnitvah Zakona o nepremičninskem posredovanju (ZNPosr-A)\">47/06</a> – ZNPosr-A",
+        "vrstaAkta": {
+          "id": 128088,
+          "idNadrejeni": -1,
+          "naziv": "Pravilnik"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126589,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za pravosodje"
+          },
+          {
+            "id": 127250,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za okolje, prostor in energijo"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 127250,
+          "idNadrejeni": -1,
+          "naziv": "Ministrstvo za okolje, prostor in energijo"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO3437",
+            "naziv": "Zakon o nepremičninskem posredovanju (ZNPosr)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [
+          {
+            "mopedID": "ODLU938",
+            "naziv": "Odločba o delni razveljavitvi 1. točke in razveljavitvi 2. točke tretjega odstavka 7. člena Zakona o nepremičninskem posredovanju ter o delni razveljavitvi 1. točke in razveljavitvi 2. točke 26. člena ter 33. člena Pravilnika o strokovnem izpitu, licencah in vodenju imenika nepremičninskih posrednikov"
+          },
+          {
+            "mopedID": "ZAKO4390",
+            "naziv": "Zakon o spremembah in dopolnitvah Zakona o nepremičninskem posredovanju (ZNPosr-A)"
+          }
+        ],
+        "vpliviNaPredpis": [
+          {
+            "mopedID": "PRAV11369",
+            "naziv": "Pravilnik o izvajanju zakona o nepremičninskem posredovanju"
+          }
+        ],
+        "podrejeniPredpisi": [
+          {
+            "mopedID": "SKLE4409",
+            "naziv": "Sklep o stroških vpisa v imenik nepremičninskih posrednikov"
+          }
+        ],
+        "posegaVPredpise": [],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115378,
+            "idNadrejeni": -1,
+            "naziv": "Okolje in prostor"
+          },
+          {
+            "id": 115384,
+            "idNadrejeni": 115378,
+            "naziv": "Prostor"
+          },
+          {
+            "id": 115387,
+            "idNadrejeni": 115384,
+            "naziv": "Stanovanje in poslovni prostori"
+          }
+        ],
+        "category": "registerPredpisov"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:14:06.886Z",
+    "created_at": "2026-01-18T15:14:06.886Z"
+  },
+  "ODLU2004": {
+    "mopedID": "ODLU2004",
+    "data": {
+      "primary": {
+        "id": 518315,
+        "naziv": "Odločba o razveljavitvi tretjega odstavka 25.a člena in delni razveljavitvi prvega in drugega odstavka 5. člena Zakona o nepremičninskem posredovanju",
+        "kratica": null,
+        "mopedId": "ODLU2004",
+        "eva": null,
+        "epa": null,
+        "sop": "2023-01-3358",
+        "kazaloPravnihAktov": [
+          {
+            "id": 75,
+            "idNadrejeni": -1,
+            "naziv": "Drugi splošni in posamični akt"
+          },
+          {
+            "id": 91,
+            "idNadrejeni": 75,
+            "naziv": "Akt drugega državnega organa"
+          },
+          {
+            "id": 93,
+            "idNadrejeni": 91,
+            "naziv": "Akt ustavnega sodišča"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "2023-10-26",
+        "datumObjave": "2023-11-17",
+        "datumZacetkaVeljavnosti": null,
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": null,
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-3358\" title=\"Odločba o razveljavitvi tretjega odstavka 25.a člena in delni razveljavitvi prvega in drugega odstavka 5. člena Zakona o nepremičninskem posredovanju\">116/23</a>",
+        "vrstaAkta": {
+          "id": 128083,
+          "idNadrejeni": -1,
+          "naziv": "Odločba US"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126739,
+            "idNadrejeni": -1,
+            "naziv": "Ustavno sodišče Republike Slovenije"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126739,
+          "idNadrejeni": -1,
+          "naziv": "Ustavno sodišče Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO5211",
+            "naziv": "Zakon o ustavnem sodišču (uradno prečiščeno besedilo) (ZUstS-UPB1)"
+          },
+          {
+            "mopedID": "ZAKO8329",
+            "naziv": "Zakon o spremembah in dopolnitvah Zakona o Ustavnem sodišču (ZUstS-D)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [],
+        "vpliviNaPredpis": [],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "ZAKO3437",
+            "naziv": "Zakon o nepremičninskem posredovanju (ZNPosr)"
+          }
+        ],
+        "vplivaNaPredpise": [
+          {
+            "mopedID": "ZAKO4906",
+            "naziv": "Zakon o nepremičninskem posredovanju (uradno prečiščeno besedilo) (ZNPosr-UPB1)"
+          },
+          {
+            "mopedID": "ZAKO8066",
+            "naziv": "Zakon o spremembah in dopolnitvah Zakona o nepremičninskem posredovanju (ZNPosr-C)"
+          }
+        ],
+        "podrocje": [
+          {
+            "id": 115064,
+            "idNadrejeni": -1,
+            "naziv": "Ustavna ureditev Republike Slovenije"
+          },
+          {
+            "id": 115071,
+            "idNadrejeni": 115064,
+            "naziv": "Državna ureditev Republike Slovenije"
+          },
+          {
+            "id": 115081,
+            "idNadrejeni": 115071,
+            "naziv": "Ustavno sodišče"
+          }
+        ],
+        "category": "drugiSplosniInPosamicniAkti"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:14:15.620Z",
+    "created_at": "2026-01-18T15:14:15.620Z"
+  },
+  "ODLU2003": {
+    "mopedID": "ODLU2003",
+    "data": {
+      "primary": {
+        "id": 518317,
+        "naziv": "Odločba o ugotovitvi, da tretji odstavek 5. člena Zakona o nepremičninskem posredovanju ni v neskladnju z Ustavo",
+        "kratica": null,
+        "mopedId": "ODLU2003",
+        "eva": null,
+        "epa": null,
+        "sop": "2023-01-3357",
+        "kazaloPravnihAktov": [
+          {
+            "id": 75,
+            "idNadrejeni": -1,
+            "naziv": "Drugi splošni in posamični akt"
+          },
+          {
+            "id": 91,
+            "idNadrejeni": 75,
+            "naziv": "Akt drugega državnega organa"
+          },
+          {
+            "id": 93,
+            "idNadrejeni": 91,
+            "naziv": "Akt ustavnega sodišča"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "2023-10-26",
+        "datumObjave": "2023-11-17",
+        "datumZacetkaVeljavnosti": null,
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": null,
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-3357\" title=\"Odločba o ugotovitvi, da tretji odstavek 5. člena Zakona o nepremičninskem posredovanju ni v neskladnju z Ustavo\">116/23</a>",
+        "vrstaAkta": {
+          "id": 128083,
+          "idNadrejeni": -1,
+          "naziv": "Odločba US"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126739,
+            "idNadrejeni": -1,
+            "naziv": "Ustavno sodišče Republike Slovenije"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126739,
+          "idNadrejeni": -1,
+          "naziv": "Ustavno sodišče Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO5211",
+            "naziv": "Zakon o ustavnem sodišču (uradno prečiščeno besedilo) (ZUstS-UPB1)"
+          },
+          {
+            "mopedID": "ZAKO8329",
+            "naziv": "Zakon o spremembah in dopolnitvah Zakona o Ustavnem sodišču (ZUstS-D)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [],
+        "vpliviNaPredpis": [],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [],
+        "vplivaNaPredpise": [
+          {
+            "mopedID": "ZAKO3437",
+            "naziv": "Zakon o nepremičninskem posredovanju (ZNPosr)"
+          }
+        ],
+        "podrocje": [
+          {
+            "id": 115064,
+            "idNadrejeni": -1,
+            "naziv": "Ustavna ureditev Republike Slovenije"
+          },
+          {
+            "id": 115071,
+            "idNadrejeni": 115064,
+            "naziv": "Državna ureditev Republike Slovenije"
+          },
+          {
+            "id": 115081,
+            "idNadrejeni": 115071,
+            "naziv": "Ustavno sodišče"
+          }
+        ],
+        "category": "drugiSplosniInPosamicniAkti"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:14:19.204Z",
+    "created_at": "2026-01-18T15:14:19.204Z"
+  },
+  "AKT_829": {
+    "mopedID": "AKT_829",
+    "data": {
+      "primary": {
+        "id": 1017200,
+        "naziv": "Splošni akt o omejitvah signalov analognih zvokovnih radiodifuznih postaj",
+        "kratica": null,
+        "mopedId": "AKT_829",
+        "eva": "2013-3330-0032",
+        "epa": null,
+        "sop": "2013-01-1697",
+        "kazaloPravnihAktov": [
+          {
+            "id": 103,
+            "idNadrejeni": -1,
+            "naziv": "Splošni akt, izdan za izvrševanje javnih pooblastil"
+          },
+          {
+            "id": 104,
+            "idNadrejeni": 103,
+            "naziv": "Akt pravne osebe javnega prava"
+          },
+          {
+            "id": 105,
+            "idNadrejeni": 104,
+            "naziv": "Akt javne agencije"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "2013-05-08",
+        "datumObjave": "2013-05-24",
+        "datumZacetkaVeljavnosti": "2013-06-08",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": "2022-11-10",
+        "datumKoncaUporabe": "2023-02-18",
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2013-01-1697\" title=\"Splošni akt o omejitvah signalov analognih zvokovnih radiodifuznih postaj\">44/13</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2022-01-3081\" title=\"Zakon o elektronskih komunikacijah (ZEKom-2)\">130/22</a> – ZEKom-2 in <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0376\" title=\"Splošni akt o omejitvah signalov analognih zvokovnih radiodifuznih postaj\">21/23</a>",
+        "vrstaAkta": {
+          "id": 128071,
+          "idNadrejeni": -1,
+          "naziv": "Akt"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 127073,
+            "idNadrejeni": -1,
+            "naziv": "Agencija za pošto in elektronske komunikacije Republike Slovenije"
+          },
+          {
+            "id": 127279,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za izobraževanje, znanost, kulturo in šport"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 127073,
+          "idNadrejeni": -1,
+          "naziv": "Agencija za pošto in elektronske komunikacije Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO6405",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-1)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          },
+          {
+            "mopedID": "AKT_1307",
+            "naziv": "Splošni akt o omejitvah signalov analognih zvokovnih radiodifuznih postaj"
+          }
+        ],
+        "vpliviNaPredpis": [
+          {
+            "mopedID": "ZAKO7989",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          }
+        ],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "AKT_474",
+            "naziv": "Splošni akt o omejitvah modulacijskega signala analognih zvokovnih radiodifuznih radijskih postaj"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115317,
+            "idNadrejeni": 115312,
+            "naziv": "Promet"
+          }
+        ],
+        "category": "splosniAktiZaIzvrsevanjeJavnihPooblastil"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:20:07.923Z",
+    "created_at": "2026-01-18T15:20:07.923Z"
+  },
+  "AKT_907": {
+    "mopedID": "AKT_907",
+    "data": {
+      "primary": {
+        "id": 181453,
+        "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc",
+        "kratica": null,
+        "mopedId": "AKT_907",
+        "eva": "2014-3330-0064",
+        "epa": null,
+        "sop": "2014-01-3358",
+        "kazaloPravnihAktov": [
+          {
+            "id": 103,
+            "idNadrejeni": -1,
+            "naziv": "Splošni akt, izdan za izvrševanje javnih pooblastil"
+          },
+          {
+            "id": 104,
+            "idNadrejeni": 103,
+            "naziv": "Akt pravne osebe javnega prava"
+          },
+          {
+            "id": 105,
+            "idNadrejeni": 104,
+            "naziv": "Akt javne agencije"
+          }
+        ],
+        "osnovni": false,
+        "datumSprejetja": "2014-11-03",
+        "datumObjave": "2014-11-14",
+        "datumZacetkaVeljavnosti": "2014-11-15",
+        "datumZacetkaUporabe": "2015-01-01",
+        "datumPrenehanjaVeljavnosti": "2022-11-10",
+        "datumKoncaUporabe": "2023-01-01",
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2014-01-3358\" title=\"Splošni akt o spremembah in dopolnitvah Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc\">81/14</a>",
+        "vrstaAkta": {
+          "id": 128071,
+          "idNadrejeni": -1,
+          "naziv": "Akt"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126553,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za izobraževanje, znanost in šport"
+          },
+          {
+            "id": 126768,
+            "idNadrejeni": -1,
+            "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126768,
+          "idNadrejeni": -1,
+          "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO6405",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-1)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [],
+        "vpliviNaPredpis": [
+          {
+            "mopedID": "AKT_1303",
+            "naziv": "Splošni akt o načinu izračuna plačil za uporabo radijskih frekvenc"
+          },
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          }
+        ],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "AKT_827",
+            "naziv": "Splošni akt o načinu izračuna plačil za uporabo radijskih frekvenc"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "splosniAktiZaIzvrsevanjeJavnihPooblastil"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:20:51.394Z",
+    "created_at": "2026-01-18T15:20:51.394Z"
+  },
+  "AKT_827": {
+    "mopedID": "AKT_827",
+    "data": {
+      "primary": {
+        "id": 181467,
+        "naziv": "Splošni akt o načinu izračuna plačil za uporabo radijskih frekvenc",
+        "kratica": null,
+        "mopedId": "AKT_827",
+        "eva": "2013-3330-0031",
+        "epa": null,
+        "sop": "2013-01-1133",
+        "kazaloPravnihAktov": [
+          {
+            "id": 103,
+            "idNadrejeni": -1,
+            "naziv": "Splošni akt, izdan za izvrševanje javnih pooblastil"
+          },
+          {
+            "id": 104,
+            "idNadrejeni": 103,
+            "naziv": "Akt pravne osebe javnega prava"
+          },
+          {
+            "id": 105,
+            "idNadrejeni": 104,
+            "naziv": "Akt javne agencije"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "2013-04-02",
+        "datumObjave": "2013-04-12",
+        "datumZacetkaVeljavnosti": "2013-04-27",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": "2022-11-10",
+        "datumKoncaUporabe": "2023-01-01",
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2013-01-1133\" title=\"Splošni akt o načinu izračuna plačil za uporabo radijskih frekvenc\">30/13</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2013-21-1300\" title=\"P O P R A V E K Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc\">33/13</a> – popr., <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2013-21-1602\" title=\"Popravek Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc\">40/13</a> – popr., <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2014-01-3358\" title=\"Splošni akt o spremembah in dopolnitvah Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc\">81/14</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2016-01-0764\" title=\"Splošni akt o spremembah in dopolnitvah Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc\">21/16</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2016-01-2695\" title=\"Splošni akt o spremembah in dopolnitvah Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc\">63/16</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2019-01-2833\" title=\"Splošni akt o spremembah in dopolnitvah Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc\">64/19</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2022-01-3081\" title=\"Zakon o elektronskih komunikacijah (ZEKom-2)\">130/22</a> – ZEKom-2 in <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2022-01-4208\" title=\"Splošni akt o načinu izračuna plačil za uporabo radijskih frekvenc\">163/22</a>",
+        "vrstaAkta": {
+          "id": 128071,
+          "idNadrejeni": -1,
+          "naziv": "Akt"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 127073,
+            "idNadrejeni": -1,
+            "naziv": "Agencija za pošto in elektronske komunikacije Republike Slovenije"
+          },
+          {
+            "id": 127279,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za izobraževanje, znanost, kulturo in šport"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 127073,
+          "idNadrejeni": -1,
+          "naziv": "Agencija za pošto in elektronske komunikacije Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO6405",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-1)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [
+          {
+            "mopedID": "AKT_907",
+            "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc"
+          },
+          {
+            "mopedID": "DRUG4217",
+            "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc"
+          },
+          {
+            "mopedID": "DRUG4290",
+            "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc"
+          },
+          {
+            "mopedID": "URED7964",
+            "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc"
+          },
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          },
+          {
+            "mopedID": "AKT_1303",
+            "naziv": "Splošni akt o načinu izračuna plačil za uporabo radijskih frekvenc"
+          }
+        ],
+        "vpliviNaPredpis": [
+          {
+            "mopedID": "ZAKO7989",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          }
+        ],
+        "podrejeniPredpisi": [
+          {
+            "mopedID": "TARI178",
+            "naziv": "Tarife o vrednosti točke za letno plačilo na podlagi obvestila, za letno plačilo za uporabo radijskih frekvenc in za letno plačilo za uporabo elementov oštevilčenja"
+          },
+          {
+            "mopedID": "TARI198",
+            "naziv": "Tarife 2017 o vrednosti točke za letno plačilo na podlagi obvestila, za letno plačilo za uporabo radijskih frekvenc in za letno pla�ilo za uporabo elementov oštevilčenja"
+          },
+          {
+            "mopedID": "TARI188",
+            "naziv": "Tarife o vrednosti točke za letno plačilo na podlagi obvestila, za letno plačilo za uporabo radijskih frekvenc in za letno plačilo za uporabo elementov oštevilčenja"
+          },
+          {
+            "mopedID": "TARI207",
+            "naziv": "Tarifa 2018 o vrednosti točke za plačilo na podlagi obvestila, za plačilo za uporabo radijskih frekvenc in za plačilo za uporabo elementov oštevilčenja"
+          },
+          {
+            "mopedID": "TARI215",
+            "naziv": "Tarifa 2019 o vrednosti točke za plačilo na podlagi obvestila, za plačilo za uporabo radijskih frekvenc in za plačilo za uporabo elementov oštevilčenja"
+          },
+          {
+            "mopedID": "TARI221",
+            "naziv": "Tarifo 2020 o vrednosti točke za plačilo na podlagi obvestila, za plačilo za uporabo radijskih frekvenc in za plačilo za uporabo elementov oštevilčenja"
+          },
+          {
+            "mopedID": "TARI233",
+            "naziv": "Tarifa 2021 o vrednosti točke za plačilo na podlagi obvestila, za plačilo za uporabo radijskih frekvenc in za plačilo za uporabo elementov oštevilčenja"
+          },
+          {
+            "mopedID": "DRUG4966",
+            "naziv": "Tarifa 2022 o vrednosti točke za plačilo na podlagi obvestila, za plačilo za uporabo radijskih frekvenc in za plačilo za uporabo elementov oštevilčenja"
+          },
+          {
+            "mopedID": "TARI247",
+            "naziv": "Tarifa 2023 o vrednosti točke za plačilo na podlagi obvestila, za plačilo za uporabo radijskih frekvenc in za plačilo za uporabo elementov oštevilčenja"
+          }
+        ],
+        "posegaVPredpise": [
+          {
+            "mopedID": "PRAV5897",
+            "naziv": "Pravilnik o načinu izračuna plačil na podlagi obvestila, za uporabo radijskih frekvenc in za uporabo elementov oštevilčenja"
+          },
+          {
+            "mopedID": "PRAV7104",
+            "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o načinu izračuna plačil na podlagi obvestila, za uporabo radijskih frekvenc in za uporabo številk"
+          },
+          {
+            "mopedID": "PRAV8196",
+            "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o načinu izračuna plačil na podlagi obvestila, za uporabo radijskih frekvenc in za uporabo številk"
+          },
+          {
+            "mopedID": "PRAV10024",
+            "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o načinu izračuna plačil na podlagi obvestila, za uporabo radijskih frekvenc in za uporabo elementov oštevilčenja"
+          },
+          {
+            "mopedID": "PRAV10674",
+            "naziv": "Pravilnik o spremembah in dopolnitvah Pravilnika o načinu izračuna plačil na podlagi obvestila, za uporabo radijskih frekvenc in za uporabo elementov oštevilčenja"
+          },
+          {
+            "mopedID": "PRAV10859",
+            "naziv": "Pravilnik o spremembi Pravilnika o načinu izračuna plačil na podlagi obvestila, za uporabo radijskih frekvenc in za uporabo elementov oštevilčenja"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "splosniAktiZaIzvrsevanjeJavnihPooblastil"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:20:55.320Z",
+    "created_at": "2026-01-18T15:20:55.320Z"
+  },
+  "PRAV3885": {
+    "mopedID": "PRAV3885",
+    "data": {
+      "primary": {
+        "id": 222133,
+        "naziv": "Pravilnik o načrtu oštevilčenja",
+        "kratica": null,
+        "mopedId": "PRAV3885",
+        "eva": "2001-2811-0011",
+        "epa": null,
+        "sop": "2002-01-0046",
+        "kazaloPravnihAktov": [
+          {
+            "id": 67,
+            "idNadrejeni": -1,
+            "naziv": "Podzakonski predpis"
+          },
+          {
+            "id": 71,
+            "idNadrejeni": 67,
+            "naziv": "Podzakonski predpis ministra"
+          },
+          {
+            "id": 72,
+            "idNadrejeni": 71,
+            "naziv": "Pravilnik"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "2001-12-27",
+        "datumObjave": "2002-01-11",
+        "datumZacetkaVeljavnosti": "2002-01-26",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": "2005-06-30",
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2002-01-0046\" title=\"Pravilnik o načrtu oštevilčenja\">2/02</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2003-01-1938\" title=\"Pravilnik o spremembah in dopolnitvah pravilnika o načrtu oštevilčenja\">40/03</a> in <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2005-01-2492\" title=\"Pravilnik o načrtu oštevilčenja\">57/05</a>",
+        "vrstaAkta": {
+          "id": 128088,
+          "idNadrejeni": -1,
+          "naziv": "Pravilnik"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 127674,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za informacijsko družbo"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 127674,
+          "idNadrejeni": -1,
+          "naziv": "Ministrstvo za informacijsko družbo"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO1633",
+            "naziv": "Zakon o telekomunikacijah (ZTel-1)"
+          },
+          {
+            "mopedID": "ZAKO3781",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [
+          {
+            "mopedID": "PRAV4798",
+            "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o načrtu oštevilčenja"
+          },
+          {
+            "mopedID": "PRAV5902",
+            "naziv": "Pravilnik o načrtu oštevilčenja"
+          }
+        ],
+        "vpliviNaPredpis": [],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "PRAV1988",
+            "naziv": "Pravilnik o oštevilčenju v javnih telekomunikacijskih omrežjih"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "neveljavniPredpisi"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:21:22.743Z",
+    "created_at": "2026-01-18T15:21:22.746Z"
+  },
+  "PRAV4798": {
+    "mopedID": "PRAV4798",
+    "data": {
+      "primary": {
+        "id": 222202,
+        "naziv": "Pravilnik o spremembah in dopolnitvah pravilnika o načrtu oštevilčenja",
+        "kratica": null,
+        "mopedId": "PRAV4798",
+        "eva": "2003-2811-0003",
+        "epa": null,
+        "sop": "2003-01-1938",
+        "kazaloPravnihAktov": [
+          {
+            "id": 67,
+            "idNadrejeni": -1,
+            "naziv": "Podzakonski predpis"
+          },
+          {
+            "id": 71,
+            "idNadrejeni": 67,
+            "naziv": "Podzakonski predpis ministra"
+          },
+          {
+            "id": 72,
+            "idNadrejeni": 71,
+            "naziv": "Pravilnik"
+          }
+        ],
+        "osnovni": false,
+        "datumSprejetja": "2003-04-23",
+        "datumObjave": "2003-04-30",
+        "datumZacetkaVeljavnosti": "2003-05-01",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": "2005-06-30",
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2003-01-1938\" title=\"Pravilnik o spremembah in dopolnitvah pravilnika o načrtu oštevilčenja\">40/03</a>",
+        "vrstaAkta": {
+          "id": 128088,
+          "idNadrejeni": -1,
+          "naziv": "Pravilnik"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 127674,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za informacijsko družbo"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 127674,
+          "idNadrejeni": -1,
+          "naziv": "Ministrstvo za informacijsko družbo"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO1633",
+            "naziv": "Zakon o telekomunikacijah (ZTel-1)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [],
+        "vpliviNaPredpis": [],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "PRAV3885",
+            "naziv": "Pravilnik o načrtu oštevilčenja"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "neveljavniPredpisi"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:21:36.781Z",
+    "created_at": "2026-01-18T15:21:36.781Z"
+  },
+  "PRAV1988": {
+    "mopedID": "PRAV1988",
+    "data": {
+      "primary": {
+        "id": 160677,
+        "naziv": "Pravilnik o oštevilčenju v javnih telekomunikacijskih omrežjih",
+        "kratica": null,
+        "mopedId": "PRAV1988",
+        "eva": "1999-2411-0115",
+        "epa": null,
+        "sop": "1999-01-2692",
+        "kazaloPravnihAktov": [
+          {
+            "id": 67,
+            "idNadrejeni": -1,
+            "naziv": "Podzakonski predpis"
+          },
+          {
+            "id": 71,
+            "idNadrejeni": 67,
+            "naziv": "Podzakonski predpis ministra"
+          },
+          {
+            "id": 72,
+            "idNadrejeni": 71,
+            "naziv": "Pravilnik"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "1999-07-08",
+        "datumObjave": "1999-07-16",
+        "datumZacetkaVeljavnosti": "1999-07-31",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": "2002-01-26",
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/1999-01-2692\" title=\"Pravilnik o oštevilčenju v javnih telekomunikacijskih omrežjih\">57/99</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2001-01-3179\" title=\"Pravilnik o pogojih za izdajo odločbe o dodelitvi številk\">60/01</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2002-01-0045\" title=\"Pravilnik o načinu izračuna določenih pristojbin na področju telekomunikacij\">2/02</a> in <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2002-01-0046\" title=\"Pravilnik o načrtu oštevilčenja\">2/02</a>",
+        "vrstaAkta": {
+          "id": 128088,
+          "idNadrejeni": -1,
+          "naziv": "Pravilnik"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 127674,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za informacijsko družbo"
+          },
+          {
+            "id": 127693,
+            "idNadrejeni": -1,
+            "naziv": "Uprava RS za telekomunikacije"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 127147,
+          "idNadrejeni": -1,
+          "naziv": "Ministrstvo za promet in zveze"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO367",
+            "naziv": "Zakon o upravi (ZUpr)"
+          },
+          {
+            "mopedID": "ZAKO1633",
+            "naziv": "Zakon o telekomunikacijah (ZTel-1)"
+          },
+          {
+            "mopedID": "ZAKO546",
+            "naziv": "Zakon o telekomunikacijah (ZTel)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [
+          {
+            "mopedID": "PRAV3864",
+            "naziv": "Pravilnik o pogojih za izdajo odločbe o dodelitvi številk"
+          },
+          {
+            "mopedID": "PRAV3884",
+            "naziv": "Pravilnik o načinu izračuna določenih pristojbin na področju telekomunikacij"
+          },
+          {
+            "mopedID": "PRAV3885",
+            "naziv": "Pravilnik o načrtu oštevilčenja"
+          }
+        ],
+        "vpliviNaPredpis": [],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "NACR5",
+            "naziv": "Generalni načrt telefonskega omrežja"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115064,
+            "idNadrejeni": -1,
+            "naziv": "Ustavna ureditev Republike Slovenije"
+          },
+          {
+            "id": 115071,
+            "idNadrejeni": 115064,
+            "naziv": "Državna ureditev Republike Slovenije"
+          },
+          {
+            "id": 115076,
+            "idNadrejeni": 115071,
+            "naziv": "Javna uprava"
+          }
+        ],
+        "category": "neveljavniPredpisi"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:21:40.380Z",
+    "created_at": "2026-01-18T15:21:40.380Z"
+  },
+  "URED7429": {
+    "mopedID": "URED7429",
+    "data": {
+      "primary": {
+        "id": 325331,
+        "naziv": "Uredba o spremembah Uredbe o načrtu razporeditve radiofrekvenčnih pasov",
+        "kratica": null,
+        "mopedId": "URED7429",
+        "eva": "2016-3130-0040",
+        "epa": null,
+        "sop": "2017-01-0042",
+        "kazaloPravnihAktov": [
+          {
+            "id": 67,
+            "idNadrejeni": -1,
+            "naziv": "Podzakonski predpis"
+          },
+          {
+            "id": 68,
+            "idNadrejeni": 67,
+            "naziv": "Podzakonski predpis vlade"
+          },
+          {
+            "id": 69,
+            "idNadrejeni": 68,
+            "naziv": "Uredba"
+          }
+        ],
+        "osnovni": false,
+        "datumSprejetja": "2017-01-05",
+        "datumObjave": "2017-01-06",
+        "datumZacetkaVeljavnosti": "2017-01-21",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": "2022-11-10",
+        "datumKoncaUporabe": "2023-05-20",
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2017-01-0042\" title=\"Uredba o spremembah Uredbe o načrtu razporeditve radiofrekvenčnih pasov\">1/17</a>",
+        "vrstaAkta": {
+          "id": 128098,
+          "idNadrejeni": -1,
+          "naziv": "Uredba"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126558,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za javno upravo"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126537,
+          "idNadrejeni": -1,
+          "naziv": "Vlada Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO6405",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-1)"
+          },
+          {
+            "mopedID": "ZAKO7224",
+            "naziv": "Zakon o spremembah in dopolnitvah Zakona o elektronskih komunikacijah (ZEKom-1B)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [],
+        "vpliviNaPredpis": [
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          },
+          {
+            "mopedID": "URED8786",
+            "naziv": "Uredba o načrtu razporeditve radiofrekvenčnih pasov"
+          }
+        ],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "URED6503",
+            "naziv": "Uredba o načrtu razporeditve radiofrekvenčnih pasov"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "neveljavniPredpisi"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:24:14.646Z",
+    "created_at": "2026-01-18T15:24:14.646Z"
+  },
+  "DRUG4874": {
+    "mopedID": "DRUG4874",
+    "data": {
+      "primary": {
+        "id": 13105757,
+        "naziv": "Splošni akt o spremembi in dopolnitvi Splošnega akta o prenosni hitrosti, primerni za funkcionalen dostop do interneta",
+        "kratica": null,
+        "mopedId": "DRUG4874",
+        "eva": "2021-3130-0006",
+        "epa": null,
+        "sop": "2021-01-0438",
+        "kazaloPravnihAktov": [
+          {
+            "id": 103,
+            "idNadrejeni": -1,
+            "naziv": "Splošni akt, izdan za izvrševanje javnih pooblastil"
+          },
+          {
+            "id": 104,
+            "idNadrejeni": 103,
+            "naziv": "Akt pravne osebe javnega prava"
+          },
+          {
+            "id": 105,
+            "idNadrejeni": 104,
+            "naziv": "Akt javne agencije"
+          }
+        ],
+        "osnovni": false,
+        "datumSprejetja": "2021-02-09",
+        "datumObjave": "2021-02-12",
+        "datumZacetkaVeljavnosti": "2021-04-13",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": "2022-11-10",
+        "datumKoncaUporabe": "2023-05-30",
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2021-01-0438\" title=\"Splošni akt o spremembi in dopolnitvi Splošnega akta o prenosni hitrosti, primerni za funkcionalen dostop do interneta\">21/21</a>",
+        "vrstaAkta": {
+          "id": 128074,
+          "idNadrejeni": -1,
+          "naziv": "Drugo"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126558,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za javno upravo"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126768,
+          "idNadrejeni": -1,
+          "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO6405",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-1)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [],
+        "vpliviNaPredpis": [
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          },
+          {
+            "mopedID": "AKT_1345",
+            "naziv": "Splošni akt o prenosni hitrosti, primerni za širokopasovni dostop do interneta"
+          }
+        ],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "DRUG4497",
+            "naziv": "Splošni akt o prenosni hitrosti, primerni za funkcionalen dostop do interneta"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "splosniAktiZaIzvrsevanjeJavnihPooblastil"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:25:33.473Z",
+    "created_at": "2026-01-18T15:25:33.474Z"
+  },
+  "AKT_1081": {
+    "mopedID": "AKT_1081",
+    "data": {
+      "primary": {
+        "id": 443819,
+        "naziv": "Splošni akt o spremembah in dopolnitvi Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-4a)",
+        "kratica": null,
+        "mopedId": "AKT_1081",
+        "eva": "2018-3130-0044",
+        "epa": null,
+        "sop": "2019-01-2222",
+        "kazaloPravnihAktov": [
+          {
+            "id": 103,
+            "idNadrejeni": -1,
+            "naziv": "Splošni akt, izdan za izvrševanje javnih pooblastil"
+          },
+          {
+            "id": 104,
+            "idNadrejeni": 103,
+            "naziv": "Akt pravne osebe javnega prava"
+          },
+          {
+            "id": 105,
+            "idNadrejeni": 104,
+            "naziv": "Akt javne agencije"
+          }
+        ],
+        "osnovni": false,
+        "datumSprejetja": "2019-07-08",
+        "datumObjave": "2019-07-19",
+        "datumZacetkaVeljavnosti": "2019-07-20",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": "2022-11-10",
+        "datumKoncaUporabe": "2023-03-25",
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2019-01-2222\" title=\"Splošni akt o spremembah in dopolnitvi Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-4a)\">46/19</a>",
+        "vrstaAkta": {
+          "id": 128071,
+          "idNadrejeni": -1,
+          "naziv": "Akt"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126558,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za javno upravo"
+          },
+          {
+            "id": 126768,
+            "idNadrejeni": -1,
+            "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126768,
+          "idNadrejeni": -1,
+          "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO6405",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-1)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [],
+        "vpliviNaPredpis": [
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          },
+          {
+            "mopedID": "AKT_1301",
+            "naziv": "Splošni akt o načrtu uporabe radijskih frekvenc (NURF-5)"
+          }
+        ],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "AKT_1010",
+            "naziv": "Splošni akt o načrtu uporabe radijskih frekvenc (NURF-4)"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "splosniAktiZaIzvrsevanjeJavnihPooblastil"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:25:38.645Z",
+    "created_at": "2026-01-18T15:25:38.645Z"
+  },
+  "URED6517": {
+    "mopedID": "URED6517",
+    "data": {
+      "primary": {
+        "id": 762122,
+        "naziv": "Uredba o pravici do omrežnih priključnih točk s prednostjo",
+        "kratica": null,
+        "mopedId": "URED6517",
+        "eva": "2013-3330-0094",
+        "epa": null,
+        "sop": "2013-01-2901",
+        "kazaloPravnihAktov": [
+          {
+            "id": 67,
+            "idNadrejeni": -1,
+            "naziv": "Podzakonski predpis"
+          },
+          {
+            "id": 68,
+            "idNadrejeni": 67,
+            "naziv": "Podzakonski predpis vlade"
+          },
+          {
+            "id": 69,
+            "idNadrejeni": 68,
+            "naziv": "Uredba"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "2013-09-26",
+        "datumObjave": "2013-09-27",
+        "datumZacetkaVeljavnosti": "2013-10-12",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": "2022-11-10",
+        "datumKoncaUporabe": "2023-07-29",
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2013-01-2901\" title=\"Uredba o pravici do omrežnih priključnih točk s prednostjo\">79/13</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2022-01-3081\" title=\"Zakon o elektronskih komunikacijah (ZEKom-2)\">130/22</a> – ZEKom-2 in <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-2418\" title=\"Uredba o pravici do omrežnih priključnih točk s prednostjo\">77/23</a>",
+        "vrstaAkta": {
+          "id": 128098,
+          "idNadrejeni": -1,
+          "naziv": "Uredba"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126553,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za izobraževanje, znanost in šport"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126537,
+          "idNadrejeni": -1,
+          "naziv": "Vlada Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO6405",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-1)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          },
+          {
+            "mopedID": "URED8789",
+            "naziv": "Uredba o pravici do omrežnih priključnih točk s prednostjo"
+          }
+        ],
+        "vpliviNaPredpis": [
+          {
+            "mopedID": "URED8697",
+            "naziv": "Uredba o pravici do omrežnih priključnih točk s prednostjo"
+          },
+          {
+            "mopedID": "ZAKO7989",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          }
+        ],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "PRAV5905",
+            "naziv": "Uredba o pravici do omrežnih priključnih točk s prednostjo"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115317,
+            "idNadrejeni": 115312,
+            "naziv": "Promet"
+          }
+        ],
+        "category": "neveljavniPredpisi"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:25:42.127Z",
+    "created_at": "2026-01-18T15:25:42.127Z"
+  },
+  "AKT_1075": {
+    "mopedID": "AKT_1075",
+    "data": {
+      "primary": {
+        "id": 13105731,
+        "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o velikosti številskih blokov, za pridobitev katerih je treba vlogi priložiti projekt",
+        "kratica": null,
+        "mopedId": "AKT_1075",
+        "eva": "2018-3130-0035",
+        "epa": null,
+        "sop": "2018-01-3533",
+        "kazaloPravnihAktov": [
+          {
+            "id": 103,
+            "idNadrejeni": -1,
+            "naziv": "Splošni akt, izdan za izvrševanje javnih pooblastil"
+          },
+          {
+            "id": 104,
+            "idNadrejeni": 103,
+            "naziv": "Akt pravne osebe javnega prava"
+          },
+          {
+            "id": 105,
+            "idNadrejeni": 104,
+            "naziv": "Akt javne agencije"
+          }
+        ],
+        "osnovni": false,
+        "datumSprejetja": "2018-11-13",
+        "datumObjave": "2018-11-16",
+        "datumZacetkaVeljavnosti": "2018-12-01",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": "2022-11-10",
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2018-01-3533\" title=\"Splošni akt o spremembah in dopolnitvah Splošnega akta o velikosti številskih blokov, za pridobitev katerih je treba vlogi priložiti projekt\">72/18</a>",
+        "vrstaAkta": {
+          "id": 128071,
+          "idNadrejeni": -1,
+          "naziv": "Akt"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126558,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za javno upravo"
+          },
+          {
+            "id": 126768,
+            "idNadrejeni": -1,
+            "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126768,
+          "idNadrejeni": -1,
+          "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO6405",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-1)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [],
+        "vpliviNaPredpis": [
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          }
+        ],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "AKT_852",
+            "naziv": "Splošni akt o velikosti številskih blokov, za pridobitev katerih je treba vlogi priložiti projekt"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "splosniAktiZaIzvrsevanjeJavnihPooblastil"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:25:45.976Z",
+    "created_at": "2026-01-18T15:25:45.976Z"
+  },
+  "DRUG4873": {
+    "mopedID": "DRUG4873",
+    "data": {
+      "primary": {
+        "id": 13105754,
+        "naziv": "Splošni akt o spremembi in dopolnitvi Splošnega akta o kakovosti univerzalne storitve",
+        "kratica": null,
+        "mopedId": "DRUG4873",
+        "eva": "2021-3130-0005",
+        "epa": null,
+        "sop": "2021-01-0437",
+        "kazaloPravnihAktov": [
+          {
+            "id": 103,
+            "idNadrejeni": -1,
+            "naziv": "Splošni akt, izdan za izvrševanje javnih pooblastil"
+          },
+          {
+            "id": 104,
+            "idNadrejeni": 103,
+            "naziv": "Akt pravne osebe javnega prava"
+          },
+          {
+            "id": 105,
+            "idNadrejeni": 104,
+            "naziv": "Akt javne agencije"
+          }
+        ],
+        "osnovni": false,
+        "datumSprejetja": "2021-02-09",
+        "datumObjave": "2021-02-12",
+        "datumZacetkaVeljavnosti": "2021-04-13",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": "2022-11-10",
+        "datumKoncaUporabe": "2023-05-30",
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2021-01-0437\" title=\"Splošni akt o spremembi in dopolnitvi Splošnega akta o kakovosti univerzalne storitve\">21/21</a>",
+        "vrstaAkta": {
+          "id": 128074,
+          "idNadrejeni": -1,
+          "naziv": "Drugo"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126558,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za javno upravo"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126768,
+          "idNadrejeni": -1,
+          "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO6405",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-1)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [],
+        "vpliviNaPredpis": [
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          },
+          {
+            "mopedID": "AKT_1346",
+            "naziv": "Splošni akt o kakovosti univerzalne storitve"
+          }
+        ],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "DRUG4494",
+            "naziv": "Splošni akt o kakovosti univerzalne storitve"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "splosniAktiZaIzvrsevanjeJavnihPooblastil"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:25:49.589Z",
+    "created_at": "2026-01-18T15:25:49.589Z"
+  },
+  "URED8786": {
+    "mopedID": "URED8786",
+    "data": {
+      "primary": {
+        "id": 325341,
+        "naziv": "Uredba o načrtu razporeditve radiofrekvenčnih pasov",
+        "kratica": null,
+        "mopedId": "URED8786",
+        "eva": "2023-3150-0006",
+        "epa": null,
+        "sop": "2023-01-1612",
+        "kazaloPravnihAktov": [
+          {
+            "id": 67,
+            "idNadrejeni": -1,
+            "naziv": "Podzakonski predpis"
+          },
+          {
+            "id": 68,
+            "idNadrejeni": 67,
+            "naziv": "Podzakonski predpis vlade"
+          },
+          {
+            "id": 69,
+            "idNadrejeni": 68,
+            "naziv": "Uredba"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "2023-05-04",
+        "datumObjave": "2023-05-05",
+        "datumZacetkaVeljavnosti": "2023-05-20",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": null,
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-1612\" title=\"Uredba o načrtu razporeditve radiofrekvenčnih pasov\">50/23</a> in <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2025-01-2306\" title=\"Uredba o spremembah Uredbe o načrtu razporeditve radiofrekvenčnih pasov\">56/25</a>",
+        "vrstaAkta": {
+          "id": 128098,
+          "idNadrejeni": -1,
+          "naziv": "Uredba"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 127436,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za digitalno preobrazbo"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126537,
+          "idNadrejeni": -1,
+          "naziv": "Vlada Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [
+          {
+            "mopedID": "URED9304",
+            "naziv": "Uredba o spremembah Uredbe o načrtu razporeditve radiofrekvenčnih pasov"
+          }
+        ],
+        "vpliviNaPredpis": [],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "URED6503",
+            "naziv": "Uredba o načrtu razporeditve radiofrekvenčnih pasov"
+          }
+        ],
+        "vplivaNaPredpise": [
+          {
+            "mopedID": "URED7429",
+            "naziv": "Uredba o spremembah Uredbe o načrtu razporeditve radiofrekvenčnih pasov"
+          },
+          {
+            "mopedID": "URED8125",
+            "naziv": "Uredba o spremembah Uredbe o načrtu razporeditve radiofrekvenčnih pasov"
+          }
+        ],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "registerPredpisov"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:25:53.692Z",
+    "created_at": "2026-01-18T15:25:53.692Z"
+  },
+  "URED6503": {
+    "mopedID": "URED6503",
+    "data": {
+      "primary": {
+        "id": 325343,
+        "naziv": "Uredba o načrtu razporeditve radiofrekvenčnih pasov",
+        "kratica": null,
+        "mopedId": "URED6503",
+        "eva": "2013-3330-0085",
+        "epa": null,
+        "sop": "2013-01-2685",
+        "kazaloPravnihAktov": [
+          {
+            "id": 67,
+            "idNadrejeni": -1,
+            "naziv": "Podzakonski predpis"
+          },
+          {
+            "id": 68,
+            "idNadrejeni": 67,
+            "naziv": "Podzakonski predpis vlade"
+          },
+          {
+            "id": 69,
+            "idNadrejeni": 68,
+            "naziv": "Uredba"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "2013-08-22",
+        "datumObjave": "2013-08-23",
+        "datumZacetkaVeljavnosti": "2013-09-07",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": "2022-11-10",
+        "datumKoncaUporabe": "2023-05-20",
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2013-01-2685\" title=\"Uredba o načrtu razporeditve radiofrekvenčnih pasov\">69/13</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2017-01-0042\" title=\"Uredba o spremembah Uredbe o načrtu razporeditve radiofrekvenčnih pasov\">1/17</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2020-01-2995\" title=\"Uredba o spremembah Uredbe o načrtu razporeditve radiofrekvenčnih pasov\">170/20</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2022-01-3081\" title=\"Zakon o elektronskih komunikacijah (ZEKom-2)\">130/22</a> – ZEKom-2 in <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-1612\" title=\"Uredba o načrtu razporeditve radiofrekvenčnih pasov\">50/23</a>",
+        "vrstaAkta": {
+          "id": 128098,
+          "idNadrejeni": -1,
+          "naziv": "Uredba"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126553,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za izobraževanje, znanost in šport"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126537,
+          "idNadrejeni": -1,
+          "naziv": "Vlada Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO6405",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-1)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [
+          {
+            "mopedID": "URED7429",
+            "naziv": "Uredba o spremembah Uredbe o načrtu razporeditve radiofrekvenčnih pasov"
+          },
+          {
+            "mopedID": "URED8125",
+            "naziv": "Uredba o spremembah Uredbe o načrtu razporeditve radiofrekvenčnih pasov"
+          },
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          },
+          {
+            "mopedID": "URED8786",
+            "naziv": "Uredba o načrtu razporeditve radiofrekvenčnih pasov"
+          }
+        ],
+        "vpliviNaPredpis": [
+          {
+            "mopedID": "URED8695",
+            "naziv": "Uredba o načrtu razporeditve radiofrekvenčnih pasov"
+          },
+          {
+            "mopedID": "URED7332",
+            "naziv": "Uredba o spremembah in dopolnitvah Uredbe o načrtu razporeditve radiofrekvenčnih pasov"
+          },
+          {
+            "mopedID": "ZAKO7989",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          }
+        ],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "URED3410",
+            "naziv": "Uredba o načrtu razporeditve radiofrekvenčnih pasov"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "neveljavniPredpisi"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:25:57.211Z",
+    "created_at": "2026-01-18T15:25:57.211Z"
+  },
+  "AKT_1010": {
+    "mopedID": "AKT_1010",
+    "data": {
+      "primary": {
+        "id": 443832,
+        "naziv": "Splošni akt o načrtu uporabe radijskih frekvenc (NURF-4)",
+        "kratica": null,
+        "mopedId": "AKT_1010",
+        "eva": "2017-3130-0007",
+        "epa": null,
+        "sop": "2018-01-0421",
+        "kazaloPravnihAktov": [
+          {
+            "id": 75,
+            "idNadrejeni": -1,
+            "naziv": "Drugi splošni in posamični akt"
+          },
+          {
+            "id": 79,
+            "idNadrejeni": 75,
+            "naziv": "Akt izvršilne veje oblasti"
+          },
+          {
+            "id": 82,
+            "idNadrejeni": 79,
+            "naziv": "Akt ministrstva"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "2018-02-15",
+        "datumObjave": "2018-02-21",
+        "datumZacetkaVeljavnosti": "2018-02-22",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": "2022-11-10",
+        "datumKoncaUporabe": "2023-03-25",
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2018-01-0421\" title=\"Splošni akt o načrtu uporabe radijskih frekvenc (NURF-4)\">10/18</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2019-01-2222\" title=\"Splošni akt o spremembah in dopolnitvi Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-4a)\">46/19</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2020-01-2460\" title=\"Splošni akt o spremembah in dopolnitvi Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-4b)\">139/20</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2021-01-3743\" title=\"Splošni akt o spremembah in dopolnitvah Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-4c)\">189/21</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2022-01-3081\" title=\"Zakon o elektronskih komunikacijah (ZEKom-2)\">130/22</a> – ZEKom-2 in <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0898\" title=\"Splošni akt o načrtu uporabe radijskih frekvenc (NURF-5)\">34/23</a>",
+        "vrstaAkta": {
+          "id": 128071,
+          "idNadrejeni": -1,
+          "naziv": "Akt"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126558,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za javno upravo"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126558,
+          "idNadrejeni": -1,
+          "naziv": "Ministrstvo za javno upravo"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO6405",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-1)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [
+          {
+            "mopedID": "AKT_1081",
+            "naziv": "Splošni akt o spremembah in dopolnitvi Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-4a)"
+          },
+          {
+            "mopedID": "AKT_1163",
+            "naziv": "Splošni akt o spremembah in dopolnitvi Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-4b)"
+          },
+          {
+            "mopedID": "AKT_1223",
+            "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-4c)"
+          },
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          },
+          {
+            "mopedID": "AKT_1301",
+            "naziv": "Splošni akt o načrtu uporabe radijskih frekvenc (NURF-5)"
+          }
+        ],
+        "vpliviNaPredpis": [
+          {
+            "mopedID": "ZAKO7989",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          }
+        ],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "AKT_859",
+            "naziv": "Splošni akt o načrtu uporabe radijskih frekvenc (NURF-3)"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "drugiSplosniInPosamicniAkti"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:26:40.021Z",
+    "created_at": "2026-01-18T15:26:40.021Z"
+  },
+  "DRUG4496": {
+    "mopedID": "DRUG4496",
+    "data": {
+      "primary": {
+        "id": 319817,
+        "naziv": "Splošni akt o načinu izračuna neto stroškov univerzalne storitve",
+        "kratica": null,
+        "mopedId": "DRUG4496",
+        "eva": "2018-3130-0018",
+        "epa": null,
+        "sop": "2018-01-1156",
+        "kazaloPravnihAktov": [
+          {
+            "id": 103,
+            "idNadrejeni": -1,
+            "naziv": "Splošni akt, izdan za izvrševanje javnih pooblastil"
+          },
+          {
+            "id": 104,
+            "idNadrejeni": 103,
+            "naziv": "Akt pravne osebe javnega prava"
+          },
+          {
+            "id": 105,
+            "idNadrejeni": 104,
+            "naziv": "Akt javne agencije"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "2018-04-18",
+        "datumObjave": "2018-04-20",
+        "datumZacetkaVeljavnosti": "2018-06-20",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": "2022-11-10",
+        "datumKoncaUporabe": "2023-05-27",
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2018-01-1156\" title=\"Splošni akt o načinu izračuna neto stroškov univerzalne storitve\">27/18</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2022-01-3081\" title=\"Zakon o elektronskih komunikacijah (ZEKom-2)\">130/22</a> – ZEKom-2 in <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-1638\" title=\"Splošni akt o načinu izračuna neto stroškov univerzalne storitve\">54/23</a>",
+        "vrstaAkta": {
+          "id": 128074,
+          "idNadrejeni": -1,
+          "naziv": "Drugo"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126558,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za javno upravo"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126768,
+          "idNadrejeni": -1,
+          "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO7549",
+            "naziv": "Zakon o spremembah in dopolnitvah Zakona o elektronskih komunikacijah (ZEKom-1C)"
+          },
+          {
+            "mopedID": "ZAKO6405",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-1)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          },
+          {
+            "mopedID": "AKT_1347",
+            "naziv": "Splošni akt o načinu izračuna neto stroškov univerzalne storitve"
+          }
+        ],
+        "vpliviNaPredpis": [
+          {
+            "mopedID": "ZAKO7989",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          }
+        ],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "AKT_341",
+            "naziv": "Splošni akt o načinu izračuna neto stroškov univerzalne storitve"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "splosniAktiZaIzvrsevanjeJavnihPooblastil"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:27:03.108Z",
+    "created_at": "2026-01-18T15:27:03.108Z"
+  },
+  "AKT_1058": {
+    "mopedID": "AKT_1058",
+    "data": {
+      "primary": {
+        "id": 13058937,
+        "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o pogojih za uporabo radijskih frekvenc, namenjenih radioamaterski in radioamaterski satelitski storitvi",
+        "kratica": null,
+        "mopedId": "AKT_1058",
+        "eva": "2018-3130-0024",
+        "epa": null,
+        "sop": "2018-01-2453",
+        "kazaloPravnihAktov": [
+          {
+            "id": 103,
+            "idNadrejeni": -1,
+            "naziv": "Splošni akt, izdan za izvrševanje javnih pooblastil"
+          },
+          {
+            "id": 104,
+            "idNadrejeni": 103,
+            "naziv": "Akt pravne osebe javnega prava"
+          },
+          {
+            "id": 105,
+            "idNadrejeni": 104,
+            "naziv": "Akt javne agencije"
+          }
+        ],
+        "osnovni": false,
+        "datumSprejetja": "2018-07-09",
+        "datumObjave": "2018-07-13",
+        "datumZacetkaVeljavnosti": "2018-07-14",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": "2022-11-10",
+        "datumKoncaUporabe": "2023-02-04",
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2018-01-2453\" title=\"Splošni akt o spremembah in dopolnitvah Splošnega akta o pogojih za uporabo radijskih frekvenc, namenjenih radioamaterski in radioamaterski satelitski storitvi\">48/18</a>",
+        "vrstaAkta": {
+          "id": 128071,
+          "idNadrejeni": -1,
+          "naziv": "Akt"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126558,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za javno upravo"
+          },
+          {
+            "id": 126768,
+            "idNadrejeni": -1,
+            "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126768,
+          "idNadrejeni": -1,
+          "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO6405",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-1)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [],
+        "vpliviNaPredpis": [
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          },
+          {
+            "mopedID": "AKT_1304",
+            "naziv": "Splošni akt o pogojih za uporabo radijskih frekvenc, namenjenih radioamaterski in radioamaterski satelitski storitvi"
+          }
+        ],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "AKT_857",
+            "naziv": "Splošni akt o pogojih za uporabo radijskih frekvenc, namenjenih radioamaterski in radioamaterski satelitski storitvi"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "splosniAktiZaIzvrsevanjeJavnihPooblastil"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:27:21.468Z",
+    "created_at": "2026-01-18T15:27:21.468Z"
+  },
+  "AKT_877": {
+    "mopedID": "AKT_877",
+    "data": {
+      "primary": {
+        "id": 474820,
+        "naziv": "Splošni akt o razčlenjenem računu",
+        "kratica": null,
+        "mopedId": "AKT_877",
+        "eva": "2013-3330-0138",
+        "epa": null,
+        "sop": "2013-01-3562",
+        "kazaloPravnihAktov": [
+          {
+            "id": 103,
+            "idNadrejeni": -1,
+            "naziv": "Splošni akt, izdan za izvrševanje javnih pooblastil"
+          },
+          {
+            "id": 104,
+            "idNadrejeni": 103,
+            "naziv": "Akt pravne osebe javnega prava"
+          },
+          {
+            "id": 105,
+            "idNadrejeni": 104,
+            "naziv": "Akt javne agencije"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "2013-11-26",
+        "datumObjave": "2013-12-03",
+        "datumZacetkaVeljavnosti": "2013-12-04",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": "2022-11-10",
+        "datumKoncaUporabe": "2023-06-18",
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2013-01-3562\" title=\"Splošni akt o razčlenjenem računu\">99/13</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2022-01-3081\" title=\"Zakon o elektronskih komunikacijah (ZEKom-2)\">130/22</a> – ZEKom-2 in <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-1706\" title=\"Splošni akt o razčlenjenem računu\">57/23</a>",
+        "vrstaAkta": {
+          "id": 128071,
+          "idNadrejeni": -1,
+          "naziv": "Akt"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126553,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za izobraževanje, znanost in šport"
+          },
+          {
+            "id": 126768,
+            "idNadrejeni": -1,
+            "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126768,
+          "idNadrejeni": -1,
+          "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO6405",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-1)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          },
+          {
+            "mopedID": "AKT_1352",
+            "naziv": "Splošni akt o razčlenjenem računu"
+          }
+        ],
+        "vpliviNaPredpis": [
+          {
+            "mopedID": "AKT_1378",
+            "naziv": "Splošni akt o spremembi in dopolnitvi Splošnega akta o razčlenjenem računu"
+          },
+          {
+            "mopedID": "ZAKO7989",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          }
+        ],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "splosniAktiZaIzvrsevanjeJavnihPooblastil"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:27:31.549Z",
+    "created_at": "2026-01-18T15:27:31.549Z"
+  },
+  "ZAKO8934": {
+    "mopedID": "ZAKO8934",
+    "data": {
+      "primary": {
+        "id": 12979529,
+        "naziv": "Zakon o informacijski varnosti (ZInfV-1)",
+        "kratica": "ZInfV-1",
+        "mopedId": "ZAKO8934",
+        "eva": "2023-1544-0005",
+        "epa": "2057-IX",
+        "sop": "2025-01-1571",
+        "kazaloPravnihAktov": [
+          {
+            "id": 66,
+            "idNadrejeni": -1,
+            "naziv": "Zakon"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "2025-05-23",
+        "datumObjave": "2025-06-04",
+        "datumZacetkaVeljavnosti": "2025-06-19",
+        "datumZacetkaUporabe": "2025-06-19",
+        "datumPrenehanjaVeljavnosti": null,
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2025-01-1571\" title=\"Zakon o informacijski varnosti (ZInfV-1)\">40/25</a>",
+        "vrstaAkta": {
+          "id": 128102,
+          "idNadrejeni": -1,
+          "naziv": "Zakon"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126613,
+            "idNadrejeni": -1,
+            "naziv": "Urad Vlade Republike Slovenije za informacijsko varnost"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126534,
+          "idNadrejeni": -1,
+          "naziv": "Državni zbor RS"
+        },
+        "podlaga": [],
+        "zveza": [],
+        "posegiVPredpis": [],
+        "vpliviNaPredpis": [],
+        "podrejeniPredpisi": [
+          {
+            "mopedID": "URED9413",
+            "naziv": "Uredba o usposabljanju odgovornih oseb na področju obvladovanja tveganj informacijske in kibernetske varnosti"
+          },
+          {
+            "mopedID": "ODLO3026",
+            "naziv": "Odlok o ustanovitvi, nalogah in organizaciji Urada Vlade Republike Slovenije za informacijsko varnost"
+          }
+        ],
+        "posegaVPredpise": [
+          {
+            "mopedID": "ZAKO3336",
+            "naziv": "Zakon o dostopu do informacij javnega značaja (ZDIJZ)"
+          },
+          {
+            "mopedID": "ZAKO7707",
+            "naziv": "Zakon o informacijski varnosti (ZInfV)"
+          },
+          {
+            "mopedID": "URED7808",
+            "naziv": "Uredba o določitvi bistvenih storitev in podrobnejši metodologiji za določitev izvajalcev bistvenih storitev"
+          },
+          {
+            "mopedID": "ZAKO8380",
+            "naziv": "Zakon o spremembah in dopolnitvi Zakona o informacijski varnosti (ZInfV-A)"
+          },
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          },
+          {
+            "mopedID": "ZAKO7959",
+            "naziv": "Zakon o varstvu osebnih podatkov (ZVOP-2)"
+          },
+          {
+            "mopedID": "URED8592",
+            "naziv": "Uredba o varnostni dokumentaciji in varnostnih ukrepih izvajalcev bistvenih storitev"
+          },
+          {
+            "mopedID": "ZAKO8758",
+            "naziv": "Zakon o spremembah in dopolnitvah Zakona o informacijski varnosti (ZInfV-B)"
+          },
+          {
+            "mopedID": "AKT_1348",
+            "naziv": "Splošni akt o obveščanju in vrednotenju varnostnih incidentov ter o najavi omejitev ali prekinitev"
+          },
+          {
+            "mopedID": "URED8593",
+            "naziv": "Uredba o varnostni dokumentaciji in varnostnih ukrepih organov državne uprave"
+          },
+          {
+            "mopedID": "AKT_1332",
+            "naziv": "Splošni akt o varnosti omrežij, storitev in podatkov"
+          },
+          {
+            "mopedID": "URED8925",
+            "naziv": "Uredba o varnostni dokumentaciji in minimalnih varnostnih ukrepih povezanih subjektov"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115064,
+            "idNadrejeni": -1,
+            "naziv": "Ustavna ureditev Republike Slovenije"
+          },
+          {
+            "id": 115071,
+            "idNadrejeni": 115064,
+            "naziv": "Državna ureditev Republike Slovenije"
+          },
+          {
+            "id": 115085,
+            "idNadrejeni": 115071,
+            "naziv": "Obramba in varnost države"
+          }
+        ],
+        "category": "registerPredpisov"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:27:35.141Z",
+    "created_at": "2026-01-18T15:27:35.141Z"
+  },
+  "AKT_1327": {
+    "mopedID": "AKT_1327",
+    "data": {
+      "primary": {
+        "id": 13311834,
+        "naziv": "Splošni akt za pregled in napoved postavitve omrežij ter izvedbo poizvedovanja po tržnem interesu za gradnjo visokozmogljivih omrežij",
+        "kratica": null,
+        "mopedId": "AKT_1327",
+        "eva": "2023-3150-0011",
+        "epa": null,
+        "sop": "2023-01-0897",
+        "kazaloPravnihAktov": [],
+        "osnovni": true,
+        "datumSprejetja": "2023-03-22",
+        "datumObjave": "2023-03-24",
+        "datumZacetkaVeljavnosti": "2023-04-08",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": null,
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0897\" title=\"Splošni akt za pregled in napoved postavitve omrežij ter izvedbo poizvedovanja po tržnem interesu za gradnjo visokozmogljivih omrežij\">34/23</a>",
+        "vrstaAkta": {
+          "id": 128071,
+          "idNadrejeni": -1,
+          "naziv": "Akt"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126768,
+            "idNadrejeni": -1,
+            "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126768,
+          "idNadrejeni": -1,
+          "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [],
+        "vpliviNaPredpis": [],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "registerPredpisov"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:27:48.011Z",
+    "created_at": "2026-01-18T15:27:48.011Z"
+  },
+  "AKT_1126": {
+    "mopedID": "AKT_1126",
+    "data": {
+      "primary": {
+        "id": 319829,
+        "naziv": "Splošni akt o storitvah dostopa do interneta in s tem povezanih pravic končnih uporabnikov",
+        "kratica": null,
+        "mopedId": "AKT_1126",
+        "eva": "2019-3130-0031",
+        "epa": null,
+        "sop": "2019-01-2467",
+        "kazaloPravnihAktov": [
+          {
+            "id": 103,
+            "idNadrejeni": -1,
+            "naziv": "Splošni akt, izdan za izvrševanje javnih pooblastil"
+          },
+          {
+            "id": 104,
+            "idNadrejeni": 103,
+            "naziv": "Akt pravne osebe javnega prava"
+          },
+          {
+            "id": 105,
+            "idNadrejeni": 104,
+            "naziv": "Akt javne agencije"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "2019-08-29",
+        "datumObjave": "2019-09-06",
+        "datumZacetkaVeljavnosti": "2019-09-07",
+        "datumZacetkaUporabe": "2019-10-07",
+        "datumPrenehanjaVeljavnosti": "2022-11-10",
+        "datumKoncaUporabe": "2023-05-04",
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2019-01-2467\" title=\"Splošni akt o storitvah dostopa do interneta in s tem povezanih pravic končnih uporabnikov\">54/19</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2022-01-3081\" title=\"Zakon o elektronskih komunikacijah (ZEKom-2)\">130/22</a> – ZEKom-2 in <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0554\" title=\"Splošni akt o storitvah dostopa do interneta in s tem povezanih pravic končnih uporabnikov\">28/23</a>",
+        "vrstaAkta": {
+          "id": 128071,
+          "idNadrejeni": -1,
+          "naziv": "Akt"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126558,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za javno upravo"
+          },
+          {
+            "id": 126768,
+            "idNadrejeni": -1,
+            "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126768,
+          "idNadrejeni": -1,
+          "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO7549",
+            "naziv": "Zakon o spremembah in dopolnitvah Zakona o elektronskih komunikacijah (ZEKom-1C)"
+          },
+          {
+            "mopedID": "ZAKO6405",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-1)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          },
+          {
+            "mopedID": "AKT_1316",
+            "naziv": "Splošni akt o storitvah dostopa do interneta in s tem povezanih pravic končnih uporabnikov"
+          }
+        ],
+        "vpliviNaPredpis": [],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "splosniAktiZaIzvrsevanjeJavnihPooblastil"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:27:51.717Z",
+    "created_at": "2026-01-18T15:27:51.717Z"
+  },
+  "AKT_1316": {
+    "mopedID": "AKT_1316",
+    "data": {
+      "primary": {
+        "id": 13124318,
+        "naziv": "Splošni akt o storitvah dostopa do interneta in s tem povezanih pravic končnih uporabnikov",
+        "kratica": null,
+        "mopedId": "AKT_1316",
+        "eva": "2023-1545-0007",
+        "epa": null,
+        "sop": "2023-01-0554",
+        "kazaloPravnihAktov": [
+          {
+            "id": 103,
+            "idNadrejeni": -1,
+            "naziv": "Splošni akt, izdan za izvrševanje javnih pooblastil"
+          },
+          {
+            "id": 104,
+            "idNadrejeni": 103,
+            "naziv": "Akt pravne osebe javnega prava"
+          },
+          {
+            "id": 105,
+            "idNadrejeni": 104,
+            "naziv": "Akt javne agencije"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "2023-02-27",
+        "datumObjave": "2023-03-03",
+        "datumZacetkaVeljavnosti": "2023-05-04",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": null,
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0554\" title=\"Splošni akt o storitvah dostopa do interneta in s tem povezanih pravic končnih uporabnikov\">28/23</a>",
+        "vrstaAkta": {
+          "id": 128071,
+          "idNadrejeni": -1,
+          "naziv": "Akt"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126614,
+            "idNadrejeni": -1,
+            "naziv": "Služba Vlade Republike Slovenije za digitalno preobrazbo"
+          },
+          {
+            "id": 126768,
+            "idNadrejeni": -1,
+            "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126768,
+          "idNadrejeni": -1,
+          "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [],
+        "vpliviNaPredpis": [],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "AKT_1126",
+            "naziv": "Splošni akt o storitvah dostopa do interneta in s tem povezanih pravic končnih uporabnikov"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "splosniAktiZaIzvrsevanjeJavnihPooblastil"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:27:55.613Z",
+    "created_at": "2026-01-18T15:27:55.613Z"
+  },
+  "AKT_1053": {
+    "mopedID": "AKT_1053",
+    "data": {
+      "primary": {
+        "id": 13101090,
+        "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načrtu oštevilčenja",
+        "kratica": null,
+        "mopedId": "AKT_1053",
+        "eva": "2018-3130-0021",
+        "epa": null,
+        "sop": "2018-01-2052",
+        "kazaloPravnihAktov": [
+          {
+            "id": 103,
+            "idNadrejeni": -1,
+            "naziv": "Splošni akt, izdan za izvrševanje javnih pooblastil"
+          },
+          {
+            "id": 104,
+            "idNadrejeni": 103,
+            "naziv": "Akt pravne osebe javnega prava"
+          },
+          {
+            "id": 105,
+            "idNadrejeni": 104,
+            "naziv": "Akt javne agencije"
+          }
+        ],
+        "osnovni": false,
+        "datumSprejetja": "2018-06-11",
+        "datumObjave": "2018-06-15",
+        "datumZacetkaVeljavnosti": "2018-06-30",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": "2022-11-10",
+        "datumKoncaUporabe": "2023-05-30",
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2018-01-2052\" title=\"Splošni akt o spremembah in dopolnitvah Splošnega akta o načrtu oštevilčenja\">41/18</a>",
+        "vrstaAkta": {
+          "id": 128071,
+          "idNadrejeni": -1,
+          "naziv": "Akt"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126558,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za javno upravo"
+          },
+          {
+            "id": 126768,
+            "idNadrejeni": -1,
+            "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126768,
+          "idNadrejeni": -1,
+          "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO6405",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-1)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [],
+        "vpliviNaPredpis": [
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          },
+          {
+            "mopedID": "AKT_1341",
+            "naziv": "Splošni akt o načrtu oštevilčenja"
+          }
+        ],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "AKT_856",
+            "naziv": "Splošni akt o načrtu oštevilčenja"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "splosniAktiZaIzvrsevanjeJavnihPooblastil"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:28:00.063Z",
+    "created_at": "2026-01-18T15:28:00.063Z"
+  },
+  "AKT_1301": {
+    "mopedID": "AKT_1301",
+    "data": {
+      "primary": {
+        "id": 443830,
+        "naziv": "Splošni akt o načrtu uporabe radijskih frekvenc (NURF-5)",
+        "kratica": null,
+        "mopedId": "AKT_1301",
+        "eva": "2022-1545-0021",
+        "epa": null,
+        "sop": "2023-01-0898",
+        "kazaloPravnihAktov": [
+          {
+            "id": 103,
+            "idNadrejeni": -1,
+            "naziv": "Splošni akt, izdan za izvrševanje javnih pooblastil"
+          },
+          {
+            "id": 104,
+            "idNadrejeni": 103,
+            "naziv": "Akt pravne osebe javnega prava"
+          },
+          {
+            "id": 105,
+            "idNadrejeni": 104,
+            "naziv": "Akt javne agencije"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "2023-03-17",
+        "datumObjave": "2023-03-24",
+        "datumZacetkaVeljavnosti": "2023-03-25",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": null,
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-0898\" title=\"Splošni akt o načrtu uporabe radijskih frekvenc (NURF-5)\">34/23</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2024-01-2217\" title=\"Splošni akt o spremembah Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-5a)\">67/24</a> in <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2024-01-3248\" title=\"Splošni akt o spremembah Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-5b)\">103/24</a>",
+        "vrstaAkta": {
+          "id": 128071,
+          "idNadrejeni": -1,
+          "naziv": "Akt"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126614,
+            "idNadrejeni": -1,
+            "naziv": "Služba Vlade Republike Slovenije za digitalno preobrazbo"
+          },
+          {
+            "id": 126768,
+            "idNadrejeni": -1,
+            "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126768,
+          "idNadrejeni": -1,
+          "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [
+          {
+            "mopedID": "ANJP19",
+            "naziv": "Splošni akt o spremembah Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-5a)"
+          },
+          {
+            "mopedID": "ANJP68",
+            "naziv": "Splošni akt o spremembah Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-5b)"
+          }
+        ],
+        "vpliviNaPredpis": [],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "AKT_1010",
+            "naziv": "Splošni akt o načrtu uporabe radijskih frekvenc (NURF-4)"
+          }
+        ],
+        "vplivaNaPredpise": [
+          {
+            "mopedID": "AKT_1081",
+            "naziv": "Splošni akt o spremembah in dopolnitvi Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-4a)"
+          },
+          {
+            "mopedID": "AKT_1163",
+            "naziv": "Splošni akt o spremembah in dopolnitvi Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-4b)"
+          },
+          {
+            "mopedID": "AKT_1223",
+            "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-4c)"
+          }
+        ],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "splosniAktiZaIzvrsevanjeJavnihPooblastil"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:28:15.300Z",
+    "created_at": "2026-01-18T15:28:15.300Z"
+  },
+  "AKT_1163": {
+    "mopedID": "AKT_1163",
+    "data": {
+      "primary": {
+        "id": 13007813,
+        "naziv": "Splošni akt o spremembah in dopolnitvi Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-4b)",
+        "kratica": null,
+        "mopedId": "AKT_1163",
+        "eva": "2020-3130-0014",
+        "epa": null,
+        "sop": "2020-01-2460",
+        "kazaloPravnihAktov": [
+          {
+            "id": 103,
+            "idNadrejeni": -1,
+            "naziv": "Splošni akt, izdan za izvrševanje javnih pooblastil"
+          },
+          {
+            "id": 104,
+            "idNadrejeni": 103,
+            "naziv": "Akt pravne osebe javnega prava"
+          },
+          {
+            "id": 105,
+            "idNadrejeni": 104,
+            "naziv": "Akt javne agencije"
+          }
+        ],
+        "osnovni": false,
+        "datumSprejetja": "2020-09-28",
+        "datumObjave": "2020-10-09",
+        "datumZacetkaVeljavnosti": "2020-10-10",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": "2022-11-10",
+        "datumKoncaUporabe": "2023-03-25",
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2020-01-2460\" title=\"Splošni akt o spremembah in dopolnitvi Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-4b)\">139/20</a>",
+        "vrstaAkta": {
+          "id": 128071,
+          "idNadrejeni": -1,
+          "naziv": "Akt"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126558,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za javno upravo"
+          },
+          {
+            "id": 126768,
+            "idNadrejeni": -1,
+            "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126768,
+          "idNadrejeni": -1,
+          "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO6405",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-1)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [],
+        "vpliviNaPredpis": [
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          },
+          {
+            "mopedID": "AKT_1301",
+            "naziv": "Splošni akt o načrtu uporabe radijskih frekvenc (NURF-5)"
+          }
+        ],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "AKT_1010",
+            "naziv": "Splošni akt o načrtu uporabe radijskih frekvenc (NURF-4)"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "splosniAktiZaIzvrsevanjeJavnihPooblastil"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:28:20.456Z",
+    "created_at": "2026-01-18T15:28:20.456Z"
+  },
+  "ANJP68": {
+    "mopedID": "ANJP68",
+    "data": {
+      "primary": {
+        "id": 136700549,
+        "naziv": "Splošni akt o spremembah Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-5b)",
+        "kratica": null,
+        "mopedId": "ANJP68",
+        "eva": "2024-3150-0019",
+        "epa": null,
+        "sop": "2024-01-3248",
+        "kazaloPravnihAktov": [
+          {
+            "id": 103,
+            "idNadrejeni": -1,
+            "naziv": "Splošni akt, izdan za izvrševanje javnih pooblastil"
+          },
+          {
+            "id": 104,
+            "idNadrejeni": 103,
+            "naziv": "Akt pravne osebe javnega prava"
+          },
+          {
+            "id": 105,
+            "idNadrejeni": 104,
+            "naziv": "Akt javne agencije"
+          }
+        ],
+        "osnovni": false,
+        "datumSprejetja": "2024-11-29",
+        "datumObjave": "2024-12-06",
+        "datumZacetkaVeljavnosti": "2024-12-07",
+        "datumZacetkaUporabe": "2024-12-07",
+        "datumPrenehanjaVeljavnosti": null,
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2024-01-3248\" title=\"Splošni akt o spremembah Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-5b)\">103/24</a>",
+        "vrstaAkta": {
+          "id": 128093,
+          "idNadrejeni": -1,
+          "naziv": "Splošni akt nosilca javnih pooblastil"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126768,
+            "idNadrejeni": -1,
+            "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+          },
+          {
+            "id": 127436,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za digitalno preobrazbo"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126768,
+          "idNadrejeni": -1,
+          "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [],
+        "vpliviNaPredpis": [],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "AKT_1301",
+            "naziv": "Splošni akt o načrtu uporabe radijskih frekvenc (NURF-5)"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "splosniAktiZaIzvrsevanjeJavnihPooblastil"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:28:29.265Z",
+    "created_at": "2026-01-18T15:28:29.265Z"
+  },
+  "AKT_1341": {
+    "mopedID": "AKT_1341",
+    "data": {
+      "primary": {
+        "id": 13101101,
+        "naziv": "Splošni akt o načrtu oštevilčenja",
+        "kratica": null,
+        "mopedId": "AKT_1341",
+        "eva": "2023-3150-0020",
+        "epa": null,
+        "sop": "2023-01-1693",
+        "kazaloPravnihAktov": [],
+        "osnovni": true,
+        "datumSprejetja": "2023-05-10",
+        "datumObjave": "2023-05-15",
+        "datumZacetkaVeljavnosti": "2023-05-30",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": null,
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-1693\" title=\"Splošni akt o načrtu oštevilčenja\">55/23</a> in <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-3605\" title=\"Splošni akt o spremembah in dopolnitvah Splošnega akta o načrtu oštevilčenja\">124/23</a>",
+        "vrstaAkta": {
+          "id": 128071,
+          "idNadrejeni": -1,
+          "naziv": "Akt"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126768,
+            "idNadrejeni": -1,
+            "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126768,
+          "idNadrejeni": -1,
+          "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [
+          {
+            "mopedID": "AKT_1375",
+            "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načrtu oštevilčenja"
+          }
+        ],
+        "vpliviNaPredpis": [],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "AKT_856",
+            "naziv": "Splošni akt o načrtu oštevilčenja"
+          }
+        ],
+        "vplivaNaPredpise": [
+          {
+            "mopedID": "AKT_1053",
+            "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načrtu oštevilčenja"
+          }
+        ],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "registerPredpisov"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:28:51.279Z",
+    "created_at": "2026-01-18T15:28:51.279Z"
+  },
+  "AKT_1303": {
+    "mopedID": "AKT_1303",
+    "data": {
+      "primary": {
+        "id": 181465,
+        "naziv": "Splošni akt o načinu izračuna plačil za uporabo radijskih frekvenc",
+        "kratica": null,
+        "mopedId": "AKT_1303",
+        "eva": "2022-1545-0023",
+        "epa": null,
+        "sop": "2022-01-4208",
+        "kazaloPravnihAktov": [
+          {
+            "id": 103,
+            "idNadrejeni": -1,
+            "naziv": "Splošni akt, izdan za izvrševanje javnih pooblastil"
+          },
+          {
+            "id": 104,
+            "idNadrejeni": 103,
+            "naziv": "Akt pravne osebe javnega prava"
+          },
+          {
+            "id": 105,
+            "idNadrejeni": 104,
+            "naziv": "Akt javne agencije"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "2022-12-21",
+        "datumObjave": "2022-12-27",
+        "datumZacetkaVeljavnosti": "2023-01-01",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": null,
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2022-01-4208\" title=\"Splošni akt o načinu izračuna plačil za uporabo radijskih frekvenc\">163/22</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-3962\" title=\"Splošni akt o spremembah in dopolnitvah Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc\">130/23</a> in <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2024-01-3249\" title=\"Splošni akt o spremembah Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc\">103/24</a>",
+        "vrstaAkta": {
+          "id": 128071,
+          "idNadrejeni": -1,
+          "naziv": "Akt"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126614,
+            "idNadrejeni": -1,
+            "naziv": "Služba Vlade Republike Slovenije za digitalno preobrazbo"
+          },
+          {
+            "id": 126768,
+            "idNadrejeni": -1,
+            "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126768,
+          "idNadrejeni": -1,
+          "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [
+          {
+            "mopedID": "AKT_1376",
+            "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc"
+          },
+          {
+            "mopedID": "ANJP94",
+            "naziv": "Splošni akt o spremembah Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc"
+          }
+        ],
+        "vpliviNaPredpis": [],
+        "podrejeniPredpisi": [
+          {
+            "mopedID": "TARI258",
+            "naziv": "Tarifa 2024 o vrednosti točke za plačilo na podlagi obvestila, za plačilo za uporabo radijskih frekvenc in za plačilo za uporabo elementov oštevilčenja"
+          },
+          {
+            "mopedID": "TARI263",
+            "naziv": "Tarifa 2025 o vrednosti točke za plačilo na podlagi obvestila, za plačilo za uporabo radijskih frekvenc in za plačilo za uporabo elementov oštevilčenja"
+          },
+          {
+            "mopedID": "ANJP199",
+            "naziv": "Tarifa 2026 o vrednosti točke za plačilo na podlagi obvestila, za plačilo za uporabo radijskih frekvenc in za plačilo za uporabo elementov oštevilčenja"
+          }
+        ],
+        "posegaVPredpise": [
+          {
+            "mopedID": "AKT_827",
+            "naziv": "Splošni akt o načinu izračuna plačil za uporabo radijskih frekvenc"
+          }
+        ],
+        "vplivaNaPredpise": [
+          {
+            "mopedID": "AKT_907",
+            "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc"
+          },
+          {
+            "mopedID": "DRUG4217",
+            "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc"
+          },
+          {
+            "mopedID": "DRUG4290",
+            "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc"
+          },
+          {
+            "mopedID": "URED7964",
+            "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načinu izračuna plačil za uporabo radijskih frekvenc"
+          }
+        ],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "splosniAktiZaIzvrsevanjeJavnihPooblastil"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:28:59.744Z",
+    "created_at": "2026-01-18T15:28:59.744Z"
+  },
+  "AKT_856": {
+    "mopedID": "AKT_856",
+    "data": {
+      "primary": {
+        "id": 12892841,
+        "naziv": "Splošni akt o načrtu oštevilčenja",
+        "kratica": null,
+        "mopedId": "AKT_856",
+        "eva": "2013-3330-0111",
+        "epa": null,
+        "sop": "2013-01-2489",
+        "kazaloPravnihAktov": [
+          {
+            "id": 103,
+            "idNadrejeni": -1,
+            "naziv": "Splošni akt, izdan za izvrševanje javnih pooblastil"
+          },
+          {
+            "id": 104,
+            "idNadrejeni": 103,
+            "naziv": "Akt pravne osebe javnega prava"
+          },
+          {
+            "id": 105,
+            "idNadrejeni": 104,
+            "naziv": "Akt javne agencije"
+          }
+        ],
+        "osnovni": true,
+        "datumSprejetja": "2013-07-18",
+        "datumObjave": "2013-07-22",
+        "datumZacetkaVeljavnosti": "2013-07-23",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": "2022-11-10",
+        "datumKoncaUporabe": "2023-05-30",
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2013-01-2489\" title=\"Splošni akt o načrtu oštevilčenja\">62/13</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2013-21-3938\" title=\"Popravek Splošnega akta o načrtu oštevilčenja\">107/13</a> – popr., <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2018-01-2052\" title=\"Splošni akt o spremembah in dopolnitvah Splošnega akta o načrtu oštevilčenja\">41/18</a>, <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2022-01-3081\" title=\"Zakon o elektronskih komunikacijah (ZEKom-2)\">130/22</a> – ZEKom-2 in <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2023-01-1693\" title=\"Splošni akt o načrtu oštevilčenja\">55/23</a>",
+        "vrstaAkta": {
+          "id": 128071,
+          "idNadrejeni": -1,
+          "naziv": "Akt"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 126553,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za izobraževanje, znanost in šport"
+          },
+          {
+            "id": 126768,
+            "idNadrejeni": -1,
+            "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126768,
+          "idNadrejeni": -1,
+          "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO6405",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-1)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [
+          {
+            "mopedID": "AKT_1053",
+            "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načrtu oštevilčenja"
+          },
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          },
+          {
+            "mopedID": "AKT_1341",
+            "naziv": "Splošni akt o načrtu oštevilčenja"
+          }
+        ],
+        "vpliviNaPredpis": [
+          {
+            "mopedID": "ZAKO7989",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          }
+        ],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "AKT_467",
+            "naziv": "Splošni akt o načrtu oštevilčenja"
+          }
+        ],
+        "vplivaNaPredpise": [
+          {
+            "mopedID": "AKT_596",
+            "naziv": "Splošni akt o dopolnitvi Splošnega akta o načrtu oštevilčenja"
+          },
+          {
+            "mopedID": "AKT_736",
+            "naziv": "Splošni akt o spremembah in dopolnitvah Splošnega akta o načrtu oštevilčenja"
+          }
+        ],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "splosniAktiZaIzvrsevanjeJavnihPooblastil"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:29:11.612Z",
+    "created_at": "2026-01-18T15:29:11.612Z"
+  },
+  "ANJP19": {
+    "mopedID": "ANJP19",
+    "data": {
+      "primary": {
+        "id": 73192106,
+        "naziv": "Splošni akt o spremembah Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-5a)",
+        "kratica": null,
+        "mopedId": "ANJP19",
+        "eva": "2024-3150-0010",
+        "epa": null,
+        "sop": "2024-01-2217",
+        "kazaloPravnihAktov": [
+          {
+            "id": 103,
+            "idNadrejeni": -1,
+            "naziv": "Splošni akt, izdan za izvrševanje javnih pooblastil"
+          },
+          {
+            "id": 104,
+            "idNadrejeni": 103,
+            "naziv": "Akt pravne osebe javnega prava"
+          },
+          {
+            "id": 105,
+            "idNadrejeni": 104,
+            "naziv": "Akt javne agencije"
+          }
+        ],
+        "osnovni": false,
+        "datumSprejetja": "2024-08-05",
+        "datumObjave": "2024-08-09",
+        "datumZacetkaVeljavnosti": "2024-08-10",
+        "datumZacetkaUporabe": null,
+        "datumPrenehanjaVeljavnosti": null,
+        "datumKoncaUporabe": null,
+        "citat": "Uradni list RS, št. <a target=\"_blank\" href=\"https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2024-01-2217\" title=\"Splošni akt o spremembah Splošnega akta o načrtu uporabe radijskih frekvenc (NURF-5a)\">67/24</a>",
+        "vrstaAkta": {
+          "id": 128093,
+          "idNadrejeni": -1,
+          "naziv": "Splošni akt nosilca javnih pooblastil"
+        },
+        "kategorizacijaAkta": null,
+        "organOdgovorenZaPripravo": [
+          {
+            "id": 127436,
+            "idNadrejeni": -1,
+            "naziv": "Ministrstvo za digitalno preobrazbo"
+          }
+        ],
+        "organKiJeSprejelOzIzdalAkt": {
+          "id": 126768,
+          "idNadrejeni": -1,
+          "naziv": "Agencija za komunikacijska omrežja in storitve Republike Slovenije"
+        },
+        "podlaga": [
+          {
+            "mopedID": "ZAKO8611",
+            "naziv": "Zakon o elektronskih komunikacijah (ZEKom-2)"
+          }
+        ],
+        "zveza": [],
+        "posegiVPredpis": [],
+        "vpliviNaPredpis": [],
+        "podrejeniPredpisi": null,
+        "posegaVPredpise": [
+          {
+            "mopedID": "AKT_1301",
+            "naziv": "Splošni akt o načrtu uporabe radijskih frekvenc (NURF-5)"
+          }
+        ],
+        "vplivaNaPredpise": [],
+        "podrocje": [
+          {
+            "id": 115312,
+            "idNadrejeni": -1,
+            "naziv": "Gospodarske dejavnosti"
+          },
+          {
+            "id": 115322,
+            "idNadrejeni": 115312,
+            "naziv": "Pošta in elektronske komunikacije"
+          }
+        ],
+        "category": "splosniAktiZaIzvrsevanjeJavnihPooblastil"
+      },
+      "related": []
+    },
+    "dateOfUpdate": "2026-01-18T15:29:22.817Z",
+    "created_at": "2026-01-18T15:29:22.818Z"
   }
 }

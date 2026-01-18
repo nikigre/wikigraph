@@ -8,6 +8,62 @@ const useGraphStyling = () => {
     (state) => state.graph
   );
 
+  const getNodeColor = (node: NodeObject<Node>): string => {
+    const now = new Date();
+    
+    // Check if datumSprejetja is in the future - make it white
+    if (node.datumSprejetja) {
+      const datumSprejetja = new Date(node.datumSprejetja);
+      if (datumSprejetja > now) {
+        return "#FFFFFF"; // White - future adoption date
+      }
+    }
+    
+    // Check if datumPrenehanjaVeljavnosti or datumKoncaUporabe is in the past - make it red
+    if (node.datumPrenehanjaVeljavnosti) {
+      const datumPrenehanjaVeljavnosti = new Date(node.datumPrenehanjaVeljavnosti);
+      if (datumPrenehanjaVeljavnosti < now) {
+        return "#FF0000"; // Red - validity ended
+      }
+    }
+    
+    if (node.datumKoncaUporabe) {
+      const datumKoncaUporabe = new Date(node.datumKoncaUporabe);
+      if (datumKoncaUporabe < now) {
+        return "#FF0000"; // Red - usage ended
+      }
+    }
+    
+    // Check if we have enough information to determine validity
+    // We need at least datumZacetkaVeljavnosti to know if it's valid
+    if (!node.datumZacetkaVeljavnosti) {
+      return "#FFFF00"; // Yellow - insufficient information
+    }
+    
+    // Check if active (datumZacetkaVeljavnosti in past and datumPrenehanjaVeljavnosti is null or future)
+    const datumZacetkaVeljavnosti = new Date(node.datumZacetkaVeljavnosti);
+    const validityStartInPast = datumZacetkaVeljavnosti <= now;
+    
+    // If validity hasn't started yet, it's not currently valid
+    if (!validityStartInPast) {
+      return "#FFFF00"; // Yellow - not yet valid
+    }
+    
+    // If we have datumPrenehanjaVeljavnosti, check if it's in the future
+    if (node.datumPrenehanjaVeljavnosti) {
+      const datumPrenehanjaVeljavnosti = new Date(node.datumPrenehanjaVeljavnosti);
+      if (datumPrenehanjaVeljavnosti >= now) {
+        return "#00FF00"; // Green - currently valid
+      }
+    } else {
+      // No end date means it's still valid (if it started)
+      return "#00FF00"; // Green - currently valid
+    }
+    
+    // Default yellow for unknown status
+    return "#FFFF00";
+  };
+
   const nodeCanvasObject = useCallback(
     (
       node: NodeObject<Node>,
@@ -23,7 +79,8 @@ const useGraphStyling = () => {
       // Draw blue circle
       ctx.beginPath();
       ctx.arc(node.x!, node.y!, radius, 0, 2 * Math.PI, false);
-      ctx.fillStyle = highlightNode ? "orange" : "#3183ba";
+      const nodeColor = getNodeColor(node);
+      ctx.fillStyle = highlightNode ? "orange" : nodeColor;
       ctx.fill();
 
       // Draw text below the circle
