@@ -65,9 +65,40 @@ const useGraphStyling = () => {
     [hoveredNode]
   );
 
+  const getColorByEdgeType = (edgeName?: string): string => {
+    switch (edgeName) {
+      case "posega v ta akt":
+        return "#ff6b6b"; // Red
+      case "vpliva na ta akt":
+        return "#4ecdc4"; // Teal
+      case "podrejeni predpis":
+        return "#95e1d3"; // Light teal
+      case "ta akt posega v":
+        return "#ffa07a"; // Light salmon
+      case "ta akt vpliva na":
+        return "#6c5ce7"; // Purple
+      case "Izbrani zakon":
+        return "#fdcb6e"; // Yellow
+      default:
+        return "#3f3f3f42"; // Default gray
+    }
+  };
+
   const decideLineColor = useCallback(
-    (element: LinkObject<Node, Link>) =>
-      decideStyle(element, "#e2e2e242", "#3f3f3f42"),
+    (element: LinkObject<Node, Link>) => {
+      const source = element.source as NodeObject<Node>;
+      const target = element.target as NodeObject<Node>;
+      const isActive = source.id === hoveredNode || target.id === hoveredNode;
+      
+      const baseColor = getColorByEdgeType(element.edgeName);
+      
+      // If active, make it more opaque
+      if (isActive) {
+        return baseColor.replace("42", ""); // Remove transparency
+      }
+      
+      return baseColor;
+    },
     [hoveredNode]
   );
 

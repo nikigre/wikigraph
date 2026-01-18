@@ -1,6 +1,7 @@
 import { Request, Response, NextFunction } from 'express';
 import axios from 'axios';
 import { PisrsApiResponse } from './predpisi.type';
+import { saveQueryLog, getQueryLogs, getCachedQuery } from '../utils/db';
 
 const PISRS_API_KEY = process.env.PISRS_API_KEY || '1vlnd5ed1d91c';
 
@@ -41,6 +42,15 @@ export const searchPredpis = async (
       return res.status(400).json({ error: 'mopedID query parameter is required' });
     }
 
+    // Check if data exists in cache first
+    const cachedData = getCachedQuery(mopedID);
+    if (cachedData) {
+      console.log(`📦 Returning cached data for mopedID: ${mopedID}`);
+      return res.json(cachedData);
+    }
+
+    console.log(`🌐 No cache found, fetching from API for mopedID: ${mopedID}`);
+
     // Fetch main predpis from all categories
     const results: any = {
       primary: null,
@@ -73,6 +83,14 @@ export const searchPredpis = async (
 
     if (!results.primary) {
       return res.status(404).json({ error: `Predpis with mopedID ${mopedID} not found` });
+    }
+
+    // Save successful query to database
+    try {
+      saveQueryLog(mopedID, results);
+    } catch (logError) {
+      console.error('Failed to save query log:', logError);
+      // Continue even if logging fails
     }
 
     res.json(results);
@@ -129,6 +147,28 @@ export const getRelatedPredpisi = async (
     }
 
     res.json({ data: results });
+  } catch (err) {
+    next(err);
+  }
+};
+
+/**
+ * Get query logs
+ * Optional mopedID parameter to filter logs
+ */
+export const getQueryLogsController = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  try {
+    const { mopedID } = req.query;
+    const logs = getQueryLogs(mopedID as string | undefined);
+    
+    res.json({ 
+      count: logs.length,
+      logs
+    });
   } catch (err) {
     next(err);
   }

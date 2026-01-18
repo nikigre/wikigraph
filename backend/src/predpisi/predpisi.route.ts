@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { searchPredpis, getRelatedPredpisi } from './predpisi.controller';
+import { searchPredpis, getRelatedPredpisi, getQueryLogsController } from './predpisi.controller';
 
 const router = Router();
 
@@ -14,5 +14,11 @@ router.get('/search', searchPredpis);
  * Get related predpisi by category (optional)
  */
 router.get('/related', getRelatedPredpisi);
+
+/**
+ * GET /api/predpisi/logs?mopedID=<id>
+ * Get query logs (optionally filtered by mopedID)
+ */
+router.get('/logs', getQueryLogsController);
 
 export default router;
