@@ -76,10 +76,55 @@ const useGraphStyling = () => {
       const fontSize = 12 / globalScale;
       const textYOffset = 20 / globalScale; // Offset for text below the circle
 
-      // Draw blue circle
+      // Calculate color based on current node data
+      const now = new Date();
+      let nodeColor = "#FFFF00"; // Default yellow
+      
+      // Check if datumSprejetja is in the future - white
+      if (node.datumSprejetja) {
+        const datumSprejetja = new Date(node.datumSprejetja);
+        if (datumSprejetja > now) {
+          nodeColor = "#FFFFFF";
+        }
+      }
+      
+      // Check if datumPrenehanjaVeljavnosti or datumKoncaUporabe is in the past - red
+      if (node.datumPrenehanjaVeljavnosti) {
+        const datumPrenehanjaVeljavnosti = new Date(node.datumPrenehanjaVeljavnosti);
+        if (datumPrenehanjaVeljavnosti < now) {
+          nodeColor = "#FF0000";
+        }
+      }
+      
+      if (node.datumKoncaUporabe) {
+        const datumKoncaUporabe = new Date(node.datumKoncaUporabe);
+        if (datumKoncaUporabe < now) {
+          nodeColor = "#FF0000";
+        }
+      }
+      
+      // Check if we have enough information to determine validity
+      if (node.datumZacetkaVeljavnosti && nodeColor === "#FFFF00") {
+        const datumZacetkaVeljavnosti = new Date(node.datumZacetkaVeljavnosti);
+        const validityStartInPast = datumZacetkaVeljavnosti <= now;
+        
+        if (validityStartInPast) {
+          // If we have datumPrenehanjaVeljavnosti, check if it's in the future
+          if (node.datumPrenehanjaVeljavnosti) {
+            const datumPrenehanjaVeljavnosti = new Date(node.datumPrenehanjaVeljavnosti);
+            if (datumPrenehanjaVeljavnosti >= now) {
+              nodeColor = "#00FF00"; // Green - currently valid
+            }
+          } else {
+            // No end date means it's still valid (if it started)
+            nodeColor = "#00FF00"; // Green - currently valid
+          }
+        }
+      }
+
+      // Draw circle with color based on validity
       ctx.beginPath();
       ctx.arc(node.x!, node.y!, radius, 0, 2 * Math.PI, false);
-      const nodeColor = getNodeColor(node);
       ctx.fillStyle = highlightNode ? "orange" : nodeColor;
       ctx.fill();
 

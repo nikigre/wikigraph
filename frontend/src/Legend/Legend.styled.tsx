@@ -29,10 +29,26 @@ export const LegendItem = styled.div`
   align-items: center;
   margin-bottom: 10px;
   font-size: 14px;
+  cursor: pointer;
+  user-select: none;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
 
   &:last-child {
     margin-bottom: 0;
   }
+`;
+
+export const Checkbox = styled.input`
+  margin-right: 8px;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  accent-color: #4CAF50;
 `;
 
 export const ColorBox = styled.div<{ color: string }>`
